@@ -8,7 +8,7 @@ import numpy as np
 from etiquetador.main import ImageAnnotator
 
 def main():
-    """Función principal del programa."""
+    """Función principal del programa."""#prueba
     # Configuración de archivos
     archivo_coordenadas = "Tesis/coordenadas.csv"  # Archivo para guardar coordenadas
     archivo_indices = "Tesis/indices.csv"  # Archivo con índices de imágenes
