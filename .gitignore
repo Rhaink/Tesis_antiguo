@@ -15,6 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+COVID-19_Radiography_Dataset/
 lib64/
 parts/
 sdist/

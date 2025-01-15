@@ -10,7 +10,7 @@ from etiquetador.main import ImageAnnotator
 def main():
     """Función principal del programa."""
     # Configuración de archivos
-    archivo_coordenadas = "Tesis/coordenadas.csv"  # Archivo para guardar coordenadas
+    archivo_coordenadas_base = "Tesis/coordenadas"  # Archivo base para guardar coordenadas (sin extensión)
     archivo_indices = "Tesis/indices.csv"  # Archivo con índices de imágenes
     
     # Leer índices de imágenes
@@ -29,7 +29,13 @@ def main():
         image_paths.append(path)
     
     # Iniciar programa de etiquetado
-    annotator = ImageAnnotator(image_paths, archivo_coordenadas)
+    print("\nSe guardarán las coordenadas en las siguientes resoluciones:")
+    print("- 64x64 pixels (coordenadas_64x64.csv)")
+    print("- 128x128 pixels (coordenadas_128x128.csv)")
+    print("- 256x256 pixels (coordenadas_256x256.csv)")
+    print("\nIniciando programa de etiquetado...\n")
+    
+    annotator = ImageAnnotator(image_paths, archivo_coordenadas_base)
     annotator.run()
 
 if __name__ == "__main__":
