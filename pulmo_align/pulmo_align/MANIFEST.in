@@ -1,0 +1,5 @@
+include README.md
+include pulmo_align/coordinates/*.json
+include pulmo_align/coordinates/*.csv
+recursive-include pulmo_align/visualization_results *
+recursive-include pulmo_align/processed_images *
