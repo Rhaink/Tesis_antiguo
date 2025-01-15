@@ -1,0 +1,2 @@
+@echo
+git pull https://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@github.com/Rhaink/Tesis.git
