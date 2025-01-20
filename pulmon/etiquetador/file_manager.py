@@ -3,7 +3,7 @@ Manejo de archivos para el programa de etiquetado.
 """
 import csv
 from typing import List
-from .models import ImageAnnotation
+from .models import ImageAnnotation, Point
 
 class FileManager:
     """Clase para el manejo de archivos."""

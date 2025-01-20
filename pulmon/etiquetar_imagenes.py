@@ -9,9 +9,12 @@ from etiquetador.main import ImageAnnotator
 
 def main():
     """Función principal del programa."""
-    # Configuración de archivos
-    archivo_coordenadas_base = "Tesis/coordenadas"  # Archivo base para guardar coordenadas (sin extensión)
-    archivo_indices = "Tesis/indices.csv"  # Archivo con índices de imágenes
+    # Obtener directorio base
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    
+    # Configuración de archivos con rutas absolutas
+    archivo_coordenadas_base = os.path.join(base_dir, "coordenadas")  # Archivo base para guardar coordenadas
+    archivo_indices = os.path.join(base_dir, "indices.csv")  # Archivo con índices de imágenes
     
     # Leer índices de imágenes
     data_indices = pd.read_csv(archivo_indices, header=None)
@@ -21,11 +24,11 @@ def main():
     image_paths = []
     for i in range(100):  # Procesar primeras 100 imágenes
         if indices[i,1] == 1:
-            path = f"Tesis/COVID-19_Radiography_Dataset/COVID/images/COVID-{indices[i,2]}.png"
+            path = os.path.join(base_dir, "COVID-19_Radiography_Dataset/COVID/images", f"COVID-{indices[i,2]}.png")
         elif indices[i,1] == 2:
-            path = f"Tesis/COVID-19_Radiography_Dataset/Normal/images/Normal-{indices[i,2]}.png"
+            path = os.path.join(base_dir, "COVID-19_Radiography_Dataset/Normal/images", f"Normal-{indices[i,2]}.png")
         elif indices[i,1] == 3:
-            path = f"Tesis/COVID-19_Radiography_Dataset/Viral Pneumonia/images/Viral Pneumonia-{indices[i,2]}.png"
+            path = os.path.join(base_dir, "COVID-19_Radiography_Dataset/Viral Pneumonia/images", f"Viral Pneumonia-{indices[i,2]}.png")
         image_paths.append(path)
     
     # Iniciar programa de etiquetado
