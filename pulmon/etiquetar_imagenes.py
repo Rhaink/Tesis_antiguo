@@ -22,7 +22,7 @@ def main():
     
     # Generar rutas de imágenes
     image_paths = []
-    for i in range(100):  # Procesar primeras 100 imágenes
+    for i in range(200):  # Procesar primeras 100 imágenes
         if indices[i,1] == 1:
             path = os.path.join(base_dir, "COVID-19_Radiography_Dataset/COVID/images", f"COVID-{indices[i,2]}.png")
         elif indices[i,1] == 2:
