@@ -10,7 +10,8 @@ from tkinter import filedialog
 
 # Configuración de rutas relativas al directorio del script
 SCRIPT_DIR = Path(__file__).parent.parent.parent  # pulmo_align/
-DATASET_PATH = SCRIPT_DIR / "COVID-19_Radiography_Dataset"
+SCRIPT_DIR_2 = Path(__file__).parent  # Tesis/
+DATASET_PATH = SCRIPT_DIR_2 / "COVID-19_Radiography_Dataset"
 INDICES_PATH = SCRIPT_DIR / "indices.csv"
 COORDINATES_PATH = SCRIPT_DIR / "all_search_coordinates.json"
 
