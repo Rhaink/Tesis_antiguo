@@ -1,0 +1,45 @@
+# Core Dependencies
+## Image Processing & Computer Vision
+opencv-python>=4.5.0    # Required for image processing and manipulation
+Pillow>=8.0.0          # Required for image handling in GUI
+
+## Scientific Computing & Machine Learning
+numpy>=1.19.0          # Required for mathematical operations and array handling
+scipy>=1.6.0           # Required for scientific computations
+scikit-learn>=0.24.0   # Required for PCA analysis
+
+## Data Analysis & Manipulation
+pandas>=1.2.0          # Required for CSV handling and data management
+dataclasses>=0.8       # Required for model definitions
+
+## Visualization & GUI
+matplotlib>=3.3.0,<4.0.0       # Required for plotting and visualization
+seaborn>=0.11.0,<0.12.0       # Required for statistical visualizations
+tk>=8.6.0                     # Required for GUI components
+
+## Progress
+tqdm>=4.50.0                  # Required for progress bars
+
+## Development Tools
+ipython>=7.19.0,<8.0.0        # Required for interactive development
+jupyter>=1.0.0,<2.0.0         # Required for notebook support
+
+## Type Hints Support
+typing-extensions>=3.7.4       # Required for advanced type hints
+
+## File Path Management
+pathlib>=1.0.1                # Required for cross-platform path handling
+
+# Python Version
+# Python >= 3.7.0
+
+# Development & Testing Dependencies
+## Testing
+pytest>=6.0.0,<7.0.0       # Required for unit testing
+pytest-cov>=2.12.0         # Required for test coverage reporting
+pytest-mock>=3.6.0         # Required for mocking in tests
+
+## Code Quality
+black>=21.0.0,<22.0.0      # Required for code formatting
+flake8>=3.9.0,<4.0.0       # Required for code linting
+mypy>=0.910                # Required for static type checking
