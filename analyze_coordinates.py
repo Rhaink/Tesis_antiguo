@@ -93,7 +93,7 @@ def main():
     
     # Cargar datos
     real_coords = load_coordinates('Tesis/coordenadas_64x64.csv')
-    pred_coords = load_coordinates('coordinate_predictor/predicted_coordinates.csv')
+    pred_coords = load_coordinates('coordinate_predictor/predicted_coordinates_test.csv')
     
     # Calcular distancias euclidianas
     mean_distances, std_distances, max_distances, euclidean_distances = calculate_errors(real_coords, pred_coords)
