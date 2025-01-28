@@ -98,7 +98,7 @@ for coord_num in range(1, 16):
     all_search_zones[f'coord{coord_num}'] = search_coordinates
 
 # Save all search coordinates to a single JSON file
-with open('all_search_coordinates_200.json', 'w') as f:
+with open('all_search_coordinates_prueba2.json', 'w') as f:
     json.dump(all_search_zones, f, indent=2)
 
-print("\nAll search coordinates have been saved to 'all_search_coordinates_200.json'")
+print("\nAll search coordinates have been saved to 'all_search_coordinates_prueba2.json'")
