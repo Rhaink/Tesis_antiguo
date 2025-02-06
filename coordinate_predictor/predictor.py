@@ -15,8 +15,8 @@ import sys
 # Agregar el directorio de PulmoAlign al path
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-PULMO_ALIGN_DIR = PROJECT_ROOT / "Tesis/pulmo_align/pulmo_align"
-PULMO_ALIGN_DATA = PULMO_ALIGN_DIR
+PULMO_ALIGN_DIR = PROJECT_ROOT / "pulmo_align/pulmo_align"
+PULMO_ALIGN_DATA = PROJECT_ROOT
 sys.path.append(str(PULMO_ALIGN_DIR))
 
 from pulmo_align.coordinates.coordinate_manager import CoordinateManager
@@ -28,7 +28,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('coordinate_prediction.log'),
+        logging.FileHandler(str(SCRIPT_DIR / 'coordinate_prediction.log')),
         logging.StreamHandler()
     ]
 )
@@ -59,7 +59,7 @@ class CoordinatePredictor:
         logging.info("Iniciando inicialización de modelos PCA...")
         
         # Cargar coordenadas de búsqueda
-        search_coords_path = PULMO_ALIGN_DATA / "all_search_coordinates.json"
+        search_coords_path = PROJECT_ROOT / "all_search_coordinates.json"
         self.coord_manager.read_search_coordinates(str(search_coords_path))
         logging.info("Coordenadas de búsqueda cargadas")
         
@@ -177,8 +177,8 @@ def main():
     try:
         # Configurar rutas
         project_root = PULMO_ALIGN_DIR
-        indices_file = PULMO_ALIGN_DATA / "indices.csv"
-        output_file = SCRIPT_DIR / "predicted_coordinates.csv"
+        indices_file = PROJECT_ROOT / "indices.csv"
+        output_file = SCRIPT_DIR / "predicted_coordinates_prueba2.csv"
         
         # Inicializar predictor
         logging.info("Iniciando predictor de coordenadas...")
