@@ -1,6 +1,5 @@
 """
 Módulo para la gestión de coordenadas de búsqueda.
-Versión simplificada del proyecto original pulmo_align.
 """
 
 import json
@@ -180,10 +179,10 @@ class CoordinateManager:
 
     def get_all_coordinate_names(self) -> List[str]:
         """
-        Obtiene la lista de nombres de todos los puntos anatómicos.
+        Obtiene la lista de nombres de todos los puntos de interés.
         
         Returns:
-            Lista de nombres de puntos anatómicos
+            Lista de nombres de puntos de interés
         """
         return list(self.template_data.keys())
 

@@ -1,6 +1,5 @@
 """
 Módulo para el procesamiento de imágenes pulmonares.
-Versión simplificada del proyecto original pulmo_align.
 """
 
 import cv2
@@ -79,7 +78,7 @@ class ImageProcessor:
         Carga las imágenes de entrenamiento para un punto específico.
         
         Args:
-            coord_name: Nombre del punto anatómico
+            coord_name: Nombre del punto.
             
         Returns:
             Lista de imágenes procesadas

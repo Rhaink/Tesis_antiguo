@@ -1,6 +1,5 @@
 """
 Módulo para el mejoramiento de contraste en imágenes radiográficas.
-Versión simplificada del proyecto original pulmo_align.
 """
 
 import numpy as np
@@ -66,10 +65,13 @@ class ContrastEnhancer:
                 min_value = gray_mean - 2.0 * std_below
             
             # Normalizar al rango [0, 255]
+            # truncamiento o redondeo de los datos? 
             if max_value != min_value:
-                enhanced_image = np.clip(
-                    (255 / (max_value - min_value)) * (gray_image - min_value),
-                    0, 255
+                enhanced_image = np.round(
+                    np.clip(
+                        (255 / (max_value - min_value)) * (gray_image - min_value),
+                        0, 255
+                    )
                 ).astype(np.uint8)
             else:
                 enhanced_image = gray_image

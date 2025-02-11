@@ -1,6 +1,5 @@
 """
 Módulo para el análisis de componentes principales (PCA) en imágenes pulmonares.
-Versión simplificada del proyecto original pulmo_align.
 """
 
 import numpy as np
