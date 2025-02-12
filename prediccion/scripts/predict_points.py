@@ -42,7 +42,7 @@ def load_models(models_dir: str) -> Dict[str, PCAAnalyzer]:
         models_dir: Directorio con los modelos
         
     Returns:
-        Diccionario de modelos PCA por punto anatómico
+        Diccionario de modelos PCA por punto de interés
     """
     models = {}
     models_path = Path(models_dir)
@@ -145,7 +145,7 @@ def predict_points(image_path: str,
                 'search_coordinates': search_coordinates,
                 'template_bounds': template_bounds,
                 'intersection_point': intersection,
-                'region_bounds': template_data["region_bounds"]  # Agregar región de búsqueda
+                'region_bounds': template_data["region_bounds"]
             }
             
             # Visualizar distribución de errores
@@ -220,7 +220,7 @@ def main():
     parser.add_argument(
         "--image_path",
         type=str,
-        default=str(PROJECT_ROOT / "COVID-19_Radiography_Dataset/Normal/images/Normal-5.png"),
+        default=str(PROJECT_ROOT / "COVID-19_Radiography_Dataset/Normal/images/Normal-6955.png"),
         help="Ruta de la imagen a analizar"
     )
     
