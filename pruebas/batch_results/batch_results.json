@@ -1,0 +1,4402 @@
+{
+  "tipo2_img625": {
+    "tipo": 2,
+    "imagen_num": 625,
+    "predictions": {
+      "coord1": {
+        "min_error": 726.6011131360941,
+        "min_error_coords": [
+          18,
+          35
+        ],
+        "min_error_step": 228
+      },
+      "coord2": {
+        "min_error": 587.8684028166412,
+        "min_error_coords": [
+          63,
+          33
+        ],
+        "min_error_step": 290
+      }
+    }
+  },
+  "tipo3_img1321": {
+    "tipo": 3,
+    "imagen_num": 1321,
+    "predictions": {
+      "coord1": {
+        "min_error": 618.8797263939292,
+        "min_error_coords": [
+          3,
+          30
+        ],
+        "min_error_step": 118
+      },
+      "coord2": {
+        "min_error": 523.0365102105296,
+        "min_error_coords": [
+          39,
+          31
+        ],
+        "min_error_step": 208
+      }
+    }
+  },
+  "tipo3_img1043": {
+    "tipo": 3,
+    "imagen_num": 1043,
+    "predictions": {
+      "coord1": {
+        "min_error": 605.8116860652553,
+        "min_error_coords": [
+          7,
+          30
+        ],
+        "min_error_step": 122
+      },
+      "coord2": {
+        "min_error": 491.9618489955505,
+        "min_error_coords": [
+          63,
+          30
+        ],
+        "min_error_step": 203
+      }
+    }
+  },
+  "tipo2_img9390": {
+    "tipo": 2,
+    "imagen_num": 9390,
+    "predictions": {
+      "coord1": {
+        "min_error": 362.13119229897126,
+        "min_error_coords": [
+          9,
+          28
+        ],
+        "min_error_step": 86
+      },
+      "coord2": {
+        "min_error": 297.79984576015545,
+        "min_error_coords": [
+          57,
+          28
+        ],
+        "min_error_step": 139
+      }
+    }
+  },
+  "tipo1_img140": {
+    "tipo": 1,
+    "imagen_num": 140,
+    "predictions": {
+      "coord1": {
+        "min_error": 403.02493693362356,
+        "min_error_coords": [
+          12,
+          34
+        ],
+        "min_error_step": 203
+      },
+      "coord2": {
+        "min_error": 320.25240218068933,
+        "min_error_coords": [
+          62,
+          32
+        ],
+        "min_error_step": 260
+      }
+    }
+  },
+  "tipo2_img1533": {
+    "tipo": 2,
+    "imagen_num": 1533,
+    "predictions": {
+      "coord1": {
+        "min_error": 342.97089663978807,
+        "min_error_coords": [
+          10,
+          30
+        ],
+        "min_error_step": 125
+      },
+      "coord2": {
+        "min_error": 289.3211829277871,
+        "min_error_coords": [
+          53,
+          30
+        ],
+        "min_error_step": 193
+      }
+    }
+  },
+  "tipo1_img1953": {
+    "tipo": 1,
+    "imagen_num": 1953,
+    "predictions": {
+      "coord1": {
+        "min_error": 664.9659274744748,
+        "min_error_coords": [
+          11,
+          35
+        ],
+        "min_error_step": 221
+      },
+      "coord2": {
+        "min_error": 564.471377329668,
+        "min_error_coords": [
+          52,
+          33
+        ],
+        "min_error_step": 279
+      }
+    }
+  },
+  "tipo1_img1970": {
+    "tipo": 1,
+    "imagen_num": 1970,
+    "predictions": {
+      "coord1": {
+        "min_error": 586.1809854501512,
+        "min_error_coords": [
+          11,
+          31
+        ],
+        "min_error_step": 145
+      },
+      "coord2": {
+        "min_error": 497.2349795616715,
+        "min_error_coords": [
+          62,
+          29
+        ],
+        "min_error_step": 173
+      }
+    }
+  },
+  "tipo1_img1515": {
+    "tipo": 1,
+    "imagen_num": 1515,
+    "predictions": {
+      "coord1": {
+        "min_error": 1100.3174304559147,
+        "min_error_coords": [
+          13,
+          38
+        ],
+        "min_error_step": 280
+      },
+      "coord2": {
+        "min_error": 832.3648720682361,
+        "min_error_coords": [
+          63,
+          27
+        ],
+        "min_error_step": 116
+      }
+    }
+  },
+  "tipo2_img2255": {
+    "tipo": 2,
+    "imagen_num": 2255,
+    "predictions": {
+      "coord1": {
+        "min_error": 584.1049240734355,
+        "min_error_coords": [
+          7,
+          30
+        ],
+        "min_error_step": 122
+      },
+      "coord2": {
+        "min_error": 488.9726261633197,
+        "min_error_coords": [
+          49,
+          31
+        ],
+        "min_error_step": 218
+      }
+    }
+  },
+  "tipo3_img40": {
+    "tipo": 3,
+    "imagen_num": 40,
+    "predictions": {
+      "coord1": {
+        "min_error": 461.09971468500163,
+        "min_error_coords": [
+          12,
+          31
+        ],
+        "min_error_step": 146
+      },
+      "coord2": {
+        "min_error": 396.6635767304016,
+        "min_error_coords": [
+          51,
+          29
+        ],
+        "min_error_step": 162
+      }
+    }
+  },
+  "tipo1_img738": {
+    "tipo": 1,
+    "imagen_num": 738,
+    "predictions": {
+      "coord1": {
+        "min_error": 713.4092204868435,
+        "min_error_coords": [
+          12,
+          28
+        ],
+        "min_error_step": 89
+      },
+      "coord2": {
+        "min_error": 563.6863809723113,
+        "min_error_coords": [
+          60,
+          26
+        ],
+        "min_error_step": 84
+      }
+    }
+  },
+  "tipo3_img1168": {
+    "tipo": 3,
+    "imagen_num": 1168,
+    "predictions": {
+      "coord1": {
+        "min_error": 574.4526970864181,
+        "min_error_coords": [
+          0,
+          27
+        ],
+        "min_error_step": 58
+      },
+      "coord2": {
+        "min_error": 498.78583473742344,
+        "min_error_coords": [
+          43,
+          31
+        ],
+        "min_error_step": 212
+      }
+    }
+  },
+  "tipo1_img1843": {
+    "tipo": 1,
+    "imagen_num": 1843,
+    "predictions": {
+      "coord1": {
+        "min_error": 1039.3414700701046,
+        "min_error_coords": [
+          10,
+          27
+        ],
+        "min_error_step": 68
+      },
+      "coord2": {
+        "min_error": 809.5673005287019,
+        "min_error_coords": [
+          50,
+          26
+        ],
+        "min_error_step": 74
+      }
+    }
+  },
+  "tipo2_img1236": {
+    "tipo": 2,
+    "imagen_num": 1236,
+    "predictions": {
+      "coord1": {
+        "min_error": 815.0199713612783,
+        "min_error_coords": [
+          17,
+          35
+        ],
+        "min_error_step": 227
+      },
+      "coord2": {
+        "min_error": 668.3126102717493,
+        "min_error_coords": [
+          63,
+          34
+        ],
+        "min_error_step": 319
+      }
+    }
+  },
+  "tipo2_img7279": {
+    "tipo": 2,
+    "imagen_num": 7279,
+    "predictions": {
+      "coord1": {
+        "min_error": 594.6363863068578,
+        "min_error_coords": [
+          14,
+          29
+        ],
+        "min_error_step": 110
+      },
+      "coord2": {
+        "min_error": 481.8308092159554,
+        "min_error_coords": [
+          63,
+          29
+        ],
+        "min_error_step": 174
+      }
+    }
+  },
+  "tipo1_img3493": {
+    "tipo": 1,
+    "imagen_num": 3493,
+    "predictions": {
+      "coord1": {
+        "min_error": 341.5104932898976,
+        "min_error_coords": [
+          8,
+          30
+        ],
+        "min_error_step": 123
+      },
+      "coord2": {
+        "min_error": 280.3577693764867,
+        "min_error_coords": [
+          61,
+          31
+        ],
+        "min_error_step": 230
+      }
+    }
+  },
+  "tipo1_img2068": {
+    "tipo": 1,
+    "imagen_num": 2068,
+    "predictions": {
+      "coord1": {
+        "min_error": 525.2589789230943,
+        "min_error_coords": [
+          5,
+          32
+        ],
+        "min_error_step": 158
+      },
+      "coord2": {
+        "min_error": 439.8070518552658,
+        "min_error_coords": [
+          54,
+          32
+        ],
+        "min_error_step": 252
+      }
+    }
+  },
+  "tipo2_img647": {
+    "tipo": 2,
+    "imagen_num": 647,
+    "predictions": {
+      "coord1": {
+        "min_error": 725.4705330246587,
+        "min_error_coords": [
+          7,
+          31
+        ],
+        "min_error_step": 141
+      },
+      "coord2": {
+        "min_error": 598.4878384320697,
+        "min_error_coords": [
+          63,
+          32
+        ],
+        "min_error_step": 261
+      }
+    }
+  },
+  "tipo2_img6194": {
+    "tipo": 2,
+    "imagen_num": 6194,
+    "predictions": {
+      "coord1": {
+        "min_error": 748.0257842234231,
+        "min_error_coords": [
+          2,
+          30
+        ],
+        "min_error_step": 117
+      },
+      "coord2": {
+        "min_error": 634.6839003157993,
+        "min_error_coords": [
+          50,
+          29
+        ],
+        "min_error_step": 161
+      }
+    }
+  },
+  "tipo3_img1007": {
+    "tipo": 3,
+    "imagen_num": 1007,
+    "predictions": {
+      "coord1": {
+        "min_error": 597.5872719315639,
+        "min_error_coords": [
+          18,
+          32
+        ],
+        "min_error_step": 171
+      },
+      "coord2": {
+        "min_error": 470.75940757025785,
+        "min_error_coords": [
+          58,
+          30
+        ],
+        "min_error_step": 198
+      }
+    }
+  },
+  "tipo2_img3541": {
+    "tipo": 2,
+    "imagen_num": 3541,
+    "predictions": {
+      "coord1": {
+        "min_error": 496.68954974736647,
+        "min_error_coords": [
+          6,
+          32
+        ],
+        "min_error_step": 159
+      },
+      "coord2": {
+        "min_error": 412.018161944938,
+        "min_error_coords": [
+          39,
+          30
+        ],
+        "min_error_step": 179
+      }
+    }
+  },
+  "tipo3_img700": {
+    "tipo": 3,
+    "imagen_num": 700,
+    "predictions": {
+      "coord1": {
+        "min_error": 422.5451929052115,
+        "min_error_coords": [
+          15,
+          31
+        ],
+        "min_error_step": 149
+      },
+      "coord2": {
+        "min_error": 305.95679928720403,
+        "min_error_coords": [
+          63,
+          32
+        ],
+        "min_error_step": 261
+      }
+    }
+  },
+  "tipo3_img217": {
+    "tipo": 3,
+    "imagen_num": 217,
+    "predictions": {
+      "coord1": {
+        "min_error": 571.63508368217,
+        "min_error_coords": [
+          5,
+          31
+        ],
+        "min_error_step": 139
+      },
+      "coord2": {
+        "min_error": 488.44088430877986,
+        "min_error_coords": [
+          49,
+          30
+        ],
+        "min_error_step": 189
+      }
+    }
+  },
+  "tipo2_img3720": {
+    "tipo": 2,
+    "imagen_num": 3720,
+    "predictions": {
+      "coord1": {
+        "min_error": 357.8043104944159,
+        "min_error_coords": [
+          11,
+          32
+        ],
+        "min_error_step": 164
+      },
+      "coord2": {
+        "min_error": 287.31616653264587,
+        "min_error_coords": [
+          54,
+          34
+        ],
+        "min_error_step": 310
+      }
+    }
+  },
+  "tipo3_img206": {
+    "tipo": 3,
+    "imagen_num": 206,
+    "predictions": {
+      "coord1": {
+        "min_error": 574.3799361576647,
+        "min_error_coords": [
+          18,
+          30
+        ],
+        "min_error_step": 133
+      },
+      "coord2": {
+        "min_error": 417.25577848156274,
+        "min_error_coords": [
+          60,
+          29
+        ],
+        "min_error_step": 171
+      }
+    }
+  },
+  "tipo3_img149": {
+    "tipo": 3,
+    "imagen_num": 149,
+    "predictions": {
+      "coord1": {
+        "min_error": 851.6188723735934,
+        "min_error_coords": [
+          12,
+          30
+        ],
+        "min_error_step": 127
+      },
+      "coord2": {
+        "min_error": 700.5785973544461,
+        "min_error_coords": [
+          57,
+          31
+        ],
+        "min_error_step": 226
+      }
+    }
+  },
+  "tipo3_img98": {
+    "tipo": 3,
+    "imagen_num": 98,
+    "predictions": {
+      "coord1": {
+        "min_error": 485.0366838936369,
+        "min_error_coords": [
+          3,
+          32
+        ],
+        "min_error_step": 156
+      },
+      "coord2": {
+        "min_error": 411.4679736696264,
+        "min_error_coords": [
+          39,
+          31
+        ],
+        "min_error_step": 208
+      }
+    }
+  },
+  "tipo1_img3387": {
+    "tipo": 1,
+    "imagen_num": 3387,
+    "predictions": {
+      "coord1": {
+        "min_error": 414.408423475154,
+        "min_error_coords": [
+          18,
+          31
+        ],
+        "min_error_step": 152
+      },
+      "coord2": {
+        "min_error": 323.88442770377264,
+        "min_error_coords": [
+          63,
+          30
+        ],
+        "min_error_step": 203
+      }
+    }
+  },
+  "tipo3_img1268": {
+    "tipo": 3,
+    "imagen_num": 1268,
+    "predictions": {
+      "coord1": {
+        "min_error": 511.93418947496036,
+        "min_error_coords": [
+          4,
+          33
+        ],
+        "min_error_step": 176
+      },
+      "coord2": {
+        "min_error": 426.0245067708628,
+        "min_error_coords": [
+          61,
+          29
+        ],
+        "min_error_step": 172
+      }
+    }
+  },
+  "tipo2_img6587": {
+    "tipo": 2,
+    "imagen_num": 6587,
+    "predictions": {
+      "coord1": {
+        "min_error": 590.869357581308,
+        "min_error_coords": [
+          9,
+          27
+        ],
+        "min_error_step": 67
+      },
+      "coord2": {
+        "min_error": 496.79287457649656,
+        "min_error_coords": [
+          48,
+          26
+        ],
+        "min_error_step": 72
+      }
+    }
+  },
+  "tipo2_img6283": {
+    "tipo": 2,
+    "imagen_num": 6283,
+    "predictions": {
+      "coord1": {
+        "min_error": 313.86422772206555,
+        "min_error_coords": [
+          15,
+          40
+        ],
+        "min_error_step": 320
+      },
+      "coord2": {
+        "min_error": 266.6578425996593,
+        "min_error_coords": [
+          56,
+          38
+        ],
+        "min_error_step": 428
+      }
+    }
+  },
+  "tipo3_img543": {
+    "tipo": 3,
+    "imagen_num": 543,
+    "predictions": {
+      "coord1": {
+        "min_error": 612.2491856876899,
+        "min_error_coords": [
+          0,
+          29
+        ],
+        "min_error_step": 96
+      },
+      "coord2": {
+        "min_error": 522.6762211294997,
+        "min_error_coords": [
+          38,
+          31
+        ],
+        "min_error_step": 207
+      }
+    }
+  },
+  "tipo2_img1088": {
+    "tipo": 2,
+    "imagen_num": 1088,
+    "predictions": {
+      "coord1": {
+        "min_error": 781.0581789780057,
+        "min_error_coords": [
+          10,
+          30
+        ],
+        "min_error_step": 125
+      },
+      "coord2": {
+        "min_error": 666.1149967833945,
+        "min_error_coords": [
+          55,
+          25
+        ],
+        "min_error_step": 50
+      }
+    }
+  },
+  "tipo3_img1209": {
+    "tipo": 3,
+    "imagen_num": 1209,
+    "predictions": {
+      "coord1": {
+        "min_error": 514.8385884679135,
+        "min_error_coords": [
+          2,
+          30
+        ],
+        "min_error_step": 117
+      },
+      "coord2": {
+        "min_error": 446.57706552000553,
+        "min_error_coords": [
+          44,
+          27
+        ],
+        "min_error_step": 97
+      }
+    }
+  },
+  "tipo1_img2078": {
+    "tipo": 1,
+    "imagen_num": 2078,
+    "predictions": {
+      "coord1": {
+        "min_error": 538.3679408207867,
+        "min_error_coords": [
+          13,
+          31
+        ],
+        "min_error_step": 147
+      },
+      "coord2": {
+        "min_error": 455.56928176936435,
+        "min_error_coords": [
+          55,
+          30
+        ],
+        "min_error_step": 195
+      }
+    }
+  },
+  "tipo3_img968": {
+    "tipo": 3,
+    "imagen_num": 968,
+    "predictions": {
+      "coord1": {
+        "min_error": 613.5889204591798,
+        "min_error_coords": [
+          6,
+          31
+        ],
+        "min_error_step": 140
+      },
+      "coord2": {
+        "min_error": 501.07460423790934,
+        "min_error_coords": [
+          58,
+          29
+        ],
+        "min_error_step": 169
+      }
+    }
+  },
+  "tipo2_img8661": {
+    "tipo": 2,
+    "imagen_num": 8661,
+    "predictions": {
+      "coord1": {
+        "min_error": 517.845223976199,
+        "min_error_coords": [
+          17,
+          36
+        ],
+        "min_error_step": 246
+      },
+      "coord2": {
+        "min_error": 388.61568676547824,
+        "min_error_coords": [
+          62,
+          35
+        ],
+        "min_error_step": 347
+      }
+    }
+  },
+  "tipo2_img9200": {
+    "tipo": 2,
+    "imagen_num": 9200,
+    "predictions": {
+      "coord1": {
+        "min_error": 544.5141560015445,
+        "min_error_coords": [
+          13,
+          32
+        ],
+        "min_error_step": 166
+      },
+      "coord2": {
+        "min_error": 459.22254878412696,
+        "min_error_coords": [
+          53,
+          35
+        ],
+        "min_error_step": 338
+      }
+    }
+  },
+  "tipo3_img891": {
+    "tipo": 3,
+    "imagen_num": 891,
+    "predictions": {
+      "coord1": {
+        "min_error": 574.658859743895,
+        "min_error_coords": [
+          6,
+          30
+        ],
+        "min_error_step": 121
+      },
+      "coord2": {
+        "min_error": 495.39132468799403,
+        "min_error_coords": [
+          62,
+          30
+        ],
+        "min_error_step": 202
+      }
+    }
+  },
+  "tipo1_img3305": {
+    "tipo": 1,
+    "imagen_num": 3305,
+    "predictions": {
+      "coord1": {
+        "min_error": 423.01449745977527,
+        "min_error_coords": [
+          9,
+          29
+        ],
+        "min_error_step": 105
+      },
+      "coord2": {
+        "min_error": 298.6303546279361,
+        "min_error_coords": [
+          63,
+          29
+        ],
+        "min_error_step": 174
+      }
+    }
+  },
+  "tipo3_img1260": {
+    "tipo": 3,
+    "imagen_num": 1260,
+    "predictions": {
+      "coord1": {
+        "min_error": 588.2295871488894,
+        "min_error_coords": [
+          1,
+          31
+        ],
+        "min_error_step": 135
+      },
+      "coord2": {
+        "min_error": 492.3987722872698,
+        "min_error_coords": [
+          49,
+          31
+        ],
+        "min_error_step": 218
+      }
+    }
+  },
+  "tipo3_img1327": {
+    "tipo": 3,
+    "imagen_num": 1327,
+    "predictions": {
+      "coord1": {
+        "min_error": 571.857834268151,
+        "min_error_coords": [
+          6,
+          28
+        ],
+        "min_error_step": 83
+      },
+      "coord2": {
+        "min_error": 515.0882810655412,
+        "min_error_coords": [
+          42,
+          29
+        ],
+        "min_error_step": 153
+      }
+    }
+  },
+  "tipo1_img624": {
+    "tipo": 1,
+    "imagen_num": 624,
+    "predictions": {
+      "coord1": {
+        "min_error": 629.3806866413754,
+        "min_error_coords": [
+          18,
+          33
+        ],
+        "min_error_step": 190
+      },
+      "coord2": {
+        "min_error": 482.1585921775946,
+        "min_error_coords": [
+          63,
+          34
+        ],
+        "min_error_step": 319
+      }
+    }
+  },
+  "tipo2_img3333": {
+    "tipo": 2,
+    "imagen_num": 3333,
+    "predictions": {
+      "coord1": {
+        "min_error": 710.1961604722892,
+        "min_error_coords": [
+          0,
+          32
+        ],
+        "min_error_step": 153
+      },
+      "coord2": {
+        "min_error": 587.7820865888017,
+        "min_error_coords": [
+          45,
+          30
+        ],
+        "min_error_step": 185
+      }
+    }
+  },
+  "tipo3_img1092": {
+    "tipo": 3,
+    "imagen_num": 1092,
+    "predictions": {
+      "coord1": {
+        "min_error": 646.0768315031778,
+        "min_error_coords": [
+          6,
+          31
+        ],
+        "min_error_step": 140
+      },
+      "coord2": {
+        "min_error": 566.8239636975044,
+        "min_error_coords": [
+          46,
+          31
+        ],
+        "min_error_step": 215
+      }
+    }
+  },
+  "tipo2_img8460": {
+    "tipo": 2,
+    "imagen_num": 8460,
+    "predictions": {
+      "coord1": {
+        "min_error": 635.1883658005265,
+        "min_error_coords": [
+          6,
+          31
+        ],
+        "min_error_step": 140
+      },
+      "coord2": {
+        "min_error": 485.61873515999577,
+        "min_error_coords": [
+          45,
+          31
+        ],
+        "min_error_step": 214
+      }
+    }
+  },
+  "tipo2_img7156": {
+    "tipo": 2,
+    "imagen_num": 7156,
+    "predictions": {
+      "coord1": {
+        "min_error": 654.2518143997224,
+        "min_error_coords": [
+          9,
+          35
+        ],
+        "min_error_step": 219
+      },
+      "coord2": {
+        "min_error": 555.181796456471,
+        "min_error_coords": [
+          48,
+          33
+        ],
+        "min_error_step": 275
+      }
+    }
+  },
+  "tipo1_img709": {
+    "tipo": 1,
+    "imagen_num": 709,
+    "predictions": {
+      "coord1": {
+        "min_error": 417.87847316117933,
+        "min_error_coords": [
+          13,
+          30
+        ],
+        "min_error_step": 128
+      },
+      "coord2": {
+        "min_error": 376.9901001738676,
+        "min_error_coords": [
+          52,
+          30
+        ],
+        "min_error_step": 192
+      }
+    }
+  },
+  "tipo3_img1248": {
+    "tipo": 3,
+    "imagen_num": 1248,
+    "predictions": {
+      "coord1": {
+        "min_error": 837.0476085423741,
+        "min_error_coords": [
+          13,
+          33
+        ],
+        "min_error_step": 185
+      },
+      "coord2": {
+        "min_error": 688.1139423965193,
+        "min_error_coords": [
+          57,
+          31
+        ],
+        "min_error_step": 226
+      }
+    }
+  },
+  "tipo2_img7806": {
+    "tipo": 2,
+    "imagen_num": 7806,
+    "predictions": {
+      "coord1": {
+        "min_error": 708.5464197349993,
+        "min_error_coords": [
+          8,
+          35
+        ],
+        "min_error_step": 218
+      },
+      "coord2": {
+        "min_error": 561.4870305312721,
+        "min_error_coords": [
+          42,
+          33
+        ],
+        "min_error_step": 269
+      }
+    }
+  },
+  "tipo3_img162": {
+    "tipo": 3,
+    "imagen_num": 162,
+    "predictions": {
+      "coord1": {
+        "min_error": 530.0862712791819,
+        "min_error_coords": [
+          11,
+          30
+        ],
+        "min_error_step": 126
+      },
+      "coord2": {
+        "min_error": 441.11703576612797,
+        "min_error_coords": [
+          50,
+          28
+        ],
+        "min_error_step": 132
+      }
+    }
+  },
+  "tipo2_img937": {
+    "tipo": 2,
+    "imagen_num": 937,
+    "predictions": {
+      "coord1": {
+        "min_error": 704.2261198676246,
+        "min_error_coords": [
+          16,
+          33
+        ],
+        "min_error_step": 188
+      },
+      "coord2": {
+        "min_error": 565.5443682584777,
+        "min_error_coords": [
+          47,
+          30
+        ],
+        "min_error_step": 187
+      }
+    }
+  },
+  "tipo2_img6922": {
+    "tipo": 2,
+    "imagen_num": 6922,
+    "predictions": {
+      "coord1": {
+        "min_error": 457.1455710688093,
+        "min_error_coords": [
+          11,
+          31
+        ],
+        "min_error_step": 145
+      },
+      "coord2": {
+        "min_error": 377.5767217903143,
+        "min_error_coords": [
+          52,
+          34
+        ],
+        "min_error_step": 308
+      }
+    }
+  },
+  "tipo1_img106": {
+    "tipo": 1,
+    "imagen_num": 106,
+    "predictions": {
+      "coord1": {
+        "min_error": 470.88312917075814,
+        "min_error_coords": [
+          4,
+          29
+        ],
+        "min_error_step": 100
+      },
+      "coord2": {
+        "min_error": 371.47507184340213,
+        "min_error_coords": [
+          43,
+          29
+        ],
+        "min_error_step": 154
+      }
+    }
+  },
+  "tipo3_img856": {
+    "tipo": 3,
+    "imagen_num": 856,
+    "predictions": {
+      "coord1": {
+        "min_error": 666.6288383727306,
+        "min_error_coords": [
+          0,
+          27
+        ],
+        "min_error_step": 58
+      },
+      "coord2": {
+        "min_error": 504.593152689957,
+        "min_error_coords": [
+          38,
+          24
+        ],
+        "min_error_step": 4
+      }
+    }
+  },
+  "tipo1_img2292": {
+    "tipo": 1,
+    "imagen_num": 2292,
+    "predictions": {
+      "coord1": {
+        "min_error": 491.14676767963107,
+        "min_error_coords": [
+          6,
+          31
+        ],
+        "min_error_step": 140
+      },
+      "coord2": {
+        "min_error": 425.2576208827596,
+        "min_error_coords": [
+          50,
+          32
+        ],
+        "min_error_step": 248
+      }
+    }
+  },
+  "tipo1_img3090": {
+    "tipo": 1,
+    "imagen_num": 3090,
+    "predictions": {
+      "coord1": {
+        "min_error": 643.7954008125365,
+        "min_error_coords": [
+          14,
+          31
+        ],
+        "min_error_step": 148
+      },
+      "coord2": {
+        "min_error": 565.6469249076391,
+        "min_error_coords": [
+          47,
+          32
+        ],
+        "min_error_step": 245
+      }
+    }
+  },
+  "tipo1_img3003": {
+    "tipo": 1,
+    "imagen_num": 3003,
+    "predictions": {
+      "coord1": {
+        "min_error": 356.66744970125075,
+        "min_error_coords": [
+          9,
+          32
+        ],
+        "min_error_step": 162
+      },
+      "coord2": {
+        "min_error": 289.9888076976965,
+        "min_error_coords": [
+          52,
+          34
+        ],
+        "min_error_step": 308
+      }
+    }
+  },
+  "tipo3_img1249": {
+    "tipo": 3,
+    "imagen_num": 1249,
+    "predictions": {
+      "coord1": {
+        "min_error": 677.8243401035883,
+        "min_error_coords": [
+          13,
+          29
+        ],
+        "min_error_step": 109
+      },
+      "coord2": {
+        "min_error": 511.05862216576804,
+        "min_error_coords": [
+          63,
+          28
+        ],
+        "min_error_step": 145
+      }
+    }
+  },
+  "tipo3_img890": {
+    "tipo": 3,
+    "imagen_num": 890,
+    "predictions": {
+      "coord1": {
+        "min_error": 589.4905794209626,
+        "min_error_coords": [
+          4,
+          28
+        ],
+        "min_error_step": 81
+      },
+      "coord2": {
+        "min_error": 490.45249798011383,
+        "min_error_coords": [
+          36,
+          31
+        ],
+        "min_error_step": 205
+      }
+    }
+  },
+  "tipo1_img824": {
+    "tipo": 1,
+    "imagen_num": 824,
+    "predictions": {
+      "coord1": {
+        "min_error": 500.52917853619545,
+        "min_error_coords": [
+          18,
+          38
+        ],
+        "min_error_step": 285
+      },
+      "coord2": {
+        "min_error": 390.65032269313804,
+        "min_error_coords": [
+          59,
+          37
+        ],
+        "min_error_step": 402
+      }
+    }
+  },
+  "tipo2_img4297": {
+    "tipo": 2,
+    "imagen_num": 4297,
+    "predictions": {
+      "coord1": {
+        "min_error": 557.4518028859278,
+        "min_error_coords": [
+          18,
+          32
+        ],
+        "min_error_step": 171
+      },
+      "coord2": {
+        "min_error": 454.99611133414186,
+        "min_error_coords": [
+          62,
+          28
+        ],
+        "min_error_step": 144
+      }
+    }
+  },
+  "tipo3_img530": {
+    "tipo": 3,
+    "imagen_num": 530,
+    "predictions": {
+      "coord1": {
+        "min_error": 548.1787882430743,
+        "min_error_coords": [
+          4,
+          32
+        ],
+        "min_error_step": 157
+      },
+      "coord2": {
+        "min_error": 476.3848901429751,
+        "min_error_coords": [
+          59,
+          31
+        ],
+        "min_error_step": 228
+      }
+    }
+  },
+  "tipo1_img1943": {
+    "tipo": 1,
+    "imagen_num": 1943,
+    "predictions": {
+      "coord1": {
+        "min_error": 290.64415688048155,
+        "min_error_coords": [
+          18,
+          31
+        ],
+        "min_error_step": 152
+      },
+      "coord2": {
+        "min_error": 243.4931126689463,
+        "min_error_coords": [
+          58,
+          30
+        ],
+        "min_error_step": 198
+      }
+    }
+  },
+  "tipo1_img1656": {
+    "tipo": 1,
+    "imagen_num": 1656,
+    "predictions": {
+      "coord1": {
+        "min_error": 1036.9073507723715,
+        "min_error_coords": [
+          18,
+          38
+        ],
+        "min_error_step": 285
+      },
+      "coord2": {
+        "min_error": 768.3123868986675,
+        "min_error_coords": [
+          63,
+          38
+        ],
+        "min_error_step": 435
+      }
+    }
+  },
+  "tipo2_img5596": {
+    "tipo": 2,
+    "imagen_num": 5596,
+    "predictions": {
+      "coord1": {
+        "min_error": 403.5397068262566,
+        "min_error_coords": [
+          10,
+          30
+        ],
+        "min_error_step": 125
+      },
+      "coord2": {
+        "min_error": 311.6052880938585,
+        "min_error_coords": [
+          63,
+          30
+        ],
+        "min_error_step": 203
+      }
+    }
+  },
+  "tipo2_img8438": {
+    "tipo": 2,
+    "imagen_num": 8438,
+    "predictions": {
+      "coord1": {
+        "min_error": 418.75818509918116,
+        "min_error_coords": [
+          14,
+          35
+        ],
+        "min_error_step": 224
+      },
+      "coord2": {
+        "min_error": 347.95328867968976,
+        "min_error_coords": [
+          60,
+          33
+        ],
+        "min_error_step": 287
+      }
+    }
+  },
+  "tipo2_img7608": {
+    "tipo": 2,
+    "imagen_num": 7608,
+    "predictions": {
+      "coord1": {
+        "min_error": 461.87873124147677,
+        "min_error_coords": [
+          12,
+          30
+        ],
+        "min_error_step": 127
+      },
+      "coord2": {
+        "min_error": 368.8243906851017,
+        "min_error_coords": [
+          50,
+          29
+        ],
+        "min_error_step": 161
+      }
+    }
+  },
+  "tipo3_img804": {
+    "tipo": 3,
+    "imagen_num": 804,
+    "predictions": {
+      "coord1": {
+        "min_error": 512.4834476258834,
+        "min_error_coords": [
+          3,
+          30
+        ],
+        "min_error_step": 118
+      },
+      "coord2": {
+        "min_error": 428.94708037869697,
+        "min_error_coords": [
+          51,
+          29
+        ],
+        "min_error_step": 162
+      }
+    }
+  },
+  "tipo2_img3945": {
+    "tipo": 2,
+    "imagen_num": 3945,
+    "predictions": {
+      "coord1": {
+        "min_error": 463.8236160402488,
+        "min_error_coords": [
+          4,
+          31
+        ],
+        "min_error_step": 138
+      },
+      "coord2": {
+        "min_error": 349.67052365857757,
+        "min_error_coords": [
+          53,
+          33
+        ],
+        "min_error_step": 280
+      }
+    }
+  },
+  "tipo1_img2251": {
+    "tipo": 1,
+    "imagen_num": 2251,
+    "predictions": {
+      "coord1": {
+        "min_error": 408.86985663661164,
+        "min_error_coords": [
+          10,
+          30
+        ],
+        "min_error_step": 125
+      },
+      "coord2": {
+        "min_error": 323.237239671772,
+        "min_error_coords": [
+          53,
+          31
+        ],
+        "min_error_step": 222
+      }
+    }
+  },
+  "tipo3_img819": {
+    "tipo": 3,
+    "imagen_num": 819,
+    "predictions": {
+      "coord1": {
+        "min_error": 539.3522289543014,
+        "min_error_coords": [
+          1,
+          29
+        ],
+        "min_error_step": 97
+      },
+      "coord2": {
+        "min_error": 460.6413934102316,
+        "min_error_coords": [
+          45,
+          30
+        ],
+        "min_error_step": 185
+      }
+    }
+  },
+  "tipo2_img1588": {
+    "tipo": 2,
+    "imagen_num": 1588,
+    "predictions": {
+      "coord1": {
+        "min_error": 629.1711504160697,
+        "min_error_coords": [
+          17,
+          29
+        ],
+        "min_error_step": 113
+      },
+      "coord2": {
+        "min_error": 490.50673567239056,
+        "min_error_coords": [
+          55,
+          30
+        ],
+        "min_error_step": 195
+      }
+    }
+  },
+  "tipo2_img8981": {
+    "tipo": 2,
+    "imagen_num": 8981,
+    "predictions": {
+      "coord1": {
+        "min_error": 464.5758998336331,
+        "min_error_coords": [
+          3,
+          33
+        ],
+        "min_error_step": 175
+      },
+      "coord2": {
+        "min_error": 380.35162386913333,
+        "min_error_coords": [
+          49,
+          33
+        ],
+        "min_error_step": 276
+      }
+    }
+  },
+  "tipo1_img192": {
+    "tipo": 1,
+    "imagen_num": 192,
+    "predictions": {
+      "coord1": {
+        "min_error": 556.6316087824639,
+        "min_error_coords": [
+          7,
+          34
+        ],
+        "min_error_step": 198
+      },
+      "coord2": {
+        "min_error": 422.77994070762907,
+        "min_error_coords": [
+          63,
+          31
+        ],
+        "min_error_step": 232
+      }
+    }
+  },
+  "tipo2_img5098": {
+    "tipo": 2,
+    "imagen_num": 5098,
+    "predictions": {
+      "coord1": {
+        "min_error": 528.79379550869,
+        "min_error_coords": [
+          14,
+          32
+        ],
+        "min_error_step": 167
+      },
+      "coord2": {
+        "min_error": 421.9755576724315,
+        "min_error_coords": [
+          55,
+          31
+        ],
+        "min_error_step": 224
+      }
+    }
+  },
+  "tipo1_img2025": {
+    "tipo": 1,
+    "imagen_num": 2025,
+    "predictions": {
+      "coord1": {
+        "min_error": 475.43865775055986,
+        "min_error_coords": [
+          11,
+          31
+        ],
+        "min_error_step": 145
+      },
+      "coord2": {
+        "min_error": 351.83138914358454,
+        "min_error_coords": [
+          60,
+          34
+        ],
+        "min_error_step": 316
+      }
+    }
+  },
+  "tipo3_img1167": {
+    "tipo": 3,
+    "imagen_num": 1167,
+    "predictions": {
+      "coord1": {
+        "min_error": 659.0202959280821,
+        "min_error_coords": [
+          7,
+          30
+        ],
+        "min_error_step": 122
+      },
+      "coord2": {
+        "min_error": 554.1755775841317,
+        "min_error_coords": [
+          45,
+          31
+        ],
+        "min_error_step": 214
+      }
+    }
+  },
+  "tipo2_img9207": {
+    "tipo": 2,
+    "imagen_num": 9207,
+    "predictions": {
+      "coord1": {
+        "min_error": 632.0178952088983,
+        "min_error_coords": [
+          12,
+          32
+        ],
+        "min_error_step": 165
+      },
+      "coord2": {
+        "min_error": 537.6683962775148,
+        "min_error_coords": [
+          55,
+          30
+        ],
+        "min_error_step": 195
+      }
+    }
+  },
+  "tipo2_img10027": {
+    "tipo": 2,
+    "imagen_num": 10027,
+    "predictions": {
+      "coord1": {
+        "min_error": 447.26010136742246,
+        "min_error_coords": [
+          16,
+          30
+        ],
+        "min_error_step": 131
+      },
+      "coord2": {
+        "min_error": 344.72690667568133,
+        "min_error_coords": [
+          49,
+          32
+        ],
+        "min_error_step": 247
+      }
+    }
+  },
+  "tipo3_img822": {
+    "tipo": 3,
+    "imagen_num": 822,
+    "predictions": {
+      "coord1": {
+        "min_error": 512.6374750910051,
+        "min_error_coords": [
+          7,
+          30
+        ],
+        "min_error_step": 122
+      },
+      "coord2": {
+        "min_error": 438.06358584386095,
+        "min_error_coords": [
+          54,
+          31
+        ],
+        "min_error_step": 223
+      }
+    }
+  },
+  "tipo1_img2259": {
+    "tipo": 1,
+    "imagen_num": 2259,
+    "predictions": {
+      "coord1": {
+        "min_error": 555.467165381429,
+        "min_error_coords": [
+          5,
+          29
+        ],
+        "min_error_step": 101
+      },
+      "coord2": {
+        "min_error": 473.25681178083204,
+        "min_error_coords": [
+          52,
+          27
+        ],
+        "min_error_step": 105
+      }
+    }
+  },
+  "tipo3_img793": {
+    "tipo": 3,
+    "imagen_num": 793,
+    "predictions": {
+      "coord1": {
+        "min_error": 740.1514469033013,
+        "min_error_coords": [
+          2,
+          33
+        ],
+        "min_error_step": 174
+      },
+      "coord2": {
+        "min_error": 635.0683887752423,
+        "min_error_coords": [
+          39,
+          33
+        ],
+        "min_error_step": 266
+      }
+    }
+  },
+  "tipo3_img94": {
+    "tipo": 3,
+    "imagen_num": 94,
+    "predictions": {
+      "coord1": {
+        "min_error": 494.8339207612237,
+        "min_error_coords": [
+          9,
+          31
+        ],
+        "min_error_step": 143
+      },
+      "coord2": {
+        "min_error": 398.15210150581316,
+        "min_error_coords": [
+          39,
+          33
+        ],
+        "min_error_step": 266
+      }
+    }
+  },
+  "tipo3_img101": {
+    "tipo": 3,
+    "imagen_num": 101,
+    "predictions": {
+      "coord1": {
+        "min_error": 597.9648006805317,
+        "min_error_coords": [
+          7,
+          32
+        ],
+        "min_error_step": 160
+      },
+      "coord2": {
+        "min_error": 499.08544689001843,
+        "min_error_coords": [
+          54,
+          30
+        ],
+        "min_error_step": 194
+      }
+    }
+  },
+  "tipo1_img670": {
+    "tipo": 1,
+    "imagen_num": 670,
+    "predictions": {
+      "coord1": {
+        "min_error": 598.9556847718616,
+        "min_error_coords": [
+          13,
+          35
+        ],
+        "min_error_step": 223
+      },
+      "coord2": {
+        "min_error": 426.69161023327587,
+        "min_error_coords": [
+          61,
+          41
+        ],
+        "min_error_step": 520
+      }
+    }
+  },
+  "tipo2_img6438": {
+    "tipo": 2,
+    "imagen_num": 6438,
+    "predictions": {
+      "coord1": {
+        "min_error": 396.2376144888711,
+        "min_error_coords": [
+          6,
+          35
+        ],
+        "min_error_step": 216
+      },
+      "coord2": {
+        "min_error": 293.04023034528694,
+        "min_error_coords": [
+          56,
+          32
+        ],
+        "min_error_step": 254
+      }
+    }
+  },
+  "tipo3_img82": {
+    "tipo": 3,
+    "imagen_num": 82,
+    "predictions": {
+      "coord1": {
+        "min_error": 673.4243876057602,
+        "min_error_coords": [
+          0,
+          32
+        ],
+        "min_error_step": 153
+      },
+      "coord2": {
+        "min_error": 550.165599692479,
+        "min_error_coords": [
+          38,
+          33
+        ],
+        "min_error_step": 265
+      }
+    }
+  },
+  "tipo3_img889": {
+    "tipo": 3,
+    "imagen_num": 889,
+    "predictions": {
+      "coord1": {
+        "min_error": 580.2938941556456,
+        "min_error_coords": [
+          9,
+          30
+        ],
+        "min_error_step": 124
+      },
+      "coord2": {
+        "min_error": 480.53147172015804,
+        "min_error_coords": [
+          58,
+          31
+        ],
+        "min_error_step": 227
+      }
+    }
+  },
+  "tipo3_img771": {
+    "tipo": 3,
+    "imagen_num": 771,
+    "predictions": {
+      "coord1": {
+        "min_error": 547.8949885328736,
+        "min_error_coords": [
+          10,
+          31
+        ],
+        "min_error_step": 144
+      },
+      "coord2": {
+        "min_error": 431.70852352968706,
+        "min_error_coords": [
+          63,
+          32
+        ],
+        "min_error_step": 261
+      }
+    }
+  },
+  "tipo2_img6859": {
+    "tipo": 2,
+    "imagen_num": 6859,
+    "predictions": {
+      "coord1": {
+        "min_error": 501.61889813507554,
+        "min_error_coords": [
+          4,
+          31
+        ],
+        "min_error_step": 138
+      },
+      "coord2": {
+        "min_error": 417.7332829805277,
+        "min_error_coords": [
+          46,
+          31
+        ],
+        "min_error_step": 215
+      }
+    }
+  },
+  "tipo3_img934": {
+    "tipo": 3,
+    "imagen_num": 934,
+    "predictions": {
+      "coord1": {
+        "min_error": 491.240461006287,
+        "min_error_coords": [
+          8,
+          28
+        ],
+        "min_error_step": 85
+      },
+      "coord2": {
+        "min_error": 377.44602012532476,
+        "min_error_coords": [
+          54,
+          27
+        ],
+        "min_error_step": 107
+      }
+    }
+  },
+  "tipo3_img400": {
+    "tipo": 3,
+    "imagen_num": 400,
+    "predictions": {
+      "coord1": {
+        "min_error": 522.5303513555187,
+        "min_error_coords": [
+          5,
+          30
+        ],
+        "min_error_step": 120
+      },
+      "coord2": {
+        "min_error": 439.9972968281046,
+        "min_error_coords": [
+          45,
+          30
+        ],
+        "min_error_step": 185
+      }
+    }
+  },
+  "tipo1_img3593": {
+    "tipo": 1,
+    "imagen_num": 3593,
+    "predictions": {
+      "coord1": {
+        "min_error": 790.2243859117382,
+        "min_error_coords": [
+          4,
+          32
+        ],
+        "min_error_step": 157
+      },
+      "coord2": {
+        "min_error": 662.5061841120024,
+        "min_error_coords": [
+          43,
+          31
+        ],
+        "min_error_step": 212
+      }
+    }
+  },
+  "tipo1_img2933": {
+    "tipo": 1,
+    "imagen_num": 2933,
+    "predictions": {
+      "coord1": {
+        "min_error": 507.32647228519863,
+        "min_error_coords": [
+          13,
+          29
+        ],
+        "min_error_step": 109
+      },
+      "coord2": {
+        "min_error": 429.8790904583959,
+        "min_error_coords": [
+          50,
+          31
+        ],
+        "min_error_step": 219
+      }
+    }
+  },
+  "tipo1_img2913": {
+    "tipo": 1,
+    "imagen_num": 2913,
+    "predictions": {
+      "coord1": {
+        "min_error": 716.8818526561762,
+        "min_error_coords": [
+          4,
+          32
+        ],
+        "min_error_step": 157
+      },
+      "coord2": {
+        "min_error": 563.2665070410791,
+        "min_error_coords": [
+          45,
+          32
+        ],
+        "min_error_step": 243
+      }
+    }
+  },
+  "tipo2_img10144": {
+    "tipo": 2,
+    "imagen_num": 10144,
+    "predictions": {
+      "coord1": {
+        "min_error": 474.92627080428014,
+        "min_error_coords": [
+          9,
+          34
+        ],
+        "min_error_step": 200
+      },
+      "coord2": {
+        "min_error": 398.55782353563177,
+        "min_error_coords": [
+          47,
+          34
+        ],
+        "min_error_step": 303
+      }
+    }
+  },
+  "tipo3_img847": {
+    "tipo": 3,
+    "imagen_num": 847,
+    "predictions": {
+      "coord1": {
+        "min_error": 477.28793656723894,
+        "min_error_coords": [
+          0,
+          30
+        ],
+        "min_error_step": 115
+      },
+      "coord2": {
+        "min_error": 386.00558294970796,
+        "min_error_coords": [
+          41,
+          30
+        ],
+        "min_error_step": 181
+      }
+    }
+  },
+  "tipo3_img1265": {
+    "tipo": 3,
+    "imagen_num": 1265,
+    "predictions": {
+      "coord1": {
+        "min_error": 519.0306770649127,
+        "min_error_coords": [
+          18,
+          27
+        ],
+        "min_error_step": 76
+      },
+      "coord2": {
+        "min_error": 386.8572353566994,
+        "min_error_coords": [
+          63,
+          28
+        ],
+        "min_error_step": 145
+      }
+    }
+  },
+  "tipo2_img6955": {
+    "tipo": 2,
+    "imagen_num": 6955,
+    "predictions": {
+      "coord1": {
+        "min_error": 400.1870399174409,
+        "min_error_coords": [
+          1,
+          29
+        ],
+        "min_error_step": 97
+      },
+      "coord2": {
+        "min_error": 352.36980545173475,
+        "min_error_coords": [
+          41,
+          29
+        ],
+        "min_error_step": 152
+      }
+    }
+  },
+  "tipo2_img3805": {
+    "tipo": 2,
+    "imagen_num": 3805,
+    "predictions": {
+      "coord1": {
+        "min_error": 396.5136624320933,
+        "min_error_coords": [
+          6,
+          38
+        ],
+        "min_error_step": 273
+      },
+      "coord2": {
+        "min_error": 320.17997776733154,
+        "min_error_coords": [
+          57,
+          31
+        ],
+        "min_error_step": 226
+      }
+    }
+  },
+  "tipo2_img2430": {
+    "tipo": 2,
+    "imagen_num": 2430,
+    "predictions": {
+      "coord1": {
+        "min_error": 363.8335935026235,
+        "min_error_coords": [
+          14,
+          26
+        ],
+        "min_error_step": 53
+      },
+      "coord2": {
+        "min_error": 328.4734794281237,
+        "min_error_coords": [
+          53,
+          28
+        ],
+        "min_error_step": 135
+      }
+    }
+  },
+  "tipo2_img2183": {
+    "tipo": 2,
+    "imagen_num": 2183,
+    "predictions": {
+      "coord1": {
+        "min_error": 405.264296571147,
+        "min_error_coords": [
+          12,
+          28
+        ],
+        "min_error_step": 89
+      },
+      "coord2": {
+        "min_error": 305.38128831960614,
+        "min_error_coords": [
+          51,
+          31
+        ],
+        "min_error_step": 220
+      }
+    }
+  },
+  "tipo2_img8144": {
+    "tipo": 2,
+    "imagen_num": 8144,
+    "predictions": {
+      "coord1": {
+        "min_error": 345.6816519702118,
+        "min_error_coords": [
+          1,
+          30
+        ],
+        "min_error_step": 116
+      },
+      "coord2": {
+        "min_error": 300.695624325216,
+        "min_error_coords": [
+          60,
+          31
+        ],
+        "min_error_step": 229
+      }
+    }
+  },
+  "tipo2_img7314": {
+    "tipo": 2,
+    "imagen_num": 7314,
+    "predictions": {
+      "coord1": {
+        "min_error": 347.120582503265,
+        "min_error_coords": [
+          1,
+          27
+        ],
+        "min_error_step": 59
+      },
+      "coord2": {
+        "min_error": 362.7801279064903,
+        "min_error_coords": [
+          38,
+          30
+        ],
+        "min_error_step": 178
+      }
+    }
+  },
+  "tipo2_img7327": {
+    "tipo": 2,
+    "imagen_num": 7327,
+    "predictions": {
+      "coord1": {
+        "min_error": 410.11664689635074,
+        "min_error_coords": [
+          4,
+          33
+        ],
+        "min_error_step": 176
+      },
+      "coord2": {
+        "min_error": 355.21022235271033,
+        "min_error_coords": [
+          48,
+          35
+        ],
+        "min_error_step": 333
+      }
+    }
+  },
+  "tipo2_img9875": {
+    "tipo": 2,
+    "imagen_num": 9875,
+    "predictions": {
+      "coord1": {
+        "min_error": 399.58110587746336,
+        "min_error_coords": [
+          1,
+          31
+        ],
+        "min_error_step": 135
+      },
+      "coord2": {
+        "min_error": 322.0143388052715,
+        "min_error_coords": [
+          47,
+          30
+        ],
+        "min_error_step": 187
+      }
+    }
+  },
+  "tipo2_img7595": {
+    "tipo": 2,
+    "imagen_num": 7595,
+    "predictions": {
+      "coord1": {
+        "min_error": 389.3863493081218,
+        "min_error_coords": [
+          4,
+          36
+        ],
+        "min_error_step": 233
+      },
+      "coord2": {
+        "min_error": 352.08456280409223,
+        "min_error_coords": [
+          54,
+          33
+        ],
+        "min_error_step": 281
+      }
+    }
+  },
+  "tipo2_img9898": {
+    "tipo": 2,
+    "imagen_num": 9898,
+    "predictions": {
+      "coord1": {
+        "min_error": 419.6309647655624,
+        "min_error_coords": [
+          4,
+          30
+        ],
+        "min_error_step": 119
+      },
+      "coord2": {
+        "min_error": 349.09808167341254,
+        "min_error_coords": [
+          49,
+          31
+        ],
+        "min_error_step": 218
+      }
+    }
+  },
+  "tipo2_img10115": {
+    "tipo": 2,
+    "imagen_num": 10115,
+    "predictions": {
+      "coord1": {
+        "min_error": 361.3513463515771,
+        "min_error_coords": [
+          8,
+          32
+        ],
+        "min_error_step": 161
+      },
+      "coord2": {
+        "min_error": 359.395075464108,
+        "min_error_coords": [
+          54,
+          32
+        ],
+        "min_error_step": 252
+      }
+    }
+  },
+  "tipo2_img2744": {
+    "tipo": 2,
+    "imagen_num": 2744,
+    "predictions": {
+      "coord1": {
+        "min_error": 373.9553893227833,
+        "min_error_coords": [
+          7,
+          30
+        ],
+        "min_error_step": 122
+      },
+      "coord2": {
+        "min_error": 335.69218392093507,
+        "min_error_coords": [
+          48,
+          31
+        ],
+        "min_error_step": 217
+      }
+    }
+  },
+  "tipo2_img5861": {
+    "tipo": 2,
+    "imagen_num": 5861,
+    "predictions": {
+      "coord1": {
+        "min_error": 422.88556239054645,
+        "min_error_coords": [
+          5,
+          31
+        ],
+        "min_error_step": 139
+      },
+      "coord2": {
+        "min_error": 350.09420091924613,
+        "min_error_coords": [
+          52,
+          31
+        ],
+        "min_error_step": 221
+      }
+    }
+  },
+  "tipo2_img8561": {
+    "tipo": 2,
+    "imagen_num": 8561,
+    "predictions": {
+      "coord1": {
+        "min_error": 418.2227914735174,
+        "min_error_coords": [
+          6,
+          28
+        ],
+        "min_error_step": 83
+      },
+      "coord2": {
+        "min_error": 347.7800331673238,
+        "min_error_coords": [
+          53,
+          31
+        ],
+        "min_error_step": 222
+      }
+    }
+  },
+  "tipo2_img9419": {
+    "tipo": 2,
+    "imagen_num": 9419,
+    "predictions": {
+      "coord1": {
+        "min_error": 431.92030612230093,
+        "min_error_coords": [
+          8,
+          28
+        ],
+        "min_error_step": 85
+      },
+      "coord2": {
+        "min_error": 347.8505366483827,
+        "min_error_coords": [
+          63,
+          33
+        ],
+        "min_error_step": 290
+      }
+    }
+  },
+  "tipo2_img3856": {
+    "tipo": 2,
+    "imagen_num": 3856,
+    "predictions": {
+      "coord1": {
+        "min_error": 417.8589664559383,
+        "min_error_coords": [
+          9,
+          33
+        ],
+        "min_error_step": 181
+      },
+      "coord2": {
+        "min_error": 329.59758812745525,
+        "min_error_coords": [
+          62,
+          32
+        ],
+        "min_error_step": 260
+      }
+    }
+  },
+  "tipo2_img4874": {
+    "tipo": 2,
+    "imagen_num": 4874,
+    "predictions": {
+      "coord1": {
+        "min_error": 409.7547326743339,
+        "min_error_coords": [
+          10,
+          32
+        ],
+        "min_error_step": 163
+      },
+      "coord2": {
+        "min_error": 370.6524620662556,
+        "min_error_coords": [
+          48,
+          32
+        ],
+        "min_error_step": 246
+      }
+    }
+  },
+  "tipo2_img9175": {
+    "tipo": 2,
+    "imagen_num": 9175,
+    "predictions": {
+      "coord1": {
+        "min_error": 409.10496196698324,
+        "min_error_coords": [
+          3,
+          33
+        ],
+        "min_error_step": 175
+      },
+      "coord2": {
+        "min_error": 341.73075722559076,
+        "min_error_coords": [
+          49,
+          32
+        ],
+        "min_error_step": 247
+      }
+    }
+  },
+  "tipo2_img4005": {
+    "tipo": 2,
+    "imagen_num": 4005,
+    "predictions": {
+      "coord1": {
+        "min_error": 305.3312949737553,
+        "min_error_coords": [
+          4,
+          31
+        ],
+        "min_error_step": 138
+      },
+      "coord2": {
+        "min_error": 238.34776658545803,
+        "min_error_coords": [
+          44,
+          28
+        ],
+        "min_error_step": 126
+      }
+    }
+  },
+  "tipo2_img1254": {
+    "tipo": 2,
+    "imagen_num": 1254,
+    "predictions": {
+      "coord1": {
+        "min_error": 282.72502476589193,
+        "min_error_coords": [
+          3,
+          33
+        ],
+        "min_error_step": 175
+      },
+      "coord2": {
+        "min_error": 292.4539356185966,
+        "min_error_coords": [
+          49,
+          32
+        ],
+        "min_error_step": 247
+      }
+    }
+  },
+  "tipo2_img52": {
+    "tipo": 2,
+    "imagen_num": 52,
+    "predictions": {
+      "coord1": {
+        "min_error": 663.7987857059486,
+        "min_error_coords": [
+          13,
+          39
+        ],
+        "min_error_step": 299
+      },
+      "coord2": {
+        "min_error": 534.0923235697674,
+        "min_error_coords": [
+          63,
+          40
+        ],
+        "min_error_step": 493
+      }
+    }
+  },
+  "tipo2_img128": {
+    "tipo": 2,
+    "imagen_num": 128,
+    "predictions": {
+      "coord1": {
+        "min_error": 659.2480034040841,
+        "min_error_coords": [
+          14,
+          31
+        ],
+        "min_error_step": 148
+      },
+      "coord2": {
+        "min_error": 575.3819305116641,
+        "min_error_coords": [
+          56,
+          30
+        ],
+        "min_error_step": 196
+      }
+    }
+  },
+  "tipo2_img223": {
+    "tipo": 2,
+    "imagen_num": 223,
+    "predictions": {
+      "coord1": {
+        "min_error": 868.7928655145242,
+        "min_error_coords": [
+          17,
+          32
+        ],
+        "min_error_step": 170
+      },
+      "coord2": {
+        "min_error": 725.4227481320644,
+        "min_error_coords": [
+          62,
+          34
+        ],
+        "min_error_step": 318
+      }
+    }
+  },
+  "tipo2_img238": {
+    "tipo": 2,
+    "imagen_num": 238,
+    "predictions": {
+      "coord1": {
+        "min_error": 798.805935842818,
+        "min_error_coords": [
+          7,
+          30
+        ],
+        "min_error_step": 122
+      },
+      "coord2": {
+        "min_error": 636.4887362679976,
+        "min_error_coords": [
+          55,
+          26
+        ],
+        "min_error_step": 79
+      }
+    }
+  },
+  "tipo2_img270": {
+    "tipo": 2,
+    "imagen_num": 270,
+    "predictions": {
+      "coord1": {
+        "min_error": 668.6226565745244,
+        "min_error_coords": [
+          14,
+          32
+        ],
+        "min_error_step": 167
+      },
+      "coord2": {
+        "min_error": 549.7959573112851,
+        "min_error_coords": [
+          50,
+          31
+        ],
+        "min_error_step": 219
+      }
+    }
+  },
+  "tipo2_img335": {
+    "tipo": 2,
+    "imagen_num": 335,
+    "predictions": {
+      "coord1": {
+        "min_error": 679.9175585170764,
+        "min_error_coords": [
+          9,
+          31
+        ],
+        "min_error_step": 143
+      },
+      "coord2": {
+        "min_error": 562.616277948762,
+        "min_error_coords": [
+          54,
+          31
+        ],
+        "min_error_step": 223
+      }
+    }
+  },
+  "tipo2_img359": {
+    "tipo": 2,
+    "imagen_num": 359,
+    "predictions": {
+      "coord1": {
+        "min_error": 721.781202826168,
+        "min_error_coords": [
+          9,
+          31
+        ],
+        "min_error_step": 143
+      },
+      "coord2": {
+        "min_error": 594.7033609430189,
+        "min_error_coords": [
+          57,
+          25
+        ],
+        "min_error_step": 52
+      }
+    }
+  },
+  "tipo2_img445": {
+    "tipo": 2,
+    "imagen_num": 445,
+    "predictions": {
+      "coord1": {
+        "min_error": 676.7827728876748,
+        "min_error_coords": [
+          17,
+          34
+        ],
+        "min_error_step": 208
+      },
+      "coord2": {
+        "min_error": 586.4425565797548,
+        "min_error_coords": [
+          55,
+          34
+        ],
+        "min_error_step": 311
+      }
+    }
+  },
+  "tipo2_img456": {
+    "tipo": 2,
+    "imagen_num": 456,
+    "predictions": {
+      "coord1": {
+        "min_error": 670.3854221871026,
+        "min_error_coords": [
+          7,
+          32
+        ],
+        "min_error_step": 160
+      },
+      "coord2": {
+        "min_error": 582.7820706635576,
+        "min_error_coords": [
+          46,
+          31
+        ],
+        "min_error_step": 215
+      }
+    }
+  },
+  "tipo2_img551": {
+    "tipo": 2,
+    "imagen_num": 551,
+    "predictions": {
+      "coord1": {
+        "min_error": 895.8384093977488,
+        "min_error_coords": [
+          1,
+          29
+        ],
+        "min_error_step": 97
+      },
+      "coord2": {
+        "min_error": 729.2714938761782,
+        "min_error_coords": [
+          46,
+          29
+        ],
+        "min_error_step": 157
+      }
+    }
+  },
+  "tipo2_img706": {
+    "tipo": 2,
+    "imagen_num": 706,
+    "predictions": {
+      "coord1": {
+        "min_error": 899.3890154335559,
+        "min_error_coords": [
+          15,
+          33
+        ],
+        "min_error_step": 187
+      },
+      "coord2": {
+        "min_error": 731.5611268174719,
+        "min_error_coords": [
+          56,
+          29
+        ],
+        "min_error_step": 167
+      }
+    }
+  },
+  "tipo2_img764": {
+    "tipo": 2,
+    "imagen_num": 764,
+    "predictions": {
+      "coord1": {
+        "min_error": 696.4334130609266,
+        "min_error_coords": [
+          15,
+          30
+        ],
+        "min_error_step": 130
+      },
+      "coord2": {
+        "min_error": 579.4744468611517,
+        "min_error_coords": [
+          59,
+          27
+        ],
+        "min_error_step": 112
+      }
+    }
+  },
+  "tipo2_img846": {
+    "tipo": 2,
+    "imagen_num": 846,
+    "predictions": {
+      "coord1": {
+        "min_error": 766.7258128865976,
+        "min_error_coords": [
+          18,
+          33
+        ],
+        "min_error_step": 190
+      },
+      "coord2": {
+        "min_error": 654.2799450928292,
+        "min_error_coords": [
+          63,
+          31
+        ],
+        "min_error_step": 232
+      }
+    }
+  },
+  "tipo2_img1211": {
+    "tipo": 2,
+    "imagen_num": 1211,
+    "predictions": {
+      "coord1": {
+        "min_error": 1038.4642859251512,
+        "min_error_coords": [
+          18,
+          31
+        ],
+        "min_error_step": 152
+      },
+      "coord2": {
+        "min_error": 865.2047817858944,
+        "min_error_coords": [
+          63,
+          33
+        ],
+        "min_error_step": 290
+      }
+    }
+  },
+  "tipo2_img1466": {
+    "tipo": 2,
+    "imagen_num": 1466,
+    "predictions": {
+      "coord1": {
+        "min_error": 770.4620472717214,
+        "min_error_coords": [
+          12,
+          25
+        ],
+        "min_error_step": 32
+      },
+      "coord2": {
+        "min_error": 623.7352959006304,
+        "min_error_coords": [
+          63,
+          29
+        ],
+        "min_error_step": 174
+      }
+    }
+  },
+  "tipo2_img1537": {
+    "tipo": 2,
+    "imagen_num": 1537,
+    "predictions": {
+      "coord1": {
+        "min_error": 594.7949029704298,
+        "min_error_coords": [
+          18,
+          27
+        ],
+        "min_error_step": 76
+      },
+      "coord2": {
+        "min_error": 482.39707916469496,
+        "min_error_coords": [
+          63,
+          30
+        ],
+        "min_error_step": 203
+      }
+    }
+  },
+  "tipo2_img1572": {
+    "tipo": 2,
+    "imagen_num": 1572,
+    "predictions": {
+      "coord1": {
+        "min_error": 851.7193673875586,
+        "min_error_coords": [
+          5,
+          39
+        ],
+        "min_error_step": 291
+      },
+      "coord2": {
+        "min_error": 681.4007274845083,
+        "min_error_coords": [
+          54,
+          37
+        ],
+        "min_error_step": 397
+      }
+    }
+  },
+  "tipo2_img1604": {
+    "tipo": 2,
+    "imagen_num": 1604,
+    "predictions": {
+      "coord1": {
+        "min_error": 566.7447499629071,
+        "min_error_coords": [
+          7,
+          31
+        ],
+        "min_error_step": 141
+      },
+      "coord2": {
+        "min_error": 455.98262358915304,
+        "min_error_coords": [
+          48,
+          30
+        ],
+        "min_error_step": 188
+      }
+    }
+  },
+  "tipo2_img1659": {
+    "tipo": 2,
+    "imagen_num": 1659,
+    "predictions": {
+      "coord1": {
+        "min_error": 900.5236385539422,
+        "min_error_coords": [
+          0,
+          25
+        ],
+        "min_error_step": 20
+      },
+      "coord2": {
+        "min_error": 707.8985718829614,
+        "min_error_coords": [
+          35,
+          41
+        ],
+        "min_error_step": 494
+      }
+    }
+  },
+  "tipo2_img1756": {
+    "tipo": 2,
+    "imagen_num": 1756,
+    "predictions": {
+      "coord1": {
+        "min_error": 667.3176962175125,
+        "min_error_coords": [
+          15,
+          31
+        ],
+        "min_error_step": 149
+      },
+      "coord2": {
+        "min_error": 568.1668689607023,
+        "min_error_coords": [
+          47,
+          34
+        ],
+        "min_error_step": 303
+      }
+    }
+  },
+  "tipo2_img1882": {
+    "tipo": 2,
+    "imagen_num": 1882,
+    "predictions": {
+      "coord1": {
+        "min_error": 660.0848410582521,
+        "min_error_coords": [
+          15,
+          30
+        ],
+        "min_error_step": 130
+      },
+      "coord2": {
+        "min_error": 502.206323479348,
+        "min_error_coords": [
+          55,
+          34
+        ],
+        "min_error_step": 311
+      }
+    }
+  },
+  "tipo2_img1891": {
+    "tipo": 2,
+    "imagen_num": 1891,
+    "predictions": {
+      "coord1": {
+        "min_error": 492.8393740970625,
+        "min_error_coords": [
+          9,
+          25
+        ],
+        "min_error_step": 29
+      },
+      "coord2": {
+        "min_error": 398.1180301600471,
+        "min_error_coords": [
+          54,
+          25
+        ],
+        "min_error_step": 49
+      }
+    }
+  },
+  "tipo2_img1927": {
+    "tipo": 2,
+    "imagen_num": 1927,
+    "predictions": {
+      "coord1": {
+        "min_error": 555.4191985678924,
+        "min_error_coords": [
+          12,
+          32
+        ],
+        "min_error_step": 165
+      },
+      "coord2": {
+        "min_error": 490.3274946479957,
+        "min_error_coords": [
+          47,
+          31
+        ],
+        "min_error_step": 216
+      }
+    }
+  },
+  "tipo2_img1932": {
+    "tipo": 2,
+    "imagen_num": 1932,
+    "predictions": {
+      "coord1": {
+        "min_error": 442.40408360119307,
+        "min_error_coords": [
+          13,
+          33
+        ],
+        "min_error_step": 185
+      },
+      "coord2": {
+        "min_error": 366.34687470890754,
+        "min_error_coords": [
+          51,
+          33
+        ],
+        "min_error_step": 278
+      }
+    }
+  },
+  "tipo2_img1940": {
+    "tipo": 2,
+    "imagen_num": 1940,
+    "predictions": {
+      "coord1": {
+        "min_error": 1057.4285248940741,
+        "min_error_coords": [
+          0,
+          26
+        ],
+        "min_error_step": 39
+      },
+      "coord2": {
+        "min_error": 798.9404295720368,
+        "min_error_coords": [
+          52,
+          33
+        ],
+        "min_error_step": 279
+      }
+    }
+  },
+  "tipo2_img1943": {
+    "tipo": 2,
+    "imagen_num": 1943,
+    "predictions": {
+      "coord1": {
+        "min_error": 575.4852919129866,
+        "min_error_coords": [
+          18,
+          40
+        ],
+        "min_error_step": 323
+      },
+      "coord2": {
+        "min_error": 477.8532976506301,
+        "min_error_coords": [
+          62,
+          36
+        ],
+        "min_error_step": 376
+      }
+    }
+  },
+  "tipo2_img1945": {
+    "tipo": 2,
+    "imagen_num": 1945,
+    "predictions": {
+      "coord1": {
+        "min_error": 744.6132088770378,
+        "min_error_coords": [
+          10,
+          37
+        ],
+        "min_error_step": 258
+      },
+      "coord2": {
+        "min_error": 614.1575703962332,
+        "min_error_coords": [
+          55,
+          36
+        ],
+        "min_error_step": 369
+      }
+    }
+  },
+  "tipo2_img1978": {
+    "tipo": 2,
+    "imagen_num": 1978,
+    "predictions": {
+      "coord1": {
+        "min_error": 400.8843184181366,
+        "min_error_coords": [
+          10,
+          38
+        ],
+        "min_error_step": 277
+      },
+      "coord2": {
+        "min_error": 285.4196112422098,
+        "min_error_coords": [
+          63,
+          41
+        ],
+        "min_error_step": 522
+      }
+    }
+  },
+  "tipo2_img2001": {
+    "tipo": 2,
+    "imagen_num": 2001,
+    "predictions": {
+      "coord1": {
+        "min_error": 713.1383202903306,
+        "min_error_coords": [
+          18,
+          32
+        ],
+        "min_error_step": 171
+      },
+      "coord2": {
+        "min_error": 508.43904220565827,
+        "min_error_coords": [
+          63,
+          24
+        ],
+        "min_error_step": 29
+      }
+    }
+  },
+  "tipo2_img2007": {
+    "tipo": 2,
+    "imagen_num": 2007,
+    "predictions": {
+      "coord1": {
+        "min_error": 773.8793007738585,
+        "min_error_coords": [
+          5,
+          29
+        ],
+        "min_error_step": 101
+      },
+      "coord2": {
+        "min_error": 628.7600091984827,
+        "min_error_coords": [
+          44,
+          29
+        ],
+        "min_error_step": 155
+      }
+    }
+  },
+  "tipo2_img2045": {
+    "tipo": 2,
+    "imagen_num": 2045,
+    "predictions": {
+      "coord1": {
+        "min_error": 563.9405404358384,
+        "min_error_coords": [
+          6,
+          31
+        ],
+        "min_error_step": 140
+      },
+      "coord2": {
+        "min_error": 488.9578562786032,
+        "min_error_coords": [
+          39,
+          30
+        ],
+        "min_error_step": 179
+      }
+    }
+  },
+  "tipo2_img2076": {
+    "tipo": 2,
+    "imagen_num": 2076,
+    "predictions": {
+      "coord1": {
+        "min_error": 501.2220898025589,
+        "min_error_coords": [
+          8,
+          27
+        ],
+        "min_error_step": 66
+      },
+      "coord2": {
+        "min_error": 408.7076906178438,
+        "min_error_coords": [
+          43,
+          27
+        ],
+        "min_error_step": 96
+      }
+    }
+  },
+  "tipo2_img2095": {
+    "tipo": 2,
+    "imagen_num": 2095,
+    "predictions": {
+      "coord1": {
+        "min_error": 679.3790794103978,
+        "min_error_coords": [
+          13,
+          36
+        ],
+        "min_error_step": 242
+      },
+      "coord2": {
+        "min_error": 552.4535665950098,
+        "min_error_coords": [
+          48,
+          37
+        ],
+        "min_error_step": 391
+      }
+    }
+  },
+  "tipo2_img2121": {
+    "tipo": 2,
+    "imagen_num": 2121,
+    "predictions": {
+      "coord1": {
+        "min_error": 704.5612937876467,
+        "min_error_coords": [
+          17,
+          32
+        ],
+        "min_error_step": 170
+      },
+      "coord2": {
+        "min_error": 524.6662522932257,
+        "min_error_coords": [
+          59,
+          33
+        ],
+        "min_error_step": 286
+      }
+    }
+  },
+  "tipo2_img2267": {
+    "tipo": 2,
+    "imagen_num": 2267,
+    "predictions": {
+      "coord1": {
+        "min_error": 366.1403321016678,
+        "min_error_coords": [
+          10,
+          26
+        ],
+        "min_error_step": 49
+      },
+      "coord2": {
+        "min_error": 317.6079913161368,
+        "min_error_coords": [
+          55,
+          25
+        ],
+        "min_error_step": 50
+      }
+    }
+  },
+  "tipo2_img2281": {
+    "tipo": 2,
+    "imagen_num": 2281,
+    "predictions": {
+      "coord1": {
+        "min_error": 429.20419160312355,
+        "min_error_coords": [
+          15,
+          34
+        ],
+        "min_error_step": 206
+      },
+      "coord2": {
+        "min_error": 354.72742569374174,
+        "min_error_coords": [
+          55,
+          34
+        ],
+        "min_error_step": 311
+      }
+    }
+  },
+  "tipo2_img2401": {
+    "tipo": 2,
+    "imagen_num": 2401,
+    "predictions": {
+      "coord1": {
+        "min_error": 1037.208903592313,
+        "min_error_coords": [
+          18,
+          33
+        ],
+        "min_error_step": 190
+      },
+      "coord2": {
+        "min_error": 673.7786457989373,
+        "min_error_coords": [
+          63,
+          36
+        ],
+        "min_error_step": 377
+      }
+    }
+  },
+  "tipo2_img2647": {
+    "tipo": 2,
+    "imagen_num": 2647,
+    "predictions": {
+      "coord1": {
+        "min_error": 721.3520940468266,
+        "min_error_coords": [
+          13,
+          25
+        ],
+        "min_error_step": 33
+      },
+      "coord2": {
+        "min_error": 570.098711578011,
+        "min_error_coords": [
+          50,
+          24
+        ],
+        "min_error_step": 16
+      }
+    }
+  },
+  "tipo2_img2881": {
+    "tipo": 2,
+    "imagen_num": 2881,
+    "predictions": {
+      "coord1": {
+        "min_error": 1275.7430143980519,
+        "min_error_coords": [
+          18,
+          29
+        ],
+        "min_error_step": 114
+      },
+      "coord2": {
+        "min_error": 880.9168901722215,
+        "min_error_coords": [
+          63,
+          37
+        ],
+        "min_error_step": 406
+      }
+    }
+  },
+  "tipo2_img3351": {
+    "tipo": 2,
+    "imagen_num": 3351,
+    "predictions": {
+      "coord1": {
+        "min_error": 731.0640494036799,
+        "min_error_coords": [
+          18,
+          35
+        ],
+        "min_error_step": 228
+      },
+      "coord2": {
+        "min_error": 443.9199729219524,
+        "min_error_coords": [
+          63,
+          35
+        ],
+        "min_error_step": 348
+      }
+    }
+  },
+  "tipo1_img2": {
+    "tipo": 1,
+    "imagen_num": 2,
+    "predictions": {
+      "coord1": {
+        "min_error": 773.331035029225,
+        "min_error_coords": [
+          9,
+          29
+        ],
+        "min_error_step": 105
+      },
+      "coord2": {
+        "min_error": 599.0122083821618,
+        "min_error_coords": [
+          48,
+          26
+        ],
+        "min_error_step": 72
+      }
+    }
+  },
+  "tipo1_img18": {
+    "tipo": 1,
+    "imagen_num": 18,
+    "predictions": {
+      "coord1": {
+        "min_error": 433.01676796640885,
+        "min_error_coords": [
+          9,
+          35
+        ],
+        "min_error_step": 219
+      },
+      "coord2": {
+        "min_error": 310.08077885098504,
+        "min_error_coords": [
+          60,
+          36
+        ],
+        "min_error_step": 374
+      }
+    }
+  },
+  "tipo1_img403": {
+    "tipo": 1,
+    "imagen_num": 403,
+    "predictions": {
+      "coord1": {
+        "min_error": 503.16208712817007,
+        "min_error_coords": [
+          18,
+          29
+        ],
+        "min_error_step": 114
+      },
+      "coord2": {
+        "min_error": 381.0745828631238,
+        "min_error_coords": [
+          63,
+          36
+        ],
+        "min_error_step": 377
+      }
+    }
+  },
+  "tipo1_img449": {
+    "tipo": 1,
+    "imagen_num": 449,
+    "predictions": {
+      "coord1": {
+        "min_error": 566.0584442564997,
+        "min_error_coords": [
+          16,
+          30
+        ],
+        "min_error_step": 131
+      },
+      "coord2": {
+        "min_error": 476.949300160812,
+        "min_error_coords": [
+          60,
+          30
+        ],
+        "min_error_step": 200
+      }
+    }
+  },
+  "tipo1_img477": {
+    "tipo": 1,
+    "imagen_num": 477,
+    "predictions": {
+      "coord1": {
+        "min_error": 415.54691490245125,
+        "min_error_coords": [
+          10,
+          35
+        ],
+        "min_error_step": 220
+      },
+      "coord2": {
+        "min_error": 273.6493084901622,
+        "min_error_coords": [
+          63,
+          39
+        ],
+        "min_error_step": 464
+      }
+    }
+  },
+  "tipo1_img500": {
+    "tipo": 1,
+    "imagen_num": 500,
+    "predictions": {
+      "coord1": {
+        "min_error": 397.8396526457691,
+        "min_error_coords": [
+          12,
+          37
+        ],
+        "min_error_step": 260
+      },
+      "coord2": {
+        "min_error": 306.5472534822505,
+        "min_error_coords": [
+          48,
+          37
+        ],
+        "min_error_step": 391
+      }
+    }
+  },
+  "tipo1_img526": {
+    "tipo": 1,
+    "imagen_num": 526,
+    "predictions": {
+      "coord1": {
+        "min_error": 507.8318256531328,
+        "min_error_coords": [
+          11,
+          35
+        ],
+        "min_error_step": 221
+      },
+      "coord2": {
+        "min_error": 393.5623288388635,
+        "min_error_coords": [
+          63,
+          34
+        ],
+        "min_error_step": 319
+      }
+    }
+  },
+  "tipo1_img564": {
+    "tipo": 1,
+    "imagen_num": 564,
+    "predictions": {
+      "coord1": {
+        "min_error": 634.3336648947792,
+        "min_error_coords": [
+          15,
+          24
+        ],
+        "min_error_step": 16
+      },
+      "coord2": {
+        "min_error": 513.834745028251,
+        "min_error_coords": [
+          62,
+          24
+        ],
+        "min_error_step": 28
+      }
+    }
+  },
+  "tipo1_img575": {
+    "tipo": 1,
+    "imagen_num": 575,
+    "predictions": {
+      "coord1": {
+        "min_error": 666.7390689894037,
+        "min_error_coords": [
+          6,
+          28
+        ],
+        "min_error_step": 83
+      },
+      "coord2": {
+        "min_error": 524.5624390603629,
+        "min_error_coords": [
+          63,
+          31
+        ],
+        "min_error_step": 232
+      }
+    }
+  },
+  "tipo1_img584": {
+    "tipo": 1,
+    "imagen_num": 584,
+    "predictions": {
+      "coord1": {
+        "min_error": 834.3271396343063,
+        "min_error_coords": [
+          7,
+          32
+        ],
+        "min_error_step": 160
+      },
+      "coord2": {
+        "min_error": 719.4936853222508,
+        "min_error_coords": [
+          63,
+          32
+        ],
+        "min_error_step": 261
+      }
+    }
+  },
+  "tipo1_img605": {
+    "tipo": 1,
+    "imagen_num": 605,
+    "predictions": {
+      "coord1": {
+        "min_error": 601.6861730231199,
+        "min_error_coords": [
+          10,
+          28
+        ],
+        "min_error_step": 87
+      },
+      "coord2": {
+        "min_error": 487.87902928911814,
+        "min_error_coords": [
+          55,
+          30
+        ],
+        "min_error_step": 195
+      }
+    }
+  },
+  "tipo1_img642": {
+    "tipo": 1,
+    "imagen_num": 642,
+    "predictions": {
+      "coord1": {
+        "min_error": 494.84132290150734,
+        "min_error_coords": [
+          17,
+          29
+        ],
+        "min_error_step": 113
+      },
+      "coord2": {
+        "min_error": 397.19688033422347,
+        "min_error_coords": [
+          63,
+          28
+        ],
+        "min_error_step": 145
+      }
+    }
+  },
+  "tipo1_img727": {
+    "tipo": 1,
+    "imagen_num": 727,
+    "predictions": {
+      "coord1": {
+        "min_error": 463.7355902979327,
+        "min_error_coords": [
+          9,
+          30
+        ],
+        "min_error_step": 124
+      },
+      "coord2": {
+        "min_error": 369.38359406787754,
+        "min_error_coords": [
+          62,
+          30
+        ],
+        "min_error_step": 202
+      }
+    }
+  },
+  "tipo1_img782": {
+    "tipo": 1,
+    "imagen_num": 782,
+    "predictions": {
+      "coord1": {
+        "min_error": 637.9824340755018,
+        "min_error_coords": [
+          7,
+          30
+        ],
+        "min_error_step": 122
+      },
+      "coord2": {
+        "min_error": 550.8845207533782,
+        "min_error_coords": [
+          57,
+          32
+        ],
+        "min_error_step": 255
+      }
+    }
+  },
+  "tipo1_img914": {
+    "tipo": 1,
+    "imagen_num": 914,
+    "predictions": {
+      "coord1": {
+        "min_error": 406.27364408211025,
+        "min_error_coords": [
+          14,
+          39
+        ],
+        "min_error_step": 300
+      },
+      "coord2": {
+        "min_error": 303.8034555364275,
+        "min_error_coords": [
+          63,
+          32
+        ],
+        "min_error_step": 261
+      }
+    }
+  },
+  "tipo1_img947": {
+    "tipo": 1,
+    "imagen_num": 947,
+    "predictions": {
+      "coord1": {
+        "min_error": 337.7411179181958,
+        "min_error_coords": [
+          8,
+          40
+        ],
+        "min_error_step": 313
+      },
+      "coord2": {
+        "min_error": 265.5696468903755,
+        "min_error_coords": [
+          56,
+          38
+        ],
+        "min_error_step": 428
+      }
+    }
+  },
+  "tipo1_img972": {
+    "tipo": 1,
+    "imagen_num": 972,
+    "predictions": {
+      "coord1": {
+        "min_error": 393.3588849568331,
+        "min_error_coords": [
+          16,
+          26
+        ],
+        "min_error_step": 55
+      },
+      "coord2": {
+        "min_error": 288.979707910871,
+        "min_error_coords": [
+          59,
+          25
+        ],
+        "min_error_step": 54
+      }
+    }
+  },
+  "tipo1_img979": {
+    "tipo": 1,
+    "imagen_num": 979,
+    "predictions": {
+      "coord1": {
+        "min_error": 311.9941251189118,
+        "min_error_coords": [
+          15,
+          37
+        ],
+        "min_error_step": 263
+      },
+      "coord2": {
+        "min_error": 230.53110391712337,
+        "min_error_coords": [
+          57,
+          38
+        ],
+        "min_error_step": 429
+      }
+    }
+  },
+  "tipo1_img998": {
+    "tipo": 1,
+    "imagen_num": 998,
+    "predictions": {
+      "coord1": {
+        "min_error": 616.5190314803544,
+        "min_error_coords": [
+          18,
+          24
+        ],
+        "min_error_step": 19
+      },
+      "coord2": {
+        "min_error": 416.4495233876016,
+        "min_error_coords": [
+          63,
+          24
+        ],
+        "min_error_step": 29
+      }
+    }
+  },
+  "tipo1_img1028": {
+    "tipo": 1,
+    "imagen_num": 1028,
+    "predictions": {
+      "coord1": {
+        "min_error": 393.0183566028365,
+        "min_error_coords": [
+          14,
+          36
+        ],
+        "min_error_step": 243
+      },
+      "coord2": {
+        "min_error": 318.96999097144806,
+        "min_error_coords": [
+          63,
+          36
+        ],
+        "min_error_step": 377
+      }
+    }
+  },
+  "tipo1_img1088": {
+    "tipo": 1,
+    "imagen_num": 1088,
+    "predictions": {
+      "coord1": {
+        "min_error": 578.2872671016103,
+        "min_error_coords": [
+          18,
+          39
+        ],
+        "min_error_step": 304
+      },
+      "coord2": {
+        "min_error": 462.6593996994379,
+        "min_error_coords": [
+          50,
+          35
+        ],
+        "min_error_step": 335
+      }
+    }
+  },
+  "tipo1_img1103": {
+    "tipo": 1,
+    "imagen_num": 1103,
+    "predictions": {
+      "coord1": {
+        "min_error": 782.4030232991229,
+        "min_error_coords": [
+          18,
+          25
+        ],
+        "min_error_step": 38
+      },
+      "coord2": {
+        "min_error": 532.5564279972186,
+        "min_error_coords": [
+          63,
+          24
+        ],
+        "min_error_step": 29
+      }
+    }
+  },
+  "tipo1_img1137": {
+    "tipo": 1,
+    "imagen_num": 1137,
+    "predictions": {
+      "coord1": {
+        "min_error": 488.46369873384447,
+        "min_error_coords": [
+          14,
+          27
+        ],
+        "min_error_step": 72
+      },
+      "coord2": {
+        "min_error": 392.828471206703,
+        "min_error_coords": [
+          63,
+          27
+        ],
+        "min_error_step": 116
+      }
+    }
+  },
+  "tipo1_img1258": {
+    "tipo": 1,
+    "imagen_num": 1258,
+    "predictions": {
+      "coord1": {
+        "min_error": 507.0378488884839,
+        "min_error_coords": [
+          18,
+          27
+        ],
+        "min_error_step": 76
+      },
+      "coord2": {
+        "min_error": 408.61250745540866,
+        "min_error_coords": [
+          63,
+          26
+        ],
+        "min_error_step": 87
+      }
+    }
+  },
+  "tipo1_img1454": {
+    "tipo": 1,
+    "imagen_num": 1454,
+    "predictions": {
+      "coord1": {
+        "min_error": 556.0007310078283,
+        "min_error_coords": [
+          16,
+          27
+        ],
+        "min_error_step": 74
+      },
+      "coord2": {
+        "min_error": 443.3154883786605,
+        "min_error_coords": [
+          63,
+          29
+        ],
+        "min_error_step": 174
+      }
+    }
+  },
+  "tipo1_img1498": {
+    "tipo": 1,
+    "imagen_num": 1498,
+    "predictions": {
+      "coord1": {
+        "min_error": 358.387576852493,
+        "min_error_coords": [
+          12,
+          34
+        ],
+        "min_error_step": 203
+      },
+      "coord2": {
+        "min_error": 287.6171475373171,
+        "min_error_coords": [
+          63,
+          35
+        ],
+        "min_error_step": 348
+      }
+    }
+  },
+  "tipo1_img1540": {
+    "tipo": 1,
+    "imagen_num": 1540,
+    "predictions": {
+      "coord1": {
+        "min_error": 326.1465898332589,
+        "min_error_coords": [
+          6,
+          40
+        ],
+        "min_error_step": 311
+      },
+      "coord2": {
+        "min_error": 248.99503057074756,
+        "min_error_coords": [
+          57,
+          41
+        ],
+        "min_error_step": 516
+      }
+    }
+  },
+  "tipo1_img1558": {
+    "tipo": 1,
+    "imagen_num": 1558,
+    "predictions": {
+      "coord1": {
+        "min_error": 385.2139651710451,
+        "min_error_coords": [
+          14,
+          28
+        ],
+        "min_error_step": 91
+      },
+      "coord2": {
+        "min_error": 325.4288877790869,
+        "min_error_coords": [
+          48,
+          29
+        ],
+        "min_error_step": 159
+      }
+    }
+  },
+  "tipo1_img1591": {
+    "tipo": 1,
+    "imagen_num": 1591,
+    "predictions": {
+      "coord1": {
+        "min_error": 468.1666896029627,
+        "min_error_coords": [
+          16,
+          34
+        ],
+        "min_error_step": 207
+      },
+      "coord2": {
+        "min_error": 401.12156748814317,
+        "min_error_coords": [
+          55,
+          35
+        ],
+        "min_error_step": 340
+      }
+    }
+  },
+  "tipo1_img1751": {
+    "tipo": 1,
+    "imagen_num": 1751,
+    "predictions": {
+      "coord1": {
+        "min_error": 580.7654317396964,
+        "min_error_coords": [
+          4,
+          37
+        ],
+        "min_error_step": 252
+      },
+      "coord2": {
+        "min_error": 494.54438060506425,
+        "min_error_coords": [
+          46,
+          38
+        ],
+        "min_error_step": 418
+      }
+    }
+  },
+  "tipo1_img1785": {
+    "tipo": 1,
+    "imagen_num": 1785,
+    "predictions": {
+      "coord1": {
+        "min_error": 514.3315822279691,
+        "min_error_coords": [
+          10,
+          38
+        ],
+        "min_error_step": 277
+      },
+      "coord2": {
+        "min_error": 380.49009686156427,
+        "min_error_coords": [
+          63,
+          35
+        ],
+        "min_error_step": 348
+      }
+    }
+  },
+  "tipo1_img1935": {
+    "tipo": 1,
+    "imagen_num": 1935,
+    "predictions": {
+      "coord1": {
+        "min_error": 636.9758745175355,
+        "min_error_coords": [
+          18,
+          32
+        ],
+        "min_error_step": 171
+      },
+      "coord2": {
+        "min_error": 493.65245867005336,
+        "min_error_coords": [
+          55,
+          32
+        ],
+        "min_error_step": 253
+      }
+    }
+  },
+  "tipo1_img2242": {
+    "tipo": 1,
+    "imagen_num": 2242,
+    "predictions": {
+      "coord1": {
+        "min_error": 511.1395959038699,
+        "min_error_coords": [
+          15,
+          32
+        ],
+        "min_error_step": 168
+      },
+      "coord2": {
+        "min_error": 406.56470281607204,
+        "min_error_coords": [
+          53,
+          32
+        ],
+        "min_error_step": 251
+      }
+    }
+  },
+  "tipo1_img2281": {
+    "tipo": 1,
+    "imagen_num": 2281,
+    "predictions": {
+      "coord1": {
+        "min_error": 571.3798502790271,
+        "min_error_coords": [
+          14,
+          29
+        ],
+        "min_error_step": 110
+      },
+      "coord2": {
+        "min_error": 455.7847852931626,
+        "min_error_coords": [
+          59,
+          31
+        ],
+        "min_error_step": 228
+      }
+    }
+  },
+  "tipo1_img2287": {
+    "tipo": 1,
+    "imagen_num": 2287,
+    "predictions": {
+      "coord1": {
+        "min_error": 620.451751948369,
+        "min_error_coords": [
+          1,
+          27
+        ],
+        "min_error_step": 59
+      },
+      "coord2": {
+        "min_error": 485.80733527699476,
+        "min_error_coords": [
+          42,
+          27
+        ],
+        "min_error_step": 95
+      }
+    }
+  },
+  "tipo1_img2426": {
+    "tipo": 1,
+    "imagen_num": 2426,
+    "predictions": {
+      "coord1": {
+        "min_error": 386.3615690593854,
+        "min_error_coords": [
+          15,
+          31
+        ],
+        "min_error_step": 149
+      },
+      "coord2": {
+        "min_error": 275.34845298130443,
+        "min_error_coords": [
+          61,
+          30
+        ],
+        "min_error_step": 201
+      }
+    }
+  },
+  "tipo1_img2536": {
+    "tipo": 1,
+    "imagen_num": 2536,
+    "predictions": {
+      "coord1": {
+        "min_error": 318.18414800552875,
+        "min_error_coords": [
+          6,
+          27
+        ],
+        "min_error_step": 64
+      },
+      "coord2": {
+        "min_error": 228.15284219218069,
+        "min_error_coords": [
+          51,
+          26
+        ],
+        "min_error_step": 75
+      }
+    }
+  },
+  "tipo1_img2594": {
+    "tipo": 1,
+    "imagen_num": 2594,
+    "predictions": {
+      "coord1": {
+        "min_error": 549.8547080615266,
+        "min_error_coords": [
+          9,
+          31
+        ],
+        "min_error_step": 143
+      },
+      "coord2": {
+        "min_error": 393.47968464487826,
+        "min_error_coords": [
+          63,
+          29
+        ],
+        "min_error_step": 174
+      }
+    }
+  },
+  "tipo1_img2616": {
+    "tipo": 1,
+    "imagen_num": 2616,
+    "predictions": {
+      "coord1": {
+        "min_error": 559.6944302923304,
+        "min_error_coords": [
+          16,
+          29
+        ],
+        "min_error_step": 112
+      },
+      "coord2": {
+        "min_error": 427.6043943762234,
+        "min_error_coords": [
+          62,
+          28
+        ],
+        "min_error_step": 144
+      }
+    }
+  },
+  "tipo1_img2705": {
+    "tipo": 1,
+    "imagen_num": 2705,
+    "predictions": {
+      "coord1": {
+        "min_error": 392.23820745798514,
+        "min_error_coords": [
+          14,
+          39
+        ],
+        "min_error_step": 300
+      },
+      "coord2": {
+        "min_error": 295.64914396598266,
+        "min_error_coords": [
+          52,
+          41
+        ],
+        "min_error_step": 511
+      }
+    }
+  }
+}
