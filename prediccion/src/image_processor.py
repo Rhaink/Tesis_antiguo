@@ -102,8 +102,8 @@ class ImageProcessor:
         images = []
         for img_path in training_dir.glob("*.png"):
             try:
-                # Cargar imagen sin redimensionar
-                image = cv2.imread(str(img_path))
+                # Cargar imagen 
+                image = cv2.imread(str(img_path), cv2.IMREAD_UNCHANGED)
                 if image is None:
                     raise ValueError(f"No se pudo cargar la imagen: {img_path}")
                     
@@ -115,12 +115,7 @@ class ImageProcessor:
                         f"obtenido {image.shape[:2]}"
                     )
                     
-                # Aplicar mejora de contraste SAHS
-                enhanced_image = self.contrast_enhancer.enhance_contrast_sahs(image)
-                if enhanced_image is None:
-                    enhanced_image = image
-                    
-                images.append(enhanced_image)
+                images.append(image)
             except Exception as e:
                 print(f"Error cargando {img_path}: {str(e)}")
                 continue
