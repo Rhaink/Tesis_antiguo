@@ -72,17 +72,21 @@ class TemplateAnalyzer:
         sup = min(y_coords)
         inf = max(y_coords)
         
-        # Calcular dimensiones
-        width = right - left + 1
-        height = inf - sup + 1
+        # Calcular dimensiones para coordenadas 0-based
+        # Ejemplo: si tenemos puntos en x=5 y x=7
+        # Necesitamos incluir todos los puntos: 5,6,7
+        # right-left = 7-5 = 2 (espacios entre puntos)
+        # width = 7-5+1 = 3 (número total de puntos)
+        width = right - left + 1   # Número total de puntos en X
+        height = inf - sup + 1     # Número total de puntos en Y
         
         return {
-            "sup": sup,
-            "inf": inf,
-            "left": left,
-            "right": right,
-            "width": width,
-            "height": height
+            "sup": sup,     # y mínima (0-based)
+            "inf": inf,     # y máxima (0-based)
+            "left": left,   # x mínima (0-based)
+            "right": right, # x máxima (0-based)
+            "width": width, # Número total de puntos en X (incluyendo extremos)
+            "height": height # Número total de puntos en Y (incluyendo extremos)
         }
         
     def calculate_template_distances(self, search_region: np.ndarray, template_size: int = 64) -> Tuple[int, int, int, int]:
@@ -113,10 +117,10 @@ class TemplateAnalyzer:
         min_x, max_x = non_zero[1].min(), non_zero[1].max()
         
         # Calcular distancias desde los límites de la región al template
-        d = min_y  # Distancia desde el borde superior (antes era a)
-        c = 63 - max_x  # Distancia desde el borde derecho (antes era b)
-        b = 63 - max_y  # Distancia desde el borde inferior (antes era c)
-        a = min_x  # Distancia desde el borde izquierdo (antes era d)
+        a = min_y  # Distancia desde el borde superior
+        b = 63 - max_x  # Distancia desde el borde derecho 
+        c = 63 - max_y  # Distancia desde el borde inferior 
+        d = min_x  # Distancia desde el borde izquierdo 
         
         # Validar que las distancias son válidas
         if a + c >= template_size:
@@ -131,14 +135,14 @@ class TemplateAnalyzer:
         Crea una matriz binaria 64x64 con la región de búsqueda.
         
         Args:
-            coord_points: Lista de coordenadas [x,y]
+            coord_points: Lista de coordenadas [x,y] en formato 0-based (0-63)
             
         Returns:
             Matriz binaria con la región de búsqueda
         """
         search_region = np.zeros((64, 64))
         for x, y in coord_points:
-            search_region[y-1, x-1] = 1  # Convertir de 1-based a 0-based
+            search_region[x, y] = 1  # Coordenadas ya están en 0-based
         return search_region
         
     def create_cutting_template(self, a: int, b: int, c: int, d: int) -> np.ndarray:
@@ -234,8 +238,8 @@ class TemplateAnalyzer:
                 a, b, c, d = self.calculate_template_distances(search_region)
                 
                 # Calcular dimensiones del template
-                height = c + a  # Suma de las distancias verticales
-                width = b + d   # Suma de las distancias horizontales
+                height = 63 - (c + a)  # Suma de las distancias verticales
+                width = 63 - (b + d)   # Suma de las distancias horizontales
                 
                 # Crear template de recorte
                 template = self.create_cutting_template(a, b, c, d)
@@ -257,8 +261,8 @@ class TemplateAnalyzer:
                         "max_x": int(d + width),
                         "min_y": int(a),
                         "max_y": int(a + height),
-                        "width": int(width),
-                        "height": int(height)
+                        "width": int(d+b),
+                        "height": int(a+c)
                     },
                     "intersection_point": {
                         "x": int(intersection_point[0]),

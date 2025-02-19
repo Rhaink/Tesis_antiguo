@@ -1,0 +1,10 @@
+{
+  "coord2": {
+    "min_error": 0.15291155287930103,
+    "min_error_coords": [
+      41,
+      35
+    ],
+    "min_error_step": 49
+  }
+}

@@ -9,6 +9,8 @@ from pathlib import Path
 import pandas as pd
 import json
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # Configure matplotlib to use non-interactive backend
 import matplotlib.pyplot as plt
 from typing import Dict, List, Tuple
 
@@ -53,21 +55,32 @@ def load_ground_truth(csv_path: str) -> Dict[str, Dict[str, Tuple[int, int]]]:
         # El último valor es el ID de la imagen
         image_id = str(row.iloc[-1])
         
-        # Determinar tipo y número de imagen
-        if image_id.startswith('Normal-'):
-            tipo = 2
-            num = int(image_id.split('-')[1])
-        elif image_id.startswith('COVID-'):
-            tipo = 1
-            num = int(image_id.split('-')[1])
-        else:  # Es un número directo
-            num = int(image_id)
-            # Usar el mapeo de índices para determinar el tipo
-            indices_mapping = load_indices_mapping()
-            tipo = indices_mapping.get(num)
-            if tipo is None:
-                print(f"Advertencia: No se encontró tipo para imagen {num}")
-                continue
+        # Limpiar el path del ID si existe y normalizar formato
+        if '\\' in image_id:
+            image_id = image_id.split('\\')[-1]
+        
+        try:
+            # Intentar diferentes formatos
+            if 'Normal-' in image_id:
+                tipo = 2
+                num = int(image_id.split('-')[1])
+            elif 'COVID-' in image_id:
+                tipo = 1
+                num = int(image_id.split('-')[1])
+            elif 'Viral Pneumonia-' in image_id:
+                tipo = 3
+                num = int(image_id.split('-')[1])
+            else:  # Es un número directo
+                num = int(image_id)
+                # Usar el mapeo de índices para determinar el tipo
+                indices_mapping = load_indices_mapping()
+                tipo = indices_mapping.get(num)
+                if tipo is None:
+                    print(f"Advertencia: No se encontró tipo para imagen {num}")
+                    continue
+        except ValueError as e:
+            print(f"Advertencia: ID de imagen no válido: {image_id}")
+            continue
         
         image_key = f"tipo{tipo}_img{num}"
         
@@ -195,6 +208,16 @@ def analyze_results(ground_truth: Dict,
         plt.title(f'Distribución de Distancias - {coord_name}')
         plt.xlabel('Distancia (píxeles)')
         plt.ylabel('Frecuencia')
+        # Agregar texto con estadísticas
+        stats_text = f"Media: {stats[coord_name]['total']['mean']:.2f} px\n"
+        stats_text += f"Mediana: {stats[coord_name]['total']['median']:.2f} px\n"
+        stats_text += f"Min: {stats[coord_name]['total']['min']:.2f} px\n"
+        stats_text += f"Max: {stats[coord_name]['total']['max']:.2f} px"
+        plt.text(0.95, 0.95, stats_text,
+                transform=plt.gca().transAxes,
+                verticalalignment='top',
+                horizontalalignment='right',
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
         plt.savefig(output_path / f'{coord_name}_distances_hist.png')
         plt.close()
         
@@ -207,13 +230,46 @@ def analyze_results(ground_truth: Dict,
             if data:  # Solo crear el plot si hay datos
                 tipo_labels = {1: 'COVID', 2: 'Normal', 3: 'Viral Pneumonia'}
                 labels = [tipo_labels[t] for t in valid_types]
-                plt.boxplot(data, labels=labels)
+                box = plt.boxplot(data, tick_labels=labels)
                 plt.title(f'Distribución de Distancias por Tipo - {coord_name}')
                 plt.ylabel('Distancia (píxeles)')
-                plt.savefig(output_path / f'{coord_name}_distances_boxplot.png')
+                
+                # Agregar texto con estadísticas por tipo
+                stats_text = ""
+                for i, tipo in enumerate(valid_types):
+                    stats_text += f"{tipo_labels[tipo]}:\n"
+                    stats_text += f"  Media: {stats[coord_name][f'tipo_{tipo}']['mean']:.2f} px\n"
+                    stats_text += f"  Mediana: {stats[coord_name][f'tipo_{tipo}']['median']:.2f} px\n"
+                    stats_text += f"  Min: {stats[coord_name][f'tipo_{tipo}']['min']:.2f} px\n"
+                    stats_text += f"  Max: {stats[coord_name][f'tipo_{tipo}']['max']:.2f} px\n\n"
+                plt.text(1.15, 0.95, stats_text,
+                        transform=plt.gca().transAxes,
+                        verticalalignment='top',
+                        horizontalalignment='left',
+                        bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+                plt.tight_layout()  # Ajustar layout para acomodar el texto
+                plt.savefig(output_path / f'{coord_name}_distances_boxplot.png', 
+                          bbox_inches='tight')  # Guardar incluyendo el texto
             plt.close()
         except Exception as e:
             print(f"Error creando boxplot para {coord_name}: {e}")
+        
+        # Crear tabla con todas las distancias
+        df = pd.DataFrame(columns=['Imagen', 'Tipo', 'Ground Truth', 'Predicción', 'Distancia (px)'])
+        rows = []
+        for image_key, data in results.items():
+            if coord_name in data:
+                tipo = int(image_key.split('_')[0][-1])
+                rows.append({
+                    'Imagen': image_key,
+                    'Tipo': tipo_labels[tipo],
+                    'Ground Truth': str(data[coord_name]['ground_truth']),
+                    'Predicción': str(data[coord_name]['prediction']),
+                    'Distancia (px)': f"{data[coord_name]['distance']:.2f}"
+                })
+        df = pd.DataFrame(rows)
+        # Guardar como CSV
+        df.to_csv(output_path / f'{coord_name}_distances_table.csv', index=False)
 
 def main():
     """Función principal del script."""

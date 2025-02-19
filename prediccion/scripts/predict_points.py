@@ -220,7 +220,7 @@ def main():
     parser.add_argument(
         "--image_path",
         type=str,
-        default=str(PROJECT_ROOT / "COVID-19_Radiography_Dataset/Normal/images/Normal-3.png"),
+        default=str(PROJECT_ROOT / "COVID-19_Radiography_Dataset/Normal/images/Normal-4.png"),
         help="Ruta de la imagen a analizar"
     )
     

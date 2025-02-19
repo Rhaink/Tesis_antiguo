@@ -2,7 +2,7 @@
 Módulo para el procesamiento de templates y visualizaciones de recorte de imágenes.
 
 Este módulo proporciona funciones para:
-- Cálculo de distancias de template
+- Cálculo de distancias de template (sistema 0-based)
 - Creación de templates de recorte
 - Gestión de visualizaciones
 """
@@ -13,22 +13,13 @@ import seaborn as sns
 import json
 from pathlib import Path
 from typing import Tuple, Dict, Optional
-"""
-Módulo para el procesamiento de templates y visualizaciones de recorte de imágenes.
-
-Este módulo proporciona funciones para:
-- Cálculo de distancias de template
-- Creación de templates de recorte
-- Visualización de cada paso del proceso
-"""
-
 
 class TemplateProcessor:
     """
     Clase para el procesamiento de templates y visualizaciones.
     
     Esta clase maneja:
-    - Cálculo de distancias desde regiones de búsqueda
+    - Cálculo de distancias desde regiones de búsqueda (0-based)
     - Creación de templates de recorte
     - Generación de visualizaciones para cada paso
     """
@@ -65,6 +56,36 @@ class TemplateProcessor:
             print(f"Error cargando archivo de datos pre-calculados: {str(e)}")
             return {}
     
+    def _validate_coordinates(self, x: int, y: int, context: str = "") -> None:
+        """
+        Valida que las coordenadas estén en el rango 0-63.
+        
+        Args:
+            x (int): Coordenada x
+            y (int): Coordenada y
+            context (str): Contexto para el mensaje de error
+            
+        Raises:
+            ValueError: Si las coordenadas están fuera de rango
+        """
+        if not (0 <= x <= 63 and 0 <= y <= 63):
+            raise ValueError(
+                f"Coordenadas fuera de rango (0-63) {context}: ({x}, {y})"
+            )
+            
+    def _validate_point(self, point: Tuple[int, int], context: str = "") -> None:
+        """
+        Valida que un punto (x,y) esté en el rango 0-63.
+        
+        Args:
+            point: Tuple con coordenadas (x,y)
+            context: Contexto para el mensaje de error
+            
+        Raises:
+            ValueError: Si el punto está fuera de rango
+        """
+        self._validate_coordinates(point[0], point[1], context)
+    
     def validate_coord_name(self, coord_name: str) -> None:
         """
         Valida que el nombre de coordenada sea coord1 o coord2.
@@ -97,16 +118,20 @@ class TemplateProcessor:
     def validate_intersection_point(self, x: int, y: int, a: int, b: int, c: int, d: int) -> bool:
         """
         Valida que el punto de intersección está dentro de los límites válidos.
+        Todas las coordenadas se manejan en sistema 0-based (0-63).
         
         Args:
-            x: Coordenada x del punto de intersección (d)
-            y: Coordenada y del punto de intersección (c)
-            a,b,c,d: Distancias calculadas
+            x: Coordenada x del punto de intersección
+            y: Coordenada y del punto de intersección
+            a,b,c,d: Distancias calculadas en sistema 0-based
             
         Returns:
-            bool: True si el punto es válido, False en caso contrario
+            bool: True si el punto es válido
+            
+        Raises:
+            ValueError: Si el punto está fuera de rango
         """
-        # El punto (d,c) siempre es válido si las distancias son válidas
+        self._validate_coordinates(x, y, "punto de intersección")
         return True
 
     def calculate_template_distances(self, 
@@ -114,13 +139,14 @@ class TemplateProcessor:
                                   template_size: int = 64) -> Tuple[int, int, int, int]:
         """
         Calcula las distancias a,b,c,d desde la región de búsqueda al template original.
+        Todas las distancias se calculan en sistema 0-based (0-63).
         
         Args:
-            search_region: Matriz binaria con la región de búsqueda
+            search_region: Matriz binaria con la región de búsqueda (0-based)
             template_size: Tamaño del template original
             
         Returns:
-            Tuple con las distancias (a,b,c,d)
+            Tuple[int, int, int, int]: Distancias (a,b,c,d) en sistema 0-based
             
         Raises:
             ValueError: Si las dimensiones son inválidas o la región está vacía
@@ -141,23 +167,23 @@ class TemplateProcessor:
         min_y, max_y = non_zero[0].min(), non_zero[0].max()
         min_x, max_x = non_zero[1].min(), non_zero[1].max()
         
-        # Calcular distancias con límites
-        a = min_y  # Distancia desde el borde superior
-        d = min_x  # Distancia desde el borde izquierdo
+        # Validar que los límites están en rango 0-63
+        for val, name in [(min_y, "min_y"), (max_y, "max_y"), 
+                         (min_x, "min_x"), (max_x, "max_x")]:
+            if not (0 <= val <= 63):
+                raise ValueError(f"Límite {name}={val} fuera del rango 0-63")
         
-        # Calcular ancho y alto de la región
-        region_width = max_x - min_x + 1
-        region_height = max_y - min_y + 1
+        # Calcular distancias (todo en sistema 0-based)
+        a = min_y      # Distancia desde el borde superior (0-based)
+        d = min_x      # Distancia desde el borde izquierdo (0-based)
+        b = 63 - max_x # Distancia al borde derecho (0-based)
+        c = 63 - max_y # Distancia al borde inferior (0-based)
         
-        # Calcular distancias al final
-        b = 63 - max_x  # Distancia al borde derecho
-        c = 63 - max_y  # Distancia al borde inferior
-        
-        # Validar distancias
+        # Validar que las distancias son válidas
         if a + c >= 64:
-            raise ValueError(f"Las distancias verticales a({a})+c({c}) suman más que el tamaño del template")
+            raise ValueError(f"Las distancias verticales a({a})+c({c}) exceden el rango 0-63")
         if b + d >= 64:
-            raise ValueError(f"Las distancias horizontales b({b})+d({d}) suman más que el tamaño del template")
+            raise ValueError(f"Las distancias horizontales b({b})+d({d}) exceden el rango 0-63")
             
         return a, b, c, d
 
@@ -169,23 +195,29 @@ class TemplateProcessor:
                               template_size: int = 64) -> np.ndarray:
         """
         Crea el template de recorte basado en las distancias calculadas.
+        Todas las distancias deben estar en sistema 0-based (0-63).
         
         Args:
-            a: Distancia al borde superior
-            b: Distancia al borde derecho
-            c: Distancia al borde inferior
-            d: Distancia al borde izquierdo
+            a: Distancia al borde superior (0-based)
+            b: Distancia al borde derecho (0-based)
+            c: Distancia al borde inferior (0-based)
+            d: Distancia al borde izquierdo (0-based)
             template_size: Tamaño del template
             
         Returns:
-            Matriz binaria con el template de recorte
+            np.ndarray: Matriz binaria con el template de recorte
             
         Raises:
             ValueError: Si las dimensiones son inválidas
         """
+        # Validar que las distancias están en rango
+        for val, name in [(a, "a"), (b, "b"), (c, "c"), (d, "d")]:
+            if not (0 <= val <= 63):
+                raise ValueError(f"Distancia {name}={val} fuera del rango 0-63")
+        
         template = np.zeros((template_size, template_size))
         
-        # Calcular dimensiones del cuadrilátero
+        # Calcular dimensiones del cuadrilátero (en sistema 0-based)
         height = c + a  # Suma de distancias verticales
         width = b + d   # Suma de distancias horizontales
         
@@ -195,40 +227,15 @@ class TemplateProcessor:
         if width <= 0:
             raise ValueError(f"Ancho inválido: {width} (b={b}, d={d})")
         
-        # Validar y ajustar coordenadas
-        if a < 0:
-            a = 0
-        if d < 0:
-            d = 0
-            
-        # Ajustar dimensiones si exceden límites
-        if a + height > template_size:
-            total = a + c
-            if total > 0:
-                ratio_a = a / total
-                ratio_c = c / total
-                new_height = template_size - a
-                c = int(new_height * ratio_c)
-                height = c + a
-        
-        if d + width > template_size:
-            total = b + d
-            if total > 0:
-                ratio_d = d / total
-                ratio_b = b / total
-                new_width = template_size - d
-                b = int(new_width * ratio_b)
-                width = b + d
-        
-        # Verificar dimensiones finales
+        # Validar dimensiones finales
         if a >= template_size or d >= template_size:
             raise ValueError(f"Coordenadas fuera de rango: a={a}, d={d}")
         if height <= 0 or width <= 0:
-            raise ValueError(f"Dimensiones inválidas después de ajuste: {width}x{height}")
+            raise ValueError(f"Dimensiones inválidas: {width}x{height}")
         if a + height > template_size or d + width > template_size:
-            raise ValueError(f"Template excede límites después de ajuste: ({d},{a}) + {width}x{height}")
+            raise ValueError(f"Template excede límites: ({d},{a}) + {width}x{height}")
         
-        # Crear template
+        # Crear template (coordenadas 0-based)
         template[a:a+height, d:d+width] = 1
         
         return template
@@ -237,59 +244,73 @@ class TemplateProcessor:
                                    local_point: Tuple[int, int],
                                    template: np.ndarray) -> Tuple[int, int]:
         """
-        Transforma el punto de intersección del sistema local al sistema 64x64.
+        Transforma el punto de intersección del sistema local al sistema 64x64 (0-based).
         
         Args:
-            local_point: Punto (d,a) en coordenadas del template recortado
-            template: Template completo 64x64
+            local_point: Punto (x,y) en coordenadas del template (0-based)
+            template: Template completo 64x64 (0-based)
             
         Returns:
-            Punto transformado al sistema 64x64
+            Tuple[int, int]: Punto transformado al sistema 64x64 (0-based)
+            
+        Raises:
+            ValueError: Si las coordenadas están fuera de rango
         """
         # Obtener límites del template
         non_zero = np.nonzero(template)
-        min_y = non_zero[0].min()  # Offset vertical
-        min_x = non_zero[1].min()  # Offset horizontal
+        if len(non_zero[0]) == 0:
+            raise ValueError("Template vacío")
+            
+        min_y = non_zero[0].min()  # Offset vertical (0-based)
+        min_x = non_zero[1].min()  # Offset horizontal (0-based)
         
         # Transformar sumando offsets
-        x = min_x + local_point[0]
-        y = min_y + local_point[1]
+        x = min_x + local_point[0]  # Mantiene sistema 0-based
+        y = min_y + local_point[1]  # Mantiene sistema 0-based
+        
+        # Validar rango 0-63
+        self._validate_coordinates(x, y, "punto transformado")
         
         return (x, y)
 
     def validate_template_bounds(self, template, labeled_point, intersection_point):
         """
         Valida que el template mantenga sus dimensiones dentro de los límites.
+        Todas las coordenadas se validan en sistema 0-based (0-63).
         
         Args:
-            template: Template de recorte
-            labeled_point: Coordenadas del punto etiquetado
-            intersection_point: Coordenadas del punto de intersección
+            template: Template de recorte (matriz 64x64)
+            labeled_point: Coordenadas (x,y) del punto etiquetado (0-based)
+            intersection_point: Coordenadas (x,y) del punto de intersección (0-based)
             
         Returns:
-            Dict con información de dimensiones y límites validados
+            Dict: Información de dimensiones y límites validados
             
         Raises:
             ValueError: Si las dimensiones o coordenadas son inválidas
         """
+        # Validar puntos en rango 0-63
+        self._validate_point(labeled_point, "punto etiquetado")
+        self._validate_point(intersection_point, "punto de intersección")
+        
         # Obtener dimensiones del template
         non_zero = np.nonzero(template)
         min_y, max_y = non_zero[0].min(), non_zero[0].max()
         min_x, max_x = non_zero[1].min(), non_zero[1].max()
+        
+        # Validar límites en rango 0-63
+        for val, name in [(min_y, "min_y"), (max_y, "max_y"),
+                         (min_x, "min_x"), (max_x, "max_x")]:
+            if not (0 <= val <= 63):
+                raise ValueError(f"Límite {name}={val} fuera del rango 0-63")
+        
+        # Calcular dimensiones
         height = max_y - min_y + 1
         width = max_x - min_x + 1
         
-        # Verificar dimensiones originales
+        # Verificar dimensiones
         if width > 64 or height > 64:
-            raise ValueError(f"Template original excede límites: {width}x{height}")
-        
-        # Verificar punto de intersección
-        if not (0 <= intersection_point[0] < 64 and 0 <= intersection_point[1] < 64):
-            raise ValueError(f"Punto de intersección fuera de límites: {intersection_point}")
-        
-        # Verificar punto etiquetado
-        if not (0 <= labeled_point[0] < 64 and 0 <= labeled_point[1] < 64):
-            raise ValueError(f"Punto etiquetado fuera de límites: {labeled_point}")
+            raise ValueError(f"Template excede límites: {width}x{height}")
         
         return {
             'width': width,
@@ -309,16 +330,24 @@ class TemplateProcessor:
                           intersection_point: Tuple[int, int]) -> np.ndarray:
         """
         Recorta la imagen usando el template alineado con el punto etiquetado.
+        Todas las coordenadas se manejan en sistema 0-based (0-63).
         
         Args:
             image: Imagen original
-            template: Template de recorte
-            labeled_point: Coordenadas del punto etiquetado
-            intersection_point: Coordenadas del punto de intersección local (d,a)
+            template: Template de recorte (matriz 64x64)
+            labeled_point: Coordenadas (x,y) del punto etiquetado (0-based)
+            intersection_point: Coordenadas (x,y) de intersección (0-based)
             
         Returns:
-            Imagen recortada del tamaño del template de recorte
+            np.ndarray: Imagen recortada del tamaño del template
+            
+        Raises:
+            ValueError: Si las coordenadas están fuera de rango
         """
+        # Validar puntos en rango 0-63
+        self._validate_point(labeled_point, "punto etiquetado")
+        self._validate_point(intersection_point, "punto de intersección")
+        
         # Obtener dimensiones del template
         non_zero = np.nonzero(template)
         min_y, max_y = non_zero[0].min(), non_zero[0].max()
@@ -326,15 +355,23 @@ class TemplateProcessor:
         height = max_y - min_y + 1
         width = max_x - min_x + 1
         
-        # Calcular desplazamiento
+        # Calcular desplazamiento preservando sistema 0-based
         dx = labeled_point[0] - (min_x + intersection_point[0])
         dy = labeled_point[1] - (min_y + intersection_point[1])
         
         # Calcular coordenadas finales con límites
-        final_min_x = np.clip(min_x + dx, 0, 64 - width)
-        final_min_y = np.clip(min_y + dy, 0, 64 - height)
+        final_min_x = np.clip(min_x + dx, 0, 63 - width + 1)
+        final_min_y = np.clip(min_y + dy, 0, 63 - height + 1)
         final_max_x = final_min_x + width
         final_max_y = final_min_y + height
+        
+        # Validar coordenadas finales
+        if not (0 <= final_min_x <= 63 and 0 <= final_min_y <= 63 and
+                0 <= final_max_x <= 64 and 0 <= final_max_y <= 64):
+            raise ValueError(
+                f"Coordenadas de recorte fuera de rango: "
+                f"({final_min_x},{final_min_y}) -> ({final_max_x},{final_max_y})"
+            )
         
         # Recortar y retornar
         return image[final_min_y:final_max_y, final_min_x:final_max_x]

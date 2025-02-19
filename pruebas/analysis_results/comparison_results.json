@@ -1,135 +1,375 @@
 {
-  "tipo1_img140": {
+  "tipo1_img269": {
     "coord1": {
       "ground_truth": [
-        4,
-        35
+        0,
+        31
       ],
       "prediction": [
-        12,
-        34
+        11,
+        30
       ],
-      "distance": 8.06225774829855
+      "distance": 11.045361017187261
     },
     "coord2": {
       "ground_truth": [
-        9,
+        12,
         32
       ],
       "prediction": [
         62,
         32
       ],
-      "distance": 53.0
+      "distance": 50.0
     }
   },
-  "tipo1_img1953": {
+  "tipo1_img2848": {
     "coord1": {
       "ground_truth": [
-        6,
-        36
+        1,
+        34
       ],
       "prediction": [
-        11,
-        35
+        6,
+        33
       ],
       "distance": 5.0990195135927845
     },
     "coord2": {
       "ground_truth": [
-        12,
+        7,
         34
       ],
       "prediction": [
-        52,
-        33
+        57,
+        30
       ],
-      "distance": 40.01249804748511
+      "distance": 50.15974481593781
     }
   },
-  "tipo1_img1970": {
+  "tipo1_img369": {
     "coord1": {
       "ground_truth": [
-        7,
+        2,
         32
       ],
       "prediction": [
-        11,
+        3,
         31
+      ],
+      "distance": 1.4142135623730951
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        30
+      ],
+      "prediction": [
+        59,
+        29
+      ],
+      "distance": 55.00909015790027
+    }
+  },
+  "tipo1_img1387": {
+    "coord1": {
+      "ground_truth": [
+        3,
+        31
+      ],
+      "prediction": [
+        7,
+        30
       ],
       "distance": 4.123105625617661
     },
     "coord2": {
       "ground_truth": [
-        12,
-        31
-      ],
-      "prediction": [
-        62,
-        29
-      ],
-      "distance": 50.039984012787215
-    }
-  },
-  "tipo1_img1515": {
-    "coord1": {
-      "ground_truth": [
         8,
-        32
+        33
       ],
       "prediction": [
-        13,
-        38
+        57,
+        28
       ],
-      "distance": 7.810249675906654
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        32
-      ],
-      "prediction": [
-        63,
-        27
-      ],
-      "distance": 56.22277118748239
+      "distance": 49.25444142409901
     }
   },
-  "tipo1_img738": {
+  "tipo1_img3333": {
     "coord1": {
-      "ground_truth": [
-        11,
-        28
-      ],
-      "prediction": [
-        12,
-        28
-      ],
-      "distance": 1.0
-    },
-    "coord2": {
       "ground_truth": [
         4,
         31
       ],
       "prediction": [
-        60,
-        26
+        1,
+        30
       ],
-      "distance": 56.22277118748239
+      "distance": 3.1622776601683795
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        31
+      ],
+      "prediction": [
+        52,
+        30
+      ],
+      "distance": 50.00999900019995
     }
   },
-  "tipo1_img1843": {
+  "tipo1_img1405": {
     "coord1": {
       "ground_truth": [
-        13,
+        5,
+        29
+      ],
+      "prediction": [
+        6,
+        28
+      ],
+      "distance": 1.4142135623730951
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        31
+      ],
+      "prediction": [
+        53,
+        30
+      ],
+      "distance": 46.010868281309364
+    }
+  },
+  "tipo1_img1139": {
+    "coord1": {
+      "ground_truth": [
+        6,
+        32
+      ],
+      "prediction": [
+        4,
+        31
+      ],
+      "distance": 2.23606797749979
+    },
+    "coord2": {
+      "ground_truth": [
+        5,
+        32
+      ],
+      "prediction": [
+        57,
+        31
+      ],
+      "distance": 52.009614495783374
+    }
+  },
+  "tipo1_img1476": {
+    "coord1": {
+      "ground_truth": [
+        7,
+        31
+      ],
+      "prediction": [
+        9,
+        30
+      ],
+      "distance": 2.23606797749979
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        30
+      ],
+      "prediction": [
+        55,
+        29
+      ],
+      "distance": 47.01063709417264
+    }
+  },
+  "tipo1_img3519": {
+    "coord1": {
+      "ground_truth": [
+        8,
+        34
+      ],
+      "prediction": [
+        7,
+        33
+      ],
+      "distance": 1.4142135623730951
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        33
+      ],
+      "prediction": [
+        49,
+        32
+      ],
+      "distance": 41.012193308819754
+    }
+  },
+  "tipo1_img2474": {
+    "coord1": {
+      "ground_truth": [
+        9,
+        31
+      ],
+      "prediction": [
+        14,
+        29
+      ],
+      "distance": 5.385164807134504
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        31
+      ],
+      "prediction": [
+        59,
+        30
+      ],
+      "distance": 49.01020301937138
+    }
+  },
+  "tipo1_img3512": {
+    "coord1": {
+      "ground_truth": [
+        10,
+        33
+      ],
+      "prediction": [
+        8,
+        32
+      ],
+      "distance": 2.23606797749979
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        33
+      ],
+      "prediction": [
+        45,
+        32
+      ],
+      "distance": 36.013886210738214
+    }
+  },
+  "tipo1_img3039": {
+    "coord1": {
+      "ground_truth": [
+        11,
+        34
+      ],
+      "prediction": [
+        9,
+        33
+      ],
+      "distance": 2.23606797749979
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
         36
       ],
       "prediction": [
-        10,
-        27
+        61,
+        35
       ],
-      "distance": 9.486832980505138
+      "distance": 51.0098029794274
+    }
+  },
+  "tipo1_img80": {
+    "coord1": {
+      "ground_truth": [
+        12,
+        31
+      ],
+      "prediction": [
+        0,
+        30
+      ],
+      "distance": 12.041594578792296
+    },
+    "coord2": {
+      "ground_truth": [
+        1,
+        31
+      ],
+      "prediction": [
+        48,
+        30
+      ],
+      "distance": 47.01063709417264
+    }
+  },
+  "tipo1_img855": {
+    "coord1": {
+      "ground_truth": [
+        13,
+        32
+      ],
+      "prediction": [
+        2,
+        31
+      ],
+      "distance": 11.045361017187261
+    },
+    "coord2": {
+      "ground_truth": [
+        3,
+        33
+      ],
+      "prediction": [
+        63,
+        33
+      ],
+      "distance": 60.0
+    }
+  },
+  "tipo1_img1422": {
+    "coord1": {
+      "ground_truth": [
+        14,
+        31
+      ],
+      "prediction": [
+        11,
+        30
+      ],
+      "distance": 3.1622776601683795
+    },
+    "coord2": {
+      "ground_truth": [
+        12,
+        31
+      ],
+      "prediction": [
+        50,
+        31
+      ],
+      "distance": 38.0
+    }
+  },
+  "tipo1_img1697": {
+    "coord1": {
+      "ground_truth": [
+        15,
+        34
+      ],
+      "prediction": [
+        6,
+        33
+      ],
+      "distance": 9.055385138137417
     },
     "coord2": {
       "ground_truth": [
@@ -137,887 +377,1895 @@
         34
       ],
       "prediction": [
-        50,
-        26
+        49,
+        33
       ],
-      "distance": 43.73785545725808
+      "distance": 42.01190307520001
     }
   },
-  "tipo1_img2068": {
+  "tipo1_img3380": {
     "coord1": {
       "ground_truth": [
-        17,
-        32
+        16,
+        34
       ],
       "prediction": [
-        5,
-        32
+        4,
+        33
       ],
-      "distance": 12.0
+      "distance": 12.041594578792296
     },
     "coord2": {
       "ground_truth": [
-        6,
-        32
+        5,
+        34
       ],
       "prediction": [
-        54,
-        32
+        38,
+        33
       ],
-      "distance": 48.0
+      "distance": 33.015148038438355
     }
   },
-  "tipo2_img6194": {
+  "tipo1_img3363": {
+    "coord1": {
+      "ground_truth": [
+        17,
+        37
+      ],
+      "prediction": [
+        4,
+        36
+      ],
+      "distance": 13.038404810405298
+    },
+    "coord2": {
+      "ground_truth": [
+        5,
+        37
+      ],
+      "prediction": [
+        50,
+        36
+      ],
+      "distance": 45.0111097397076
+    }
+  },
+  "tipo1_img3031": {
+    "coord1": {
+      "ground_truth": [
+        18,
+        28
+      ],
+      "prediction": [
+        8,
+        27
+      ],
+      "distance": 10.04987562112089
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        34
+      ],
+      "prediction": [
+        47,
+        33
+      ],
+      "distance": 38.01315561749642
+    }
+  },
+  "tipo1_img2169": {
     "coord1": {
       "ground_truth": [
         19,
+        40
+      ],
+      "prediction": [
+        3,
+        38
+      ],
+      "distance": 16.1245154965971
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        38
+      ],
+      "prediction": [
+        49,
+        37
+      ],
+      "distance": 45.0111097397076
+    }
+  },
+  "tipo1_img103": {
+    "coord1": {
+      "ground_truth": [
+        20,
         31
       ],
       "prediction": [
         2,
         30
       ],
-      "distance": 17.029386365926403
+      "distance": 18.027756377319946
     },
     "coord2": {
       "ground_truth": [
-        4,
-        30
+        3,
+        32
       ],
       "prediction": [
-        50,
-        29
+        52,
+        31
       ],
-      "distance": 46.010868281309364
+      "distance": 49.01020301937138
     }
   },
-  "tipo2_img3541": {
+  "tipo1_img162": {
     "coord1": {
       "ground_truth": [
         21,
-        32
+        40
       ],
       "prediction": [
-        6,
-        32
+        17,
+        39
       ],
-      "distance": 15.0
+      "distance": 4.123105625617661
     },
     "coord2": {
       "ground_truth": [
+        18,
+        37
+      ],
+      "prediction": [
+        56,
+        36
+      ],
+      "distance": 38.01315561749642
+    }
+  },
+  "tipo1_img1502": {
+    "coord1": {
+      "ground_truth": [
+        22,
+        36
+      ],
+      "prediction": [
         9,
+        35
+      ],
+      "distance": 13.038404810405298
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        36
+      ],
+      "prediction": [
+        63,
+        40
+      ],
+      "distance": 53.150729063673246
+    }
+  },
+  "tipo1_img1560": {
+    "coord1": {
+      "ground_truth": [
+        23,
         31
       ],
       "prediction": [
-        39,
+        11,
         30
       ],
-      "distance": 30.01666203960727
-    }
-  },
-  "tipo2_img3720": {
-    "coord1": {
-      "ground_truth": [
-        24,
-        32
-      ],
-      "prediction": [
-        11,
-        32
-      ],
-      "distance": 13.0
+      "distance": 12.041594578792296
     },
     "coord2": {
       "ground_truth": [
         12,
-        33
+        35
       ],
       "prediction": [
-        54,
+        58,
         34
       ],
-      "distance": 42.01190307520001
+      "distance": 46.010868281309364
     }
   },
-  "tipo2_img6587": {
+  "tipo1_img3329": {
     "coord1": {
       "ground_truth": [
-        30,
-        23
+        24,
+        35
       ],
       "prediction": [
-        9,
-        27
+        6,
+        34
       ],
-      "distance": 21.37755832643195
+      "distance": 18.027756377319946
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        35
+      ],
+      "prediction": [
+        42,
+        34
+      ],
+      "distance": 35.014282800023196
+    }
+  },
+  "tipo1_img3602": {
+    "coord1": {
+      "ground_truth": [
+        25,
+        34
+      ],
+      "prediction": [
+        5,
+        33
+      ],
+      "distance": 20.024984394500787
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        36
+      ],
+      "prediction": [
+        49,
+        35
+      ],
+      "distance": 43.01162633521314
+    }
+  },
+  "tipo1_img3296": {
+    "coord1": {
+      "ground_truth": [
+        26,
+        34
+      ],
+      "prediction": [
+        12,
+        33
+      ],
+      "distance": 14.035668847618199
     },
     "coord2": {
       "ground_truth": [
         8,
-        27
+        36
       ],
       "prediction": [
-        48,
-        26
+        62,
+        34
       ],
-      "distance": 40.01249804748511
+      "distance": 54.037024344425184
     }
   },
-  "tipo2_img6283": {
+  "tipo1_img1051": {
     "coord1": {
       "ground_truth": [
-        31,
-        39
+        27,
+        31
       ],
       "prediction": [
-        15,
-        40
+        3,
+        30
       ],
-      "distance": 16.0312195418814
-    },
-    "coord2": {
-      "ground_truth": [
-        9,
-        39
-      ],
-      "prediction": [
-        56,
-        38
-      ],
-      "distance": 47.01063709417264
-    }
-  },
-  "tipo1_img1088": {
-    "coord1": {
-      "ground_truth": [
-        180,
-        40
-      ],
-      "prediction": [
-        18,
-        39
-      ],
-      "distance": 162.00308639035245
+      "distance": 24.020824298928627
     },
     "coord2": {
       "ground_truth": [
         4,
-        30
-      ],
-      "prediction": [
-        50,
-        35
-      ],
-      "distance": 46.2709412050371
-    }
-  },
-  "tipo1_img2078": {
-    "coord1": {
-      "ground_truth": [
-        35,
         32
       ],
       "prediction": [
-        13,
-        31
+        54,
+        29
+      ],
+      "distance": 50.08991914547278
+    }
+  },
+  "tipo1_img2834": {
+    "coord1": {
+      "ground_truth": [
+        28,
+        35
+      ],
+      "prediction": [
+        3,
+        34
+      ],
+      "distance": 25.019992006393608
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        37
+      ],
+      "prediction": [
+        45,
+        36
+      ],
+      "distance": 41.012193308819754
+    }
+  },
+  "tipo1_img2459": {
+    "coord1": {
+      "ground_truth": [
+        29,
+        29
+      ],
+      "prediction": [
+        7,
+        28
       ],
       "distance": 22.02271554554524
     },
     "coord2": {
       "ground_truth": [
-        16,
-        31
+        8,
+        32
       ],
       "prediction": [
-        55,
-        30
+        42,
+        31
+      ],
+      "distance": 34.0147027033899
+    }
+  },
+  "tipo1_img352": {
+    "coord1": {
+      "ground_truth": [
+        30,
+        33
+      ],
+      "prediction": [
+        9,
+        32
+      ],
+      "distance": 21.02379604162864
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        33
+      ],
+      "prediction": [
+        49,
+        32
       ],
       "distance": 39.01281840626232
     }
   },
-  "tipo1_img3305": {
+  "tipo1_img1238": {
     "coord1": {
       "ground_truth": [
-        40,
-        30
+        31,
+        34
       ],
       "prediction": [
-        9,
-        29
+        0,
+        33
       ],
       "distance": 31.016124838541646
     },
     "coord2": {
       "ground_truth": [
-        9,
+        1,
+        31
+      ],
+      "prediction": [
+        51,
         30
       ],
-      "prediction": [
-        63,
-        29
-      ],
-      "distance": 54.00925846556311
+      "distance": 50.00999900019995
     }
   },
-  "tipo1_img624": {
+  "tipo1_img231": {
     "coord1": {
       "ground_truth": [
-        43,
-        26
-      ],
-      "prediction": [
-        18,
-        33
-      ],
-      "distance": 25.96150997149434
-    },
-    "coord2": {
-      "ground_truth": [
-        1,
-        29
-      ],
-      "prediction": [
-        63,
+        32,
         34
       ],
-      "distance": 62.20128616033595
-    }
-  },
-  "tipo1_img709": {
-    "coord1": {
-      "ground_truth": [
-        48,
-        29
-      ],
       "prediction": [
-        13,
-        30
+        3,
+        33
       ],
-      "distance": 35.014282800023196
+      "distance": 29.017236257093817
     },
     "coord2": {
       "ground_truth": [
-        14,
-        30
-      ],
-      "prediction": [
-        52,
-        30
-      ],
-      "distance": 38.0
-    }
-  },
-  "tipo1_img106": {
-    "coord1": {
-      "ground_truth": [
-        54,
-        31
-      ],
-      "prediction": [
         4,
-        29
-      ],
-      "distance": 50.039984012787215
-    },
-    "coord2": {
-      "ground_truth": [
-        5,
-        29
-      ],
-      "prediction": [
-        43,
-        29
-      ],
-      "distance": 38.0
-    }
-  },
-  "tipo1_img2292": {
-    "coord1": {
-      "ground_truth": [
-        56,
-        35
-      ],
-      "prediction": [
-        6,
-        31
-      ],
-      "distance": 50.15974481593781
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        30
-      ],
-      "prediction": [
-        50,
-        32
-      ],
-      "distance": 42.04759208325728
-    }
-  },
-  "tipo1_img3090": {
-    "coord1": {
-      "ground_truth": [
-        57,
-        31
-      ],
-      "prediction": [
-        14,
-        31
-      ],
-      "distance": 43.0
-    },
-    "coord2": {
-      "ground_truth": [
-        9,
         33
       ],
       "prediction": [
-        47,
+        42,
         32
       ],
       "distance": 38.01315561749642
     }
   },
-  "tipo1_img3003": {
+  "tipo1_img1803": {
     "coord1": {
       "ground_truth": [
-        58,
+        33,
+        30
+      ],
+      "prediction": [
+        18,
+        30
+      ],
+      "distance": 15.0
+    },
+    "coord2": {
+      "ground_truth": [
+        18,
+        31
+      ],
+      "prediction": [
+        61,
+        29
+      ],
+      "distance": 43.04648650006177
+    }
+  },
+  "tipo1_img1248": {
+    "coord1": {
+      "ground_truth": [
+        34,
+        31
+      ],
+      "prediction": [
+        1,
+        30
+      ],
+      "distance": 33.015148038438355
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        31
+      ],
+      "prediction": [
+        61,
+        29
+      ],
+      "distance": 59.033888572581766
+    }
+  },
+  "tipo1_img1907": {
+    "coord1": {
+      "ground_truth": [
+        35,
+        24
+      ],
+      "prediction": [
+        3,
+        24
+      ],
+      "distance": 32.0
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        24
+      ],
+      "prediction": [
+        43,
+        24
+      ],
+      "distance": 39.0
+    }
+  },
+  "tipo1_img1823": {
+    "coord1": {
+      "ground_truth": [
+        36,
+        30
+      ],
+      "prediction": [
+        9,
+        29
+      ],
+      "distance": 27.018512172212592
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        30
+      ],
+      "prediction": [
+        59,
+        24
+      ],
+      "distance": 49.36598018878993
+    }
+  },
+  "tipo1_img2725": {
+    "coord1": {
+      "ground_truth": [
+        37,
+        29
+      ],
+      "prediction": [
+        7,
+        28
+      ],
+      "distance": 30.01666203960727
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        31
+      ],
+      "prediction": [
+        54,
+        30
+      ],
+      "distance": 46.010868281309364
+    }
+  },
+  "tipo1_img726": {
+    "coord1": {
+      "ground_truth": [
+        38,
+        35
+      ],
+      "prediction": [
+        11,
+        34
+      ],
+      "distance": 27.018512172212592
+    },
+    "coord2": {
+      "ground_truth": [
+        12,
         32
+      ],
+      "prediction": [
+        51,
+        33
+      ],
+      "distance": 39.01281840626232
+    }
+  },
+  "tipo1_img989": {
+    "coord1": {
+      "ground_truth": [
+        39,
+        41
+      ],
+      "prediction": [
+        10,
+        40
+      ],
+      "distance": 29.017236257093817
+    },
+    "coord2": {
+      "ground_truth": [
+        11,
+        41
+      ],
+      "prediction": [
+        63,
+        39
+      ],
+      "distance": 52.03844732503075
+    }
+  },
+  "tipo1_img3130": {
+    "coord1": {
+      "ground_truth": [
+        40,
+        35
+      ],
+      "prediction": [
+        9,
+        34
+      ],
+      "distance": 31.016124838541646
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        35
+      ],
+      "prediction": [
+        47,
+        34
+      ],
+      "distance": 37.013511046643494
+    }
+  },
+  "tipo1_img2948": {
+    "coord1": {
+      "ground_truth": [
+        41,
+        33
+      ],
+      "prediction": [
+        7,
+        32
+      ],
+      "distance": 34.0147027033899
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        37
+      ],
+      "prediction": [
+        47,
+        36
+      ],
+      "distance": 39.01281840626232
+    }
+  },
+  "tipo1_img443": {
+    "coord1": {
+      "ground_truth": [
+        42,
+        31
+      ],
+      "prediction": [
+        8,
+        30
+      ],
+      "distance": 34.0147027033899
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        31
+      ],
+      "prediction": [
+        61,
+        31
+      ],
+      "distance": 52.0
+    }
+  },
+  "tipo1_img1505": {
+    "coord1": {
+      "ground_truth": [
+        43,
+        34
+      ],
+      "prediction": [
+        9,
+        33
+      ],
+      "distance": 34.0147027033899
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        33
+      ],
+      "prediction": [
+        53,
+        32
+      ],
+      "distance": 43.01162633521314
+    }
+  },
+  "tipo1_img1550": {
+    "coord1": {
+      "ground_truth": [
+        44,
+        28
+      ],
+      "prediction": [
+        7,
+        27
+      ],
+      "distance": 37.013511046643494
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        31
+      ],
+      "prediction": [
+        52,
+        30
+      ],
+      "distance": 44.01136216933077
+    }
+  },
+  "tipo1_img2112": {
+    "coord1": {
+      "ground_truth": [
+        45,
+        30
+      ],
+      "prediction": [
+        13,
+        29
+      ],
+      "distance": 32.01562118716424
+    },
+    "coord2": {
+      "ground_truth": [
+        14,
+        31
+      ],
+      "prediction": [
+        55,
+        30
+      ],
+      "distance": 41.012193308819754
+    }
+  },
+  "tipo1_img3386": {
+    "coord1": {
+      "ground_truth": [
+        46,
+        33
+      ],
+      "prediction": [
+        10,
+        32
+      ],
+      "distance": 36.013886210738214
+    },
+    "coord2": {
+      "ground_truth": [
+        11,
+        34
+      ],
+      "prediction": [
+        54,
+        33
+      ],
+      "distance": 43.01162633521314
+    }
+  },
+  "tipo1_img2358": {
+    "coord1": {
+      "ground_truth": [
+        47,
+        39
+      ],
+      "prediction": [
+        9,
+        38
+      ],
+      "distance": 38.01315561749642
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        36
+      ],
+      "prediction": [
+        52,
+        35
+      ],
+      "distance": 42.01190307520001
+    }
+  },
+  "tipo1_img3316": {
+    "coord1": {
+      "ground_truth": [
+        48,
+        30
+      ],
+      "prediction": [
+        3,
+        29
+      ],
+      "distance": 45.0111097397076
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        32
+      ],
+      "prediction": [
+        58,
+        31
+      ],
+      "distance": 54.00925846556311
+    }
+  },
+  "tipo1_img2174": {
+    "coord1": {
+      "ground_truth": [
+        49,
+        32
+      ],
+      "prediction": [
+        6,
+        31
+      ],
+      "distance": 43.01162633521314
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        32
+      ],
+      "prediction": [
+        55,
+        29
+      ],
+      "distance": 48.093658625644196
+    }
+  },
+  "tipo1_img3263": {
+    "coord1": {
+      "ground_truth": [
+        50,
+        34
+      ],
+      "prediction": [
+        1,
+        33
+      ],
+      "distance": 49.01020301937138
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        31
+      ],
+      "prediction": [
+        48,
+        30
+      ],
+      "distance": 46.010868281309364
+    }
+  },
+  "tipo1_img2400": {
+    "coord1": {
+      "ground_truth": [
+        51,
+        34
+      ],
+      "prediction": [
+        9,
+        33
+      ],
+      "distance": 42.01190307520001
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        35
+      ],
+      "prediction": [
+        43,
+        34
+      ],
+      "distance": 33.015148038438355
+    }
+  },
+  "tipo1_img1104": {
+    "coord1": {
+      "ground_truth": [
+        52,
+        30
+      ],
+      "prediction": [
+        9,
+        29
+      ],
+      "distance": 43.01162633521314
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        31
+      ],
+      "prediction": [
+        47,
+        30
+      ],
+      "distance": 37.013511046643494
+    }
+  },
+  "tipo1_img100": {
+    "coord1": {
+      "ground_truth": [
+        53,
+        33
       ],
       "prediction": [
         9,
         32
       ],
-      "distance": 49.0
+      "distance": 44.01136216933077
     },
     "coord2": {
       "ground_truth": [
-        11,
+        10,
+        36
+      ],
+      "prediction": [
+        53,
+        35
+      ],
+      "distance": 43.01162633521314
+    }
+  },
+  "tipo1_img1818": {
+    "coord1": {
+      "ground_truth": [
+        54,
         33
       ],
       "prediction": [
-        52,
-        34
+        6,
+        32
       ],
-      "distance": 41.012193308819754
-    }
-  },
-  "tipo1_img824": {
-    "coord1": {
-      "ground_truth": [
-        61,
-        37
-      ],
-      "prediction": [
-        18,
-        38
-      ],
-      "distance": 43.01162633521314
+      "distance": 48.010415536631214
     },
     "coord2": {
       "ground_truth": [
-        12,
-        38
+        7,
+        33
       ],
       "prediction": [
-        59,
-        37
+        53,
+        32
       ],
-      "distance": 47.01063709417264
+      "distance": 46.010868281309364
     }
   },
-  "tipo2_img4297": {
+  "tipo1_img2504": {
     "coord1": {
       "ground_truth": [
-        62,
+        55,
         30
       ],
       "prediction": [
-        18,
-        32
+        8,
+        29
       ],
-      "distance": 44.04543109109048
+      "distance": 47.01063709417264
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        29
+      ],
+      "prediction": [
+        49,
+        28
+      ],
+      "distance": 40.01249804748511
+    }
+  },
+  "tipo1_img720": {
+    "coord1": {
+      "ground_truth": [
+        56,
+        30
+      ],
+      "prediction": [
+        0,
+        29
+      ],
+      "distance": 56.00892785976178
+    },
+    "coord2": {
+      "ground_truth": [
+        0,
+        31
+      ],
+      "prediction": [
+        62,
+        31
+      ],
+      "distance": 62.0
+    }
+  },
+  "tipo1_img881": {
+    "coord1": {
+      "ground_truth": [
+        57,
+        30
+      ],
+      "prediction": [
+        8,
+        29
+      ],
+      "distance": 49.01020301937138
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        26
+      ],
+      "prediction": [
+        45,
+        25
+      ],
+      "distance": 36.013886210738214
+    }
+  },
+  "tipo1_img3413": {
+    "coord1": {
+      "ground_truth": [
+        58,
+        28
+      ],
+      "prediction": [
+        7,
+        27
+      ],
+      "distance": 51.0098029794274
     },
     "coord2": {
       "ground_truth": [
         8,
-        31
+        29
       ],
       "prediction": [
-        62,
+        50,
         28
       ],
-      "distance": 54.08326913195984
+      "distance": 42.01190307520001
     }
   },
-  "tipo1_img1943": {
+  "tipo1_img421": {
     "coord1": {
       "ground_truth": [
-        64,
-        31
+        59,
+        28
       ],
       "prediction": [
-        18,
-        31
+        16,
+        27
       ],
-      "distance": 46.0
+      "distance": 43.01162633521314
     },
     "coord2": {
       "ground_truth": [
         17,
-        30
+        26
       ],
       "prediction": [
-        58,
-        30
+        62,
+        25
       ],
-      "distance": 41.0
+      "distance": 45.0111097397076
     }
   },
-  "tipo1_img1656": {
+  "tipo1_img2657": {
     "coord1": {
       "ground_truth": [
-        65,
-        29
+        60,
+        30
       ],
       "prediction": [
-        18,
-        38
-      ],
-      "distance": 47.853944456021594
-    },
-    "coord2": {
-      "ground_truth": [
         8,
-        31
-      ],
-      "prediction": [
-        63,
-        38
-      ],
-      "distance": 55.44366510251645
-    }
-  },
-  "tipo2_img5596": {
-    "coord1": {
-      "ground_truth": [
-        66,
-        30
-      ],
-      "prediction": [
-        10,
-        30
-      ],
-      "distance": 56.0
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        32
-      ],
-      "prediction": [
-        63,
-        30
-      ],
-      "distance": 56.0357029044876
-    }
-  },
-  "tipo2_img3945": {
-    "coord1": {
-      "ground_truth": [
-        70,
-        31
-      ],
-      "prediction": [
-        4,
-        31
-      ],
-      "distance": 66.0
-    },
-    "coord2": {
-      "ground_truth": [
-        5,
-        32
-      ],
-      "prediction": [
-        53,
-        33
-      ],
-      "distance": 48.010415536631214
-    }
-  },
-  "tipo1_img2251": {
-    "coord1": {
-      "ground_truth": [
-        71,
         29
       ],
-      "prediction": [
-        10,
-        30
-      ],
-      "distance": 61.00819617067857
+      "distance": 52.009614495783374
     },
     "coord2": {
       "ground_truth": [
-        10,
+        9,
         30
       ],
       "prediction": [
-        53,
-        31
+        52,
+        29
       ],
       "distance": 43.01162633521314
     }
   },
-  "tipo1_img192": {
+  "tipo1_img1733": {
     "coord1": {
       "ground_truth": [
-        75,
-        36
-      ],
-      "prediction": [
-        7,
-        34
-      ],
-      "distance": 68.0294054067798
-    },
-    "coord2": {
-      "ground_truth": [
-        6,
+        61,
         33
       ],
       "prediction": [
-        63,
-        31
-      ],
-      "distance": 57.0350769263968
-    }
-  },
-  "tipo2_img5098": {
-    "coord1": {
-      "ground_truth": [
-        76,
+        8,
         32
       ],
-      "prediction": [
-        14,
-        32
-      ],
-      "distance": 62.0
+      "distance": 53.009433122794285
     },
     "coord2": {
       "ground_truth": [
-        7,
-        31
-      ],
-      "prediction": [
-        55,
-        31
-      ],
-      "distance": 48.0
-    }
-  },
-  "tipo1_img2025": {
-    "coord1": {
-      "ground_truth": [
-        77,
-        29
-      ],
-      "prediction": [
-        11,
-        31
-      ],
-      "distance": 66.03029607687671
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        33
+        9,
+        32
       ],
       "prediction": [
         60,
-        34
+        27
       ],
-      "distance": 48.010415536631214
+      "distance": 51.24451190127583
     }
   },
-  "tipo1_img2259": {
+  "tipo1_img1143": {
     "coord1": {
       "ground_truth": [
-        82,
-        31
+        62,
+        28
       ],
       "prediction": [
         5,
-        29
+        27
       ],
-      "distance": 77.02596964660685
+      "distance": 57.0087712549569
     },
     "coord2": {
       "ground_truth": [
-        8,
-        27
-      ],
-      "prediction": [
-        52,
-        27
-      ],
-      "distance": 44.0
-    }
-  },
-  "tipo1_img670": {
-    "coord1": {
-      "ground_truth": [
-        86,
-        34
-      ],
-      "prediction": [
-        13,
-        35
-      ],
-      "distance": 73.00684899377592
-    },
-    "coord2": {
-      "ground_truth": [
-        5,
-        34
-      ],
-      "prediction": [
-        61,
-        41
-      ],
-      "distance": 56.43580423808985
-    }
-  },
-  "tipo2_img6438": {
-    "coord1": {
-      "ground_truth": [
-        87,
-        37
-      ],
-      "prediction": [
         6,
-        35
-      ],
-      "distance": 81.02468759581859
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        31
-      ],
-      "prediction": [
-        56,
-        32
-      ],
-      "distance": 48.010415536631214
-    }
-  },
-  "tipo1_img2933": {
-    "coord1": {
-      "ground_truth": [
-        95,
         30
       ],
       "prediction": [
-        13,
+        51,
         29
       ],
-      "distance": 82.00609733428362
+      "distance": 45.0111097397076
+    }
+  },
+  "tipo1_img1653": {
+    "coord1": {
+      "ground_truth": [
+        63,
+        38
+      ],
+      "prediction": [
+        6,
+        37
+      ],
+      "distance": 57.0087712549569
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        34
+      ],
+      "prediction": [
+        49,
+        33
+      ],
+      "distance": 42.01190307520001
+    }
+  },
+  "tipo1_img1671": {
+    "coord1": {
+      "ground_truth": [
+        64,
+        30
+      ],
+      "prediction": [
+        12,
+        29
+      ],
+      "distance": 52.009614495783374
+    },
+    "coord2": {
+      "ground_truth": [
+        13,
+        31
+      ],
+      "prediction": [
+        51,
+        30
+      ],
+      "distance": 38.01315561749642
+    }
+  },
+  "tipo1_img3321": {
+    "coord1": {
+      "ground_truth": [
+        65,
+        35
+      ],
+      "prediction": [
+        7,
+        34
+      ],
+      "distance": 58.008620049092706
     },
     "coord2": {
       "ground_truth": [
         8,
+        33
+      ],
+      "prediction": [
+        50,
+        32
+      ],
+      "distance": 42.01190307520001
+    }
+  },
+  "tipo1_img2023": {
+    "coord1": {
+      "ground_truth": [
+        66,
+        39
+      ],
+      "prediction": [
+        13,
+        38
+      ],
+      "distance": 53.009433122794285
+    },
+    "coord2": {
+      "ground_truth": [
+        14,
+        37
+      ],
+      "prediction": [
+        57,
+        36
+      ],
+      "distance": 43.01162633521314
+    }
+  },
+  "tipo1_img969": {
+    "coord1": {
+      "ground_truth": [
+        67,
+        37
+      ],
+      "prediction": [
+        5,
+        36
+      ],
+      "distance": 62.00806399170998
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        38
+      ],
+      "prediction": [
+        57,
+        35
+      ],
+      "distance": 51.088159097779204
+    }
+  },
+  "tipo1_img2527": {
+    "coord1": {
+      "ground_truth": [
+        68,
+        29
+      ],
+      "prediction": [
+        9,
+        28
+      ],
+      "distance": 59.00847396772772
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        32
+      ],
+      "prediction": [
+        57,
         31
+      ],
+      "distance": 47.01063709417264
+    }
+  },
+  "tipo1_img94": {
+    "coord1": {
+      "ground_truth": [
+        69,
+        35
+      ],
+      "prediction": [
+        6,
+        34
+      ],
+      "distance": 63.00793600809346
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        36
+      ],
+      "prediction": [
+        59,
+        35
+      ],
+      "distance": 52.009614495783374
+    }
+  },
+  "tipo2_img1837": {
+    "coord1": {
+      "ground_truth": [
+        80,
+        33
+      ],
+      "prediction": [
+        5,
+        32
+      ],
+      "distance": 75.0066663703967
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        33
+      ],
+      "prediction": [
+        52,
+        31
+      ],
+      "distance": 43.04648650006177
+    }
+  },
+  "tipo2_img2258": {
+    "coord1": {
+      "ground_truth": [
+        81,
+        31
+      ],
+      "prediction": [
+        2,
+        31
+      ],
+      "distance": 79.0
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        32
+      ],
+      "prediction": [
+        44,
+        31
+      ],
+      "distance": 36.013886210738214
+    }
+  },
+  "tipo2_img7660": {
+    "coord1": {
+      "ground_truth": [
+        82,
+        32
+      ],
+      "prediction": [
+        5,
+        32
+      ],
+      "distance": 77.0
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        32
+      ],
+      "prediction": [
+        45,
+        32
+      ],
+      "distance": 39.0
+    }
+  },
+  "tipo2_img1168": {
+    "coord1": {
+      "ground_truth": [
+        83,
+        29
+      ],
+      "prediction": [
+        4,
+        29
+      ],
+      "distance": 79.0
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        32
+      ],
+      "prediction": [
+        42,
+        31
+      ],
+      "distance": 35.014282800023196
+    }
+  },
+  "tipo2_img10078": {
+    "coord1": {
+      "ground_truth": [
+        84,
+        29
+      ],
+      "prediction": [
+        6,
+        30
+      ],
+      "distance": 78.00640999302557
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        28
+      ],
+      "prediction": [
+        54,
+        27
+      ],
+      "distance": 45.0111097397076
+    }
+  },
+  "tipo2_img395": {
+    "coord1": {
+      "ground_truth": [
+        85,
+        34
+      ],
+      "prediction": [
+        1,
+        28
+      ],
+      "distance": 84.2140130857092
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        33
+      ],
+      "prediction": [
+        54,
+        31
+      ],
+      "distance": 44.04543109109048
+    }
+  },
+  "tipo2_img7574": {
+    "coord1": {
+      "ground_truth": [
+        86,
+        33
+      ],
+      "prediction": [
+        6,
+        32
+      ],
+      "distance": 80.00624975587844
+    },
+    "coord2": {
+      "ground_truth": [
+        11,
+        33
+      ],
+      "prediction": [
+        53,
+        32
+      ],
+      "distance": 42.01190307520001
+    }
+  },
+  "tipo2_img7461": {
+    "coord1": {
+      "ground_truth": [
+        87,
+        34
+      ],
+      "prediction": [
+        7,
+        32
+      ],
+      "distance": 80.02499609497022
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        33
       ],
       "prediction": [
         50,
         31
       ],
-      "distance": 42.0
+      "distance": 46.04345773288535
     }
   },
-  "tipo1_img2913": {
+  "tipo2_img8726": {
+    "coord1": {
+      "ground_truth": [
+        88,
+        32
+      ],
+      "prediction": [
+        3,
+        34
+      ],
+      "distance": 85.0235261559999
+    },
+    "coord2": {
+      "ground_truth": [
+        5,
+        29
+      ],
+      "prediction": [
+        63,
+        29
+      ],
+      "distance": 58.0
+    }
+  },
+  "tipo2_img1821": {
+    "coord1": {
+      "ground_truth": [
+        89,
+        34
+      ],
+      "prediction": [
+        5,
+        32
+      ],
+      "distance": 84.02380615040002
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        33
+      ],
+      "prediction": [
+        58,
+        32
+      ],
+      "distance": 54.00925846556311
+    }
+  },
+  "tipo2_img30": {
+    "coord1": {
+      "ground_truth": [
+        90,
+        33
+      ],
+      "prediction": [
+        6,
+        31
+      ],
+      "distance": 84.02380615040002
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        32
+      ],
+      "prediction": [
+        62,
+        30
+      ],
+      "distance": 56.0357029044876
+    }
+  },
+  "tipo2_img5711": {
+    "coord1": {
+      "ground_truth": [
+        91,
+        32
+      ],
+      "prediction": [
+        7,
+        34
+      ],
+      "distance": 84.02380615040002
+    },
+    "coord2": {
+      "ground_truth": [
+        3,
+        32
+      ],
+      "prediction": [
+        47,
+        33
+      ],
+      "distance": 44.01136216933077
+    }
+  },
+  "tipo2_img7712": {
+    "coord1": {
+      "ground_truth": [
+        92,
+        33
+      ],
+      "prediction": [
+        13,
+        33
+      ],
+      "distance": 79.0
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        33
+      ],
+      "prediction": [
+        39,
+        31
+      ],
+      "distance": 33.06055050963308
+    }
+  },
+  "tipo2_img3507": {
+    "coord1": {
+      "ground_truth": [
+        93,
+        30
+      ],
+      "prediction": [
+        10,
+        34
+      ],
+      "distance": 83.09632964216891
+    },
+    "coord2": {
+      "ground_truth": [
+        5,
+        32
+      ],
+      "prediction": [
+        63,
+        31
+      ],
+      "distance": 58.008620049092706
+    }
+  },
+  "tipo2_img4105": {
+    "coord1": {
+      "ground_truth": [
+        94,
+        32
+      ],
+      "prediction": [
+        8,
+        32
+      ],
+      "distance": 86.0
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        31
+      ],
+      "prediction": [
+        44,
+        31
+      ],
+      "distance": 37.0
+    }
+  },
+  "tipo2_img3168": {
+    "coord1": {
+      "ground_truth": [
+        95,
+        29
+      ],
+      "prediction": [
+        10,
+        31
+      ],
+      "distance": 85.0235261559999
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        32
+      ],
+      "prediction": [
+        47,
+        31
+      ],
+      "distance": 45.0111097397076
+    }
+  },
+  "tipo2_img8339": {
     "coord1": {
       "ground_truth": [
         96,
         33
       ],
       "prediction": [
-        4,
-        32
-      ],
-      "distance": 92.00543462209176
-    },
-    "coord2": {
-      "ground_truth": [
-        3,
-        31
-      ],
-      "prediction": [
-        45,
-        32
-      ],
-      "distance": 42.01190307520001
-    }
-  },
-  "tipo2_img6955": {
-    "coord1": {
-      "ground_truth": [
-        100,
-        35
-      ],
-      "prediction": [
-        1,
+        6,
         29
       ],
-      "distance": 99.18165152889924
+      "distance": 90.08884503644167
     },
     "coord2": {
       "ground_truth": [
         7,
+        33
+      ],
+      "prediction": [
+        59,
+        30
+      ],
+      "distance": 52.08646657242167
+    }
+  },
+  "tipo2_img1950": {
+    "coord1": {
+      "ground_truth": [
+        97,
         34
       ],
       "prediction": [
-        41,
-        29
+        0,
+        30
       ],
-      "distance": 34.36568055487916
+      "distance": 97.082439194738
+    },
+    "coord2": {
+      "ground_truth": [
+        3,
+        34
+      ],
+      "prediction": [
+        53,
+        31
+      ],
+      "distance": 50.08991914547278
     }
   },
-  "tipo2_img3805": {
+  "tipo2_img3670": {
     "coord1": {
       "ground_truth": [
-        101,
+        98,
+        35
+      ],
+      "prediction": [
+        7,
+        34
+      ],
+      "distance": 91.00549433962765
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        35
+      ],
+      "prediction": [
+        45,
+        35
+      ],
+      "distance": 41.0
+    }
+  },
+  "tipo2_img1298": {
+    "coord1": {
+      "ground_truth": [
+        99,
+        33
+      ],
+      "prediction": [
+        10,
+        29
+      ],
+      "distance": 89.08984229416954
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        33
+      ],
+      "prediction": [
+        44,
+        29
+      ],
+      "distance": 38.2099463490856
+    }
+  },
+  "tipo2_img8520": {
+    "coord1": {
+      "ground_truth": [
+        100,
         32
       ],
       "prediction": [
         6,
-        38
+        29
       ],
-      "distance": 95.1892851112981
+      "distance": 94.04786015641186
     },
     "coord2": {
       "ground_truth": [
-        9,
+        7,
         31
       ],
       "prediction": [
-        57,
-        31
+        46,
+        29
       ],
-      "distance": 48.0
+      "distance": 39.05124837953327
     }
   },
-  "tipo2_img2430": {
+  "tipo2_img7635": {
+    "coord1": {
+      "ground_truth": [
+        101,
+        35
+      ],
+      "prediction": [
+        2,
+        30
+      ],
+      "distance": 99.12618221237011
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        34
+      ],
+      "prediction": [
+        42,
+        30
+      ],
+      "distance": 34.23448553724738
+    }
+  },
+  "tipo2_img7874": {
     "coord1": {
       "ground_truth": [
         102,
         34
       ],
       "prediction": [
-        14,
-        26
+        13,
+        34
       ],
-      "distance": 88.36288813749809
+      "distance": 89.0
     },
     "coord2": {
       "ground_truth": [
-        10,
-        29
+        14,
+        32
       ],
       "prediction": [
-        53,
-        28
+        48,
+        29
       ],
-      "distance": 43.01162633521314
+      "distance": 34.132096331752024
     }
   },
-  "tipo2_img2183": {
+  "tipo2_img2520": {
     "coord1": {
       "ground_truth": [
         103,
-        33
+        35
       ],
       "prediction": [
-        12,
-        28
+        6,
+        29
       ],
-      "distance": 91.13725912051558
+      "distance": 97.18538984847466
     },
     "coord2": {
       "ground_truth": [
-        5,
-        30
+        11,
+        34
       ],
       "prediction": [
-        51,
-        31
+        42,
+        30
       ],
-      "distance": 46.010868281309364
+      "distance": 31.25699921617557
     }
   },
-  "tipo2_img8144": {
+  "tipo2_img3583": {
     "coord1": {
       "ground_truth": [
         104,
         33
       ],
       "prediction": [
-        1,
-        30
-      ],
-      "distance": 103.04368005850722
-    },
-    "coord2": {
-      "ground_truth": [
         12,
-        34
-      ],
-      "prediction": [
-        60,
-        31
-      ],
-      "distance": 48.093658625644196
-    }
-  },
-  "tipo2_img7314": {
-    "coord1": {
-      "ground_truth": [
-        105,
-        33
-      ],
-      "prediction": [
-        1,
-        27
-      ],
-      "distance": 104.17293314484334
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        32
-      ],
-      "prediction": [
-        38,
         30
       ],
-      "distance": 31.064449134018133
-    }
-  },
-  "tipo2_img7327": {
-    "coord1": {
-      "ground_truth": [
-        106,
-        32
-      ],
-      "prediction": [
-        4,
-        33
-      ],
-      "distance": 102.00490184299969
+      "distance": 92.04890004774636
     },
     "coord2": {
       "ground_truth": [
@@ -1025,445 +2273,493 @@
         32
       ],
       "prediction": [
-        48,
-        35
+        52,
+        33
       ],
-      "distance": 39.11521443121589
+      "distance": 43.01162633521314
     }
   },
-  "tipo2_img9875": {
+  "tipo2_img10130": {
+    "coord1": {
+      "ground_truth": [
+        105,
+        32
+      ],
+      "prediction": [
+        9,
+        31
+      ],
+      "distance": 96.00520819205592
+    },
+    "coord2": {
+      "ground_truth": [
+        11,
+        32
+      ],
+      "prediction": [
+        42,
+        31
+      ],
+      "distance": 31.016124838541646
+    }
+  },
+  "tipo2_img5015": {
+    "coord1": {
+      "ground_truth": [
+        106,
+        30
+      ],
+      "prediction": [
+        11,
+        29
+      ],
+      "distance": 95.00526301210897
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        31
+      ],
+      "prediction": [
+        58,
+        29
+      ],
+      "distance": 51.03920062069938
+    }
+  },
+  "tipo2_img9417": {
     "coord1": {
       "ground_truth": [
         107,
-        34
-      ],
-      "prediction": [
-        1,
         31
       ],
-      "distance": 106.04244433244644
+      "prediction": [
+        18,
+        32
+      ],
+      "distance": 89.00561780022652
     },
     "coord2": {
       "ground_truth": [
-        4,
-        33
+        1,
+        32
       ],
       "prediction": [
-        47,
+        59,
         30
       ],
-      "distance": 43.104524124504614
+      "distance": 58.034472514187634
     }
   },
-  "tipo2_img7595": {
+  "tipo2_img4185": {
     "coord1": {
       "ground_truth": [
         108,
-        31
+        35
       ],
       "prediction": [
-        4,
-        36
+        9,
+        31
       ],
-      "distance": 104.12012293500234
+      "distance": 99.08077512817509
     },
     "coord2": {
       "ground_truth": [
-        1,
-        32
+        8,
+        36
       ],
       "prediction": [
-        54,
-        33
+        48,
+        31
       ],
-      "distance": 53.009433122794285
+      "distance": 40.311288741492746
     }
   },
-  "tipo2_img9898": {
+  "tipo2_img4544": {
     "coord1": {
       "ground_truth": [
         109,
-        32
-      ],
-      "prediction": [
-        4,
         30
       ],
-      "distance": 105.01904589168576
+      "prediction": [
+        8,
+        33
+      ],
+      "distance": 101.04454463255303
     },
     "coord2": {
       "ground_truth": [
-        10,
+        11,
         30
       ],
       "prediction": [
-        49,
+        50,
         31
       ],
       "distance": 39.01281840626232
     }
   },
-  "tipo2_img10115": {
+  "tipo2_img4235": {
     "coord1": {
       "ground_truth": [
         110,
-        28
+        30
       ],
       "prediction": [
-        8,
-        32
+        6,
+        30
       ],
-      "distance": 102.07840124139877
+      "distance": 104.0
     },
     "coord2": {
       "ground_truth": [
-        8,
-        29
+        7,
+        30
       ],
       "prediction": [
-        54,
-        32
+        35,
+        30
       ],
-      "distance": 46.09772228646444
+      "distance": 28.0
     }
   },
-  "tipo2_img2744": {
+  "tipo2_img4484": {
     "coord1": {
       "ground_truth": [
         111,
-        37
+        31
       ],
       "prediction": [
-        7,
-        30
-      ],
-      "distance": 104.23531071570709
-    },
-    "coord2": {
-      "ground_truth": [
         7,
         33
       ],
-      "prediction": [
-        48,
+      "distance": 104.01922899156675
+    },
+    "coord2": {
+      "ground_truth": [
+        3,
         31
       ],
-      "distance": 41.048751503547585
+      "prediction": [
+        46,
+        32
+      ],
+      "distance": 43.01162633521314
     }
   },
-  "tipo2_img5861": {
+  "tipo2_img836": {
     "coord1": {
       "ground_truth": [
         112,
-        37
+        35
       ],
       "prediction": [
-        5,
-        31
-      ],
-      "distance": 107.16809226630845
-    },
-    "coord2": {
-      "ground_truth": [
-        9,
-        37
-      ],
-      "prediction": [
-        52,
-        31
-      ],
-      "distance": 43.41658669218482
-    }
-  },
-  "tipo2_img8561": {
-    "coord1": {
-      "ground_truth": [
-        113,
-        34
-      ],
-      "prediction": [
-        6,
-        28
-      ],
-      "distance": 107.16809226630845
-    },
-    "coord2": {
-      "ground_truth": [
         8,
-        34
-      ],
-      "prediction": [
-        53,
         31
       ],
-      "distance": 45.09988913511872
-    }
-  },
-  "tipo2_img9419": {
-    "coord1": {
+      "distance": 104.0768946500615
+    },
+    "coord2": {
       "ground_truth": [
-        114,
+        14,
         30
       ],
       "prediction": [
-        8,
-        28
+        49,
+        30
       ],
-      "distance": 106.01886624558857
+      "distance": 35.0
+    }
+  },
+  "tipo2_img8814": {
+    "coord1": {
+      "ground_truth": [
+        113,
+        30
+      ],
+      "prediction": [
+        11,
+        32
+      ],
+      "distance": 102.0196059588548
     },
     "coord2": {
       "ground_truth": [
         7,
-        33
-      ],
-      "prediction": [
-        63,
-        33
-      ],
-      "distance": 56.0
-    }
-  },
-  "tipo2_img3856": {
-    "coord1": {
-      "ground_truth": [
-        115,
         31
       ],
       "prediction": [
-        9,
-        33
+        45,
+        31
       ],
-      "distance": 106.01886624558857
-    },
-    "coord2": {
-      "ground_truth": [
-        5,
-        32
-      ],
-      "prediction": [
-        62,
-        32
-      ],
-      "distance": 57.0
+      "distance": 38.0
     }
   },
-  "tipo2_img4874": {
+  "tipo2_img7293": {
     "coord1": {
       "ground_truth": [
-        116,
-        32
+        114,
+        31
       ],
       "prediction": [
         10,
-        32
+        34
       ],
-      "distance": 106.0
+      "distance": 104.04326023342406
     },
     "coord2": {
       "ground_truth": [
-        8,
+        13,
+        34
+      ],
+      "prediction": [
+        57,
+        29
+      ],
+      "distance": 44.28317965096906
+    }
+  },
+  "tipo2_img8608": {
+    "coord1": {
+      "ground_truth": [
+        115,
         32
       ],
       "prediction": [
-        48,
+        7,
         32
       ],
-      "distance": 40.0
+      "distance": 108.0
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        32
+      ],
+      "prediction": [
+        41,
+        32
+      ],
+      "distance": 31.0
     }
   },
-  "tipo2_img9175": {
+  "tipo2_img6393": {
+    "coord1": {
+      "ground_truth": [
+        116,
+        31
+      ],
+      "prediction": [
+        3,
+        31
+      ],
+      "distance": 113.0
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        33
+      ],
+      "prediction": [
+        52,
+        29
+      ],
+      "distance": 50.15974481593781
+    }
+  },
+  "tipo2_img6322": {
     "coord1": {
       "ground_truth": [
         117,
-        33
+        37
       ],
       "prediction": [
-        3,
-        33
-      ],
-      "distance": 114.0
-    },
-    "coord2": {
-      "ground_truth": [
-        6,
-        32
-      ],
-      "prediction": [
-        49,
-        32
-      ],
-      "distance": 43.0
-    }
-  },
-  "tipo2_img4005": {
-    "coord1": {
-      "ground_truth": [
-        118,
-        33
-      ],
-      "prediction": [
-        4,
-        31
-      ],
-      "distance": 114.0175425099138
-    },
-    "coord2": {
-      "ground_truth": [
-        9,
-        30
-      ],
-      "prediction": [
-        44,
-        28
-      ],
-      "distance": 35.05709628591621
-    }
-  },
-  "tipo2_img1254": {
-    "coord1": {
-      "ground_truth": [
-        119,
-        32
-      ],
-      "prediction": [
-        3,
-        33
-      ],
-      "distance": 116.00431026474836
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        31
-      ],
-      "prediction": [
-        49,
-        32
-      ],
-      "distance": 41.012193308819754
-    }
-  },
-  "tipo2_img52": {
-    "coord1": {
-      "ground_truth": [
-        120,
-        33
-      ],
-      "prediction": [
-        13,
-        39
-      ],
-      "distance": 107.16809226630845
-    },
-    "coord2": {
-      "ground_truth": [
-        14,
-        42
-      ],
-      "prediction": [
-        63,
-        40
-      ],
-      "distance": 49.040799340956916
-    }
-  },
-  "tipo2_img128": {
-    "coord1": {
-      "ground_truth": [
-        121,
-        33
-      ],
-      "prediction": [
-        14,
-        31
+        10,
+        35
       ],
       "distance": 107.01868995647442
     },
     "coord2": {
       "ground_truth": [
-        16,
-        30
+        8,
+        36
       ],
       "prediction": [
-        56,
-        30
+        60,
+        35
       ],
-      "distance": 40.0
+      "distance": 52.009614495783374
     }
   },
-  "tipo2_img223": {
+  "tipo2_img4857": {
     "coord1": {
       "ground_truth": [
-        122,
-        29
-      ],
-      "prediction": [
-        17,
+        118,
         32
       ],
-      "distance": 105.04284840006957
+      "prediction": [
+        0,
+        31
+      ],
+      "distance": 118.00423721205946
     },
     "coord2": {
       "ground_truth": [
-        14,
+        10,
+        32
+      ],
+      "prediction": [
+        52,
+        31
+      ],
+      "distance": 42.01190307520001
+    }
+  },
+  "tipo2_img805": {
+    "coord1": {
+      "ground_truth": [
+        119,
         34
       ],
       "prediction": [
-        62,
-        34
+        6,
+        32
       ],
-      "distance": 48.0
+      "distance": 113.01769772916099
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        32
+      ],
+      "prediction": [
+        44,
+        32
+      ],
+      "distance": 35.0
     }
   },
-  "tipo2_img238": {
+  "tipo2_img7573": {
     "coord1": {
       "ground_truth": [
-        123,
-        36
+        120,
+        31
+      ],
+      "prediction": [
+        6,
+        33
+      ],
+      "distance": 114.0175425099138
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        31
+      ],
+      "prediction": [
+        62,
+        32
+      ],
+      "distance": 55.00909015790027
+    }
+  },
+  "tipo2_img2073": {
+    "coord1": {
+      "ground_truth": [
+        121,
+        34
       ],
       "prediction": [
         7,
         30
       ],
-      "distance": 116.15506876585283
+      "distance": 114.0701538527936
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        33
+      ],
+      "prediction": [
+        43,
+        27
+      ],
+      "distance": 35.510561809129406
+    }
+  },
+  "tipo2_img2112": {
+    "coord1": {
+      "ground_truth": [
+        122,
+        32
+      ],
+      "prediction": [
+        2,
+        31
+      ],
+      "distance": 120.00416659433121
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        31
+      ],
+      "prediction": [
+        42,
+        33
+      ],
+      "distance": 33.06055050963308
+    }
+  },
+  "tipo2_img2677": {
+    "coord1": {
+      "ground_truth": [
+        123,
+        33
+      ],
+      "prediction": [
+        13,
+        30
+      ],
+      "distance": 110.04090148667449
     },
     "coord2": {
       "ground_truth": [
         12,
-        30
+        32
       ],
       "prediction": [
-        55,
-        26
+        58,
+        29
       ],
-      "distance": 43.18564576337837
+      "distance": 46.09772228646444
     }
   },
-  "tipo2_img270": {
+  "tipo2_img1035": {
     "coord1": {
       "ground_truth": [
         124,
         35
       ],
       "prediction": [
-        14,
-        32
+        8,
+        28
       ],
-      "distance": 110.04090148667449
+      "distance": 116.21101496846157
     },
     "coord2": {
       "ground_truth": [
         11,
-        31
+        30
       ],
       "prediction": [
-        50,
-        31
+        46,
+        28
       ],
-      "distance": 39.0
+      "distance": 35.05709628591621
     }
   },
-  "tipo2_img335": {
+  "tipo2_img8352": {
     "coord1": {
       "ground_truth": [
         125,
@@ -1477,411 +2773,1131 @@
     },
     "coord2": {
       "ground_truth": [
-        9,
-        31
+        8,
+        33
       ],
       "prediction": [
-        54,
-        31
+        49,
+        30
       ],
-      "distance": 45.0
+      "distance": 41.10960958218893
     }
   },
-  "tipo2_img359": {
+  "tipo2_img3800": {
     "coord1": {
       "ground_truth": [
         126,
-        35
+        32
       ],
       "prediction": [
-        9,
-        31
+        6,
+        32
       ],
-      "distance": 117.06835610018618
+      "distance": 120.0
     },
     "coord2": {
       "ground_truth": [
-        7,
+        4,
         30
       ],
       "prediction": [
-        57,
-        25
+        43,
+        29
       ],
-      "distance": 50.24937810560445
+      "distance": 39.01281840626232
     }
   },
-  "tipo2_img445": {
+  "tipo2_img2742": {
     "coord1": {
       "ground_truth": [
         127,
-        28
-      ],
-      "prediction": [
-        17,
-        34
-      ],
-      "distance": 110.16351483136329
-    },
-    "coord2": {
-      "ground_truth": [
-        10,
-        34
-      ],
-      "prediction": [
-        55,
-        34
-      ],
-      "distance": 45.0
-    }
-  },
-  "tipo2_img456": {
-    "coord1": {
-      "ground_truth": [
-        128,
         33
       ],
       "prediction": [
-        7,
+        4,
         32
       ],
-      "distance": 121.00413216084813
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        31
-      ],
-      "prediction": [
-        46,
-        31
-      ],
-      "distance": 34.0
-    }
-  },
-  "tipo2_img551": {
-    "coord1": {
-      "ground_truth": [
-        129,
-        29
-      ],
-      "prediction": [
-        1,
-        29
-      ],
-      "distance": 128.0
+      "distance": 123.00406497347964
     },
     "coord2": {
       "ground_truth": [
         8,
-        33
-      ],
-      "prediction": [
-        46,
-        29
-      ],
-      "distance": 38.2099463490856
-    }
-  },
-  "tipo2_img706": {
-    "coord1": {
-      "ground_truth": [
-        130,
-        35
-      ],
-      "prediction": [
-        15,
-        33
-      ],
-      "distance": 115.0173899895142
-    },
-    "coord2": {
-      "ground_truth": [
-        6,
-        30
-      ],
-      "prediction": [
-        56,
-        29
-      ],
-      "distance": 50.00999900019995
-    }
-  },
-  "tipo2_img764": {
-    "coord1": {
-      "ground_truth": [
-        131,
-        33
-      ],
-      "prediction": [
-        15,
-        30
-      ],
-      "distance": 116.03878661895772
-    },
-    "coord2": {
-      "ground_truth": [
-        13,
-        28
-      ],
-      "prediction": [
-        59,
-        27
-      ],
-      "distance": 46.010868281309364
-    }
-  },
-  "tipo2_img846": {
-    "coord1": {
-      "ground_truth": [
-        132,
-        29
-      ],
-      "prediction": [
-        18,
-        33
-      ],
-      "distance": 114.0701538527936
-    },
-    "coord2": {
-      "ground_truth": [
-        13,
-        36
-      ],
-      "prediction": [
-        63,
-        31
-      ],
-      "distance": 50.24937810560445
-    }
-  },
-  "tipo2_img1211": {
-    "coord1": {
-      "ground_truth": [
-        133,
-        26
-      ],
-      "prediction": [
-        18,
-        31
-      ],
-      "distance": 115.10864433221339
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        32
-      ],
-      "prediction": [
-        63,
-        33
-      ],
-      "distance": 51.0098029794274
-    }
-  },
-  "tipo2_img1466": {
-    "coord1": {
-      "ground_truth": [
-        134,
-        31
-      ],
-      "prediction": [
-        12,
-        25
-      ],
-      "distance": 122.14745187681976
-    },
-    "coord2": {
-      "ground_truth": [
-        18,
-        32
-      ],
-      "prediction": [
-        63,
-        29
-      ],
-      "distance": 45.09988913511872
-    }
-  },
-  "tipo2_img1537": {
-    "coord1": {
-      "ground_truth": [
-        135,
-        25
-      ],
-      "prediction": [
-        18,
-        27
-      ],
-      "distance": 117.01709276853532
-    },
-    "coord2": {
-      "ground_truth": [
-        23,
-        30
-      ],
-      "prediction": [
-        63,
-        30
-      ],
-      "distance": 40.0
-    }
-  },
-  "tipo2_img1572": {
-    "coord1": {
-      "ground_truth": [
-        136,
-        35
-      ],
-      "prediction": [
-        5,
-        39
-      ],
-      "distance": 131.06105447462264
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        38
-      ],
-      "prediction": [
-        54,
-        37
-      ],
-      "distance": 46.010868281309364
-    }
-  },
-  "tipo2_img1604": {
-    "coord1": {
-      "ground_truth": [
-        137,
-        35
-      ],
-      "prediction": [
-        7,
-        31
-      ],
-      "distance": 130.06152390311286
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        31
+        34
       ],
       "prediction": [
         48,
         30
       ],
-      "distance": 41.012193308819754
+      "distance": 40.19950248448356
     }
   },
-  "tipo2_img1659": {
+  "tipo2_img5766": {
     "coord1": {
       "ground_truth": [
-        138,
+        128,
         32
       ],
       "prediction": [
-        0,
-        25
+        1,
+        30
       ],
-      "distance": 138.1774221788784
+      "distance": 127.01574705523721
     },
     "coord2": {
       "ground_truth": [
-        30,
+        1,
+        32
+      ],
+      "prediction": [
+        63,
+        30
+      ],
+      "distance": 62.03224967708329
+    }
+  },
+  "tipo2_img8218": {
+    "coord1": {
+      "ground_truth": [
+        129,
+        33
+      ],
+      "prediction": [
+        8,
+        31
+      ],
+      "distance": 121.01652779682617
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        33
+      ],
+      "prediction": [
+        60,
+        31
+      ],
+      "distance": 53.03772242470448
+    }
+  },
+  "tipo2_img8907": {
+    "coord1": {
+      "ground_truth": [
+        130,
+        34
+      ],
+      "prediction": [
+        8,
+        27
+      ],
+      "distance": 122.20065466273084
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        33
+      ],
+      "prediction": [
+        40,
+        26
+      ],
+      "distance": 33.734255586866
+    }
+  },
+  "tipo2_img2227": {
+    "coord1": {
+      "ground_truth": [
+        131,
+        31
+      ],
+      "prediction": [
+        8,
+        29
+      ],
+      "distance": 123.01625908797584
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        28
+      ],
+      "prediction": [
+        56,
+        28
+      ],
+      "distance": 48.0
+    }
+  },
+  "tipo2_img8559": {
+    "coord1": {
+      "ground_truth": [
+        132,
+        32
+      ],
+      "prediction": [
+        8,
+        31
+      ],
+      "distance": 124.00403219250575
+    },
+    "coord2": {
+      "ground_truth": [
+        3,
+        34
+      ],
+      "prediction": [
+        48,
+        32
+      ],
+      "distance": 45.044422518220834
+    }
+  },
+  "tipo2_img7545": {
+    "coord1": {
+      "ground_truth": [
+        133,
+        31
+      ],
+      "prediction": [
+        8,
+        33
+      ],
+      "distance": 125.01599897613104
+    },
+    "coord2": {
+      "ground_truth": [
+        14,
         30
       ],
       "prediction": [
-        35,
-        41
+        51,
+        34
       ],
-      "distance": 12.083045973594572
+      "distance": 37.21558813185679
     }
   },
-  "tipo2_img1756": {
+  "tipo2_img4178": {
     "coord1": {
       "ground_truth": [
-        139,
-        35
+        134,
+        29
       ],
       "prediction": [
-        15,
-        31
+        8,
+        28
+      ],
+      "distance": 126.00396819148197
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        29
+      ],
+      "prediction": [
+        62,
+        27
+      ],
+      "distance": 53.03772242470448
+    }
+  },
+  "tipo2_img8732": {
+    "coord1": {
+      "ground_truth": [
+        135,
+        32
+      ],
+      "prediction": [
+        11,
+        36
       ],
       "distance": 124.06449935416659
     },
     "coord2": {
       "ground_truth": [
-        18,
+        10,
+        31
+      ],
+      "prediction": [
+        60,
+        33
+      ],
+      "distance": 50.039984012787215
+    }
+  },
+  "tipo2_img4596": {
+    "coord1": {
+      "ground_truth": [
+        136,
+        33
+      ],
+      "prediction": [
+        6,
+        30
+      ],
+      "distance": 130.034610777285
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        30
+      ],
+      "prediction": [
+        45,
+        29
+      ],
+      "distance": 38.01315561749642
+    }
+  },
+  "tipo2_img5020": {
+    "coord1": {
+      "ground_truth": [
+        137,
+        33
+      ],
+      "prediction": [
+        7,
+        33
+      ],
+      "distance": 130.0
+    },
+    "coord2": {
+      "ground_truth": [
+        5,
+        31
+      ],
+      "prediction": [
+        50,
+        31
+      ],
+      "distance": 45.0
+    }
+  },
+  "tipo2_img4846": {
+    "coord1": {
+      "ground_truth": [
+        138,
+        28
+      ],
+      "prediction": [
+        7,
+        32
+      ],
+      "distance": 131.06105447462264
+    },
+    "coord2": {
+      "ground_truth": [
+        3,
         32
       ],
       "prediction": [
         47,
-        34
+        31
       ],
-      "distance": 29.068883707497267
+      "distance": 44.01136216933077
     }
   },
-  "tipo2_img1882": {
+  "tipo2_img1433": {
+    "coord1": {
+      "ground_truth": [
+        139,
+        32
+      ],
+      "prediction": [
+        10,
+        32
+      ],
+      "distance": 129.0
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        32
+      ],
+      "prediction": [
+        49,
+        29
+      ],
+      "distance": 40.11234224026316
+    }
+  },
+  "tipo2_img6151": {
     "coord1": {
       "ground_truth": [
         140,
         28
       ],
       "prediction": [
-        15,
-        30
+        9,
+        31
       ],
-      "distance": 125.01599897613104
+      "distance": 131.03434664239754
     },
     "coord2": {
       "ground_truth": [
-        19,
-        29
+        9,
+        27
       ],
       "prediction": [
-        55,
-        34
+        51,
+        32
       ],
-      "distance": 36.345563690772494
+      "distance": 42.2965719651132
     }
   },
-  "tipo2_img1891": {
+  "tipo2_img10169": {
     "coord1": {
       "ground_truth": [
         141,
+        34
+      ],
+      "prediction": [
+        17,
+        38
+      ],
+      "distance": 124.06449935416659
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        32
+      ],
+      "prediction": [
+        47,
+        34
+      ],
+      "distance": 39.05124837953327
+    }
+  },
+  "tipo2_img9308": {
+    "coord1": {
+      "ground_truth": [
+        142,
+        32
+      ],
+      "prediction": [
+        5,
         31
+      ],
+      "distance": 137.00364958642524
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        33
+      ],
+      "prediction": [
+        53,
+        29
+      ],
+      "distance": 44.181444068749045
+    }
+  },
+  "tipo2_img4488": {
+    "coord1": {
+      "ground_truth": [
+        143,
+        34
+      ],
+      "prediction": [
+        6,
+        31
+      ],
+      "distance": 137.03284277865654
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        35
+      ],
+      "prediction": [
+        53,
+        33
+      ],
+      "distance": 44.04543109109048
+    }
+  },
+  "tipo2_img10179": {
+    "coord1": {
+      "ground_truth": [
+        144,
+        34
       ],
       "prediction": [
         9,
-        25
+        31
       ],
-      "distance": 132.13629327327143
+      "distance": 135.03332921912278
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        33
+      ],
+      "prediction": [
+        50,
+        31
+      ],
+      "distance": 44.04543109109048
+    }
+  },
+  "tipo2_img6411": {
+    "coord1": {
+      "ground_truth": [
+        145,
+        37
+      ],
+      "prediction": [
+        1,
+        32
+      ],
+      "distance": 144.08677940741129
+    },
+    "coord2": {
+      "ground_truth": [
+        12,
+        34
+      ],
+      "prediction": [
+        41,
+        31
+      ],
+      "distance": 29.154759474226502
+    }
+  },
+  "tipo2_img7718": {
+    "coord1": {
+      "ground_truth": [
+        146,
+        31
+      ],
+      "prediction": [
+        5,
+        33
+      ],
+      "distance": 141.01418368376991
     },
     "coord2": {
       "ground_truth": [
         7,
-        26
+        30
       ],
       "prediction": [
-        54,
-        25
+        47,
+        33
+      ],
+      "distance": 40.11234224026316
+    }
+  },
+  "tipo2_img9992": {
+    "coord1": {
+      "ground_truth": [
+        147,
+        34
+      ],
+      "prediction": [
+        1,
+        31
+      ],
+      "distance": 146.03081866510234
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        33
+      ],
+      "prediction": [
+        38,
+        30
+      ],
+      "distance": 30.14962686336267
+    }
+  },
+  "tipo2_img8879": {
+    "coord1": {
+      "ground_truth": [
+        148,
+        33
+      ],
+      "prediction": [
+        5,
+        31
+      ],
+      "distance": 143.01398533010678
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        32
+      ],
+      "prediction": [
+        44,
+        33
+      ],
+      "distance": 36.013886210738214
+    }
+  },
+  "tipo2_img4554": {
+    "coord1": {
+      "ground_truth": [
+        149,
+        33
+      ],
+      "prediction": [
+        6,
+        31
+      ],
+      "distance": 143.01398533010678
+    },
+    "coord2": {
+      "ground_truth": [
+        11,
+        33
+      ],
+      "prediction": [
+        59,
+        33
+      ],
+      "distance": 48.0
+    }
+  },
+  "tipo2_img2012": {
+    "coord1": {
+      "ground_truth": [
+        150,
+        32
+      ],
+      "prediction": [
+        2,
+        31
+      ],
+      "distance": 148.00337833982033
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        33
+      ],
+      "prediction": [
+        51,
+        32
+      ],
+      "distance": 41.012193308819754
+    }
+  },
+  "tipo2_img8543": {
+    "coord1": {
+      "ground_truth": [
+        151,
+        39
+      ],
+      "prediction": [
+        18,
+        36
+      ],
+      "distance": 133.0338302838793
+    },
+    "coord2": {
+      "ground_truth": [
+        18,
+        35
+      ],
+      "prediction": [
+        61,
+        32
+      ],
+      "distance": 43.104524124504614
+    }
+  },
+  "tipo2_img5241": {
+    "coord1": {
+      "ground_truth": [
+        152,
+        32
+      ],
+      "prediction": [
+        9,
+        30
+      ],
+      "distance": 143.01398533010678
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        30
+      ],
+      "prediction": [
+        52,
+        28
+      ],
+      "distance": 46.04345773288535
+    }
+  },
+  "tipo2_img5497": {
+    "coord1": {
+      "ground_truth": [
+        153,
+        32
+      ],
+      "prediction": [
+        7,
+        30
+      ],
+      "distance": 146.01369798755184
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        34
+      ],
+      "prediction": [
+        45,
+        29
+      ],
+      "distance": 38.3275357934736
+    }
+  },
+  "tipo2_img2575": {
+    "coord1": {
+      "ground_truth": [
+        154,
+        32
+      ],
+      "prediction": [
+        11,
+        32
+      ],
+      "distance": 143.0
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        32
+      ],
+      "prediction": [
+        61,
+        29
+      ],
+      "distance": 51.088159097779204
+    }
+  },
+  "tipo2_img8035": {
+    "coord1": {
+      "ground_truth": [
+        155,
+        33
+      ],
+      "prediction": [
+        7,
+        31
+      ],
+      "distance": 148.0135128966271
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        32
+      ],
+      "prediction": [
+        57,
+        31
+      ],
+      "distance": 55.00909015790027
+    }
+  },
+  "tipo2_img6262": {
+    "coord1": {
+      "ground_truth": [
+        156,
+        34
+      ],
+      "prediction": [
+        7,
+        30
+      ],
+      "distance": 149.05368160498418
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        34
+      ],
+      "prediction": [
+        51,
+        31
+      ],
+      "distance": 45.09988913511872
+    }
+  },
+  "tipo2_img7848": {
+    "coord1": {
+      "ground_truth": [
+        157,
+        32
+      ],
+      "prediction": [
+        1,
+        27
+      ],
+      "distance": 156.08010763707205
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        31
+      ],
+      "prediction": [
+        48,
+        29
+      ],
+      "distance": 46.04345773288535
+    }
+  },
+  "tipo2_img3343": {
+    "coord1": {
+      "ground_truth": [
+        158,
+        32
+      ],
+      "prediction": [
+        6,
+        32
+      ],
+      "distance": 152.0
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        34
+      ],
+      "prediction": [
+        44,
+        33
+      ],
+      "distance": 38.01315561749642
+    }
+  },
+  "tipo2_img2306": {
+    "coord1": {
+      "ground_truth": [
+        159,
+        32
+      ],
+      "prediction": [
+        8,
+        30
+      ],
+      "distance": 151.0132444522665
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        31
+      ],
+      "prediction": [
+        49,
+        29
+      ],
+      "distance": 42.04759208325728
+    }
+  },
+  "tipo3_img449": {
+    "coord1": {
+      "ground_truth": [
+        170,
+        33
+      ],
+      "prediction": [
+        9,
+        32
+      ],
+      "distance": 161.00310556011024
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        32
+      ],
+      "prediction": [
+        53,
+        31
+      ],
+      "distance": 43.01162633521314
+    }
+  },
+  "tipo3_img1345": {
+    "coord1": {
+      "ground_truth": [
+        171,
+        31
+      ],
+      "prediction": [
+        7,
+        30
+      ],
+      "distance": 164.00304875214974
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        31
+      ],
+      "prediction": [
+        52,
+        30
+      ],
+      "distance": 44.01136216933077
+    }
+  },
+  "tipo3_img549": {
+    "coord1": {
+      "ground_truth": [
+        172,
+        35
+      ],
+      "prediction": [
+        5,
+        34
+      ],
+      "distance": 167.0029939851379
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        30
+      ],
+      "prediction": [
+        57,
+        29
+      ],
+      "distance": 51.0098029794274
+    }
+  },
+  "tipo3_img370": {
+    "coord1": {
+      "ground_truth": [
+        173,
+        29
+      ],
+      "prediction": [
+        4,
+        28
+      ],
+      "distance": 169.00295855398508
+    },
+    "coord2": {
+      "ground_truth": [
+        5,
+        30
+      ],
+      "prediction": [
+        59,
+        29
+      ],
+      "distance": 54.00925846556311
+    }
+  },
+  "tipo3_img909": {
+    "coord1": {
+      "ground_truth": [
+        174,
+        33
+      ],
+      "prediction": [
+        13,
+        32
+      ],
+      "distance": 161.00310556011024
+    },
+    "coord2": {
+      "ground_truth": [
+        14,
+        33
+      ],
+      "prediction": [
+        52,
+        32
+      ],
+      "distance": 38.01315561749642
+    }
+  },
+  "tipo3_img761": {
+    "coord1": {
+      "ground_truth": [
+        175,
+        35
+      ],
+      "prediction": [
+        3,
+        34
+      ],
+      "distance": 172.00290695217916
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        32
+      ],
+      "prediction": [
+        49,
+        31
+      ],
+      "distance": 45.0111097397076
+    }
+  },
+  "tipo3_img840": {
+    "coord1": {
+      "ground_truth": [
+        176,
+        33
+      ],
+      "prediction": [
+        11,
+        32
+      ],
+      "distance": 165.00303027520434
+    },
+    "coord2": {
+      "ground_truth": [
+        12,
+        31
+      ],
+      "prediction": [
+        51,
+        30
+      ],
+      "distance": 39.01281840626232
+    }
+  },
+  "tipo3_img747": {
+    "coord1": {
+      "ground_truth": [
+        177,
+        31
+      ],
+      "prediction": [
+        3,
+        30
+      ],
+      "distance": 174.0028735394907
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        35
+      ],
+      "prediction": [
+        59,
+        34
+      ],
+      "distance": 55.00909015790027
+    }
+  },
+  "tipo3_img250": {
+    "coord1": {
+      "ground_truth": [
+        178,
+        35
+      ],
+      "prediction": [
+        8,
+        34
+      ],
+      "distance": 170.00294115102832
+    },
+    "coord2": {
+      "ground_truth": [
+        9,
+        29
+      ],
+      "prediction": [
+        49,
+        28
+      ],
+      "distance": 40.01249804748511
+    }
+  },
+  "tipo3_img588": {
+    "coord1": {
+      "ground_truth": [
+        179,
+        33
+      ],
+      "prediction": [
+        7,
+        32
+      ],
+      "distance": 172.00290695217916
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        33
+      ],
+      "prediction": [
+        57,
+        32
+      ],
+      "distance": 49.01020301937138
+    }
+  },
+  "tipo3_img1322": {
+    "coord1": {
+      "ground_truth": [
+        180,
+        32
+      ],
+      "prediction": [
+        7,
+        31
+      ],
+      "distance": 173.0028901492689
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        30
+      ],
+      "prediction": [
+        52,
+        29
+      ],
+      "distance": 44.01136216933077
+    }
+  },
+  "tipo3_img425": {
+    "coord1": {
+      "ground_truth": [
+        181,
+        32
+      ],
+      "prediction": [
+        9,
+        31
+      ],
+      "distance": 172.00290695217916
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        32
+      ],
+      "prediction": [
+        57,
+        31
       ],
       "distance": 47.01063709417264
     }
   },
-  "tipo2_img1927": {
+  "tipo3_img767": {
     "coord1": {
       "ground_truth": [
-        142,
-        36
+        182,
+        31
       ],
       "prediction": [
-        12,
-        32
+        9,
+        30
       ],
-      "distance": 130.06152390311286
+      "distance": 173.0028901492689
     },
     "coord2": {
       "ground_truth": [
@@ -1890,166 +3906,334 @@
       ],
       "prediction": [
         47,
+        30
+      ],
+      "distance": 37.013511046643494
+    }
+  },
+  "tipo3_img1329": {
+    "coord1": {
+      "ground_truth": [
+        183,
+        32
+      ],
+      "prediction": [
+        9,
         31
       ],
-      "distance": 37.0
-    }
-  },
-  "tipo2_img1932": {
-    "coord1": {
-      "ground_truth": [
-        143,
-        28
-      ],
-      "prediction": [
-        13,
-        33
-      ],
-      "distance": 130.09611831257686
+      "distance": 174.0028735394907
     },
     "coord2": {
       "ground_truth": [
-        14,
-        35
-      ],
-      "prediction": [
-        51,
-        33
-      ],
-      "distance": 37.05401462729781
-    }
-  },
-  "tipo2_img1940": {
-    "coord1": {
-      "ground_truth": [
-        144,
-        26
-      ],
-      "prediction": [
-        0,
-        26
-      ],
-      "distance": 144.0
-    },
-    "coord2": {
-      "ground_truth": [
-        23,
+        10,
         29
       ],
       "prediction": [
         52,
-        33
+        28
       ],
-      "distance": 29.274562336608895
+      "distance": 42.01190307520001
     }
   },
-  "tipo2_img1943": {
+  "tipo3_img199": {
     "coord1": {
       "ground_truth": [
-        145,
-        40
+        184,
+        32
       ],
       "prediction": [
-        18,
-        40
-      ],
-      "distance": 127.0
-    },
-    "coord2": {
-      "ground_truth": [
-        14,
-        34
-      ],
-      "prediction": [
-        62,
-        36
-      ],
-      "distance": 48.041648597857254
-    }
-  },
-  "tipo2_img1945": {
-    "coord1": {
-      "ground_truth": [
-        146,
+        6,
         31
       ],
-      "prediction": [
-        10,
-        37
-      ],
-      "distance": 136.13228860193308
+      "distance": 178.0028089666003
     },
     "coord2": {
       "ground_truth": [
-        12,
-        36
+        7,
+        33
       ],
       "prediction": [
         55,
-        36
+        32
       ],
-      "distance": 43.0
+      "distance": 48.010415536631214
     }
   },
-  "tipo2_img1978": {
+  "tipo3_img1057": {
     "coord1": {
       "ground_truth": [
-        147,
-        34
+        185,
+        32
       ],
       "prediction": [
-        10,
-        38
+        6,
+        31
       ],
-      "distance": 137.05838172107534
+      "distance": 179.00279327429502
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        32
+      ],
+      "prediction": [
+        56,
+        31
+      ],
+      "distance": 49.01020301937138
+    }
+  },
+  "tipo3_img506": {
+    "coord1": {
+      "ground_truth": [
+        186,
+        36
+      ],
+      "prediction": [
+        7,
+        35
+      ],
+      "distance": 179.00279327429502
     },
     "coord2": {
       "ground_truth": [
         8,
-        41
+        29
       ],
       "prediction": [
-        63,
-        41
+        47,
+        28
       ],
-      "distance": 55.0
+      "distance": 39.01281840626232
     }
   },
-  "tipo2_img2001": {
+  "tipo3_img207": {
     "coord1": {
       "ground_truth": [
-        148,
-        35
+        187,
+        29
       ],
       "prediction": [
-        18,
-        32
+        5,
+        28
       ],
-      "distance": 130.034610777285
+      "distance": 182.00274723201295
     },
     "coord2": {
       "ground_truth": [
-        24,
-        34
+        6,
+        32
       ],
       "prediction": [
-        63,
-        24
+        48,
+        31
       ],
-      "distance": 40.26164427839479
+      "distance": 42.01190307520001
     }
   },
-  "tipo2_img2007": {
+  "tipo3_img1022": {
     "coord1": {
       "ground_truth": [
-        149,
-        28
+        188,
+        30
       ],
       "prediction": [
         5,
         29
       ],
-      "distance": 144.00347218036097
+      "distance": 183.0027322200409
+    },
+    "coord2": {
+      "ground_truth": [
+        6,
+        30
+      ],
+      "prediction": [
+        55,
+        29
+      ],
+      "distance": 49.01020301937138
+    }
+  },
+  "tipo3_img28": {
+    "coord1": {
+      "ground_truth": [
+        189,
+        31
+      ],
+      "prediction": [
+        1,
+        30
+      ],
+      "distance": 188.0026595556563
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        32
+      ],
+      "prediction": [
+        52,
+        31
+      ],
+      "distance": 50.00999900019995
+    }
+  },
+  "tipo3_img1104": {
+    "coord1": {
+      "ground_truth": [
+        190,
+        29
+      ],
+      "prediction": [
+        6,
+        28
+      ],
+      "distance": 184.00271737123884
+    },
+    "coord2": {
+      "ground_truth": [
+        7,
+        33
+      ],
+      "prediction": [
+        60,
+        32
+      ],
+      "distance": 53.009433122794285
+    }
+  },
+  "tipo3_img542": {
+    "coord1": {
+      "ground_truth": [
+        191,
+        32
+      ],
+      "prediction": [
+        7,
+        31
+      ],
+      "distance": 184.00271737123884
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        31
+      ],
+      "prediction": [
+        58,
+        30
+      ],
+      "distance": 50.00999900019995
+    }
+  },
+  "tipo3_img386": {
+    "coord1": {
+      "ground_truth": [
+        192,
+        33
+      ],
+      "prediction": [
+        12,
+        32
+      ],
+      "distance": 180.00277775634464
+    },
+    "coord2": {
+      "ground_truth": [
+        13,
+        32
+      ],
+      "prediction": [
+        62,
+        30
+      ],
+      "distance": 49.040799340956916
+    }
+  },
+  "tipo3_img14": {
+    "coord1": {
+      "ground_truth": [
+        193,
+        32
+      ],
+      "prediction": [
+        9,
+        31
+      ],
+      "distance": 184.00271737123884
+    },
+    "coord2": {
+      "ground_truth": [
+        10,
+        32
+      ],
+      "prediction": [
+        55,
+        31
+      ],
+      "distance": 45.0111097397076
+    }
+  },
+  "tipo3_img80": {
+    "coord1": {
+      "ground_truth": [
+        194,
+        34
+      ],
+      "prediction": [
+        7,
+        33
+      ],
+      "distance": 187.00267377767625
+    },
+    "coord2": {
+      "ground_truth": [
+        8,
+        33
+      ],
+      "prediction": [
+        56,
+        32
+      ],
+      "distance": 48.010415536631214
+    }
+  },
+  "tipo3_img1038": {
+    "coord1": {
+      "ground_truth": [
+        195,
+        34
+      ],
+      "prediction": [
+        3,
+        33
+      ],
+      "distance": 192.00260414900626
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        34
+      ],
+      "prediction": [
+        54,
+        33
+      ],
+      "distance": 50.00999900019995
+    }
+  },
+  "tipo3_img306": {
+    "coord1": {
+      "ground_truth": [
+        196,
+        29
+      ],
+      "prediction": [
+        18,
+        30
+      ],
+      "distance": 178.0028089666003
     },
     "coord2": {
       "ground_truth": [
@@ -2057,1186 +4241,82 @@
         30
       ],
       "prediction": [
-        44,
+        62,
+        30
+      ],
+      "distance": 59.0
+    }
+  },
+  "tipo3_img285": {
+    "coord1": {
+      "ground_truth": [
+        197,
+        32
+      ],
+      "prediction": [
+        3,
+        31
+      ],
+      "distance": 194.0025773024678
+    },
+    "coord2": {
+      "ground_truth": [
+        4,
+        30
+      ],
+      "prediction": [
+        52,
+        29
+      ],
+      "distance": 48.010415536631214
+    }
+  },
+  "tipo3_img508": {
+    "coord1": {
+      "ground_truth": [
+        198,
+        33
+      ],
+      "prediction": [
+        1,
+        32
+      ],
+      "distance": 197.00253805471644
+    },
+    "coord2": {
+      "ground_truth": [
+        2,
+        30
+      ],
+      "prediction": [
+        43,
         29
       ],
       "distance": 41.012193308819754
     }
   },
-  "tipo2_img2045": {
-    "coord1": {
-      "ground_truth": [
-        150,
-        34
-      ],
-      "prediction": [
-        6,
-        31
-      ],
-      "distance": 144.03124660989366
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        30
-      ],
-      "prediction": [
-        39,
-        30
-      ],
-      "distance": 31.0
-    }
-  },
-  "tipo2_img2076": {
-    "coord1": {
-      "ground_truth": [
-        151,
-        28
-      ],
-      "prediction": [
-        8,
-        27
-      ],
-      "distance": 143.0034964607509
-    },
-    "coord2": {
-      "ground_truth": [
-        1,
-        27
-      ],
-      "prediction": [
-        43,
-        27
-      ],
-      "distance": 42.0
-    }
-  },
-  "tipo2_img2095": {
-    "coord1": {
-      "ground_truth": [
-        152,
-        37
-      ],
-      "prediction": [
-        13,
-        36
-      ],
-      "distance": 139.00359707575916
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        37
-      ],
-      "prediction": [
-        48,
-        37
-      ],
-      "distance": 36.0
-    }
-  },
-  "tipo2_img2121": {
-    "coord1": {
-      "ground_truth": [
-        153,
-        39
-      ],
-      "prediction": [
-        17,
-        32
-      ],
-      "distance": 136.1800279042415
-    },
-    "coord2": {
-      "ground_truth": [
-        24,
-        34
-      ],
-      "prediction": [
-        59,
-        33
-      ],
-      "distance": 35.014282800023196
-    }
-  },
-  "tipo2_img2267": {
-    "coord1": {
-      "ground_truth": [
-        154,
-        25
-      ],
-      "prediction": [
-        10,
-        26
-      ],
-      "distance": 144.00347218036097
-    },
-    "coord2": {
-      "ground_truth": [
-        9,
-        27
-      ],
-      "prediction": [
-        55,
-        25
-      ],
-      "distance": 46.04345773288535
-    }
-  },
-  "tipo2_img2281": {
-    "coord1": {
-      "ground_truth": [
-        155,
-        32
-      ],
-      "prediction": [
-        15,
-        34
-      ],
-      "distance": 140.0142849854971
-    },
-    "coord2": {
-      "ground_truth": [
-        10,
-        37
-      ],
-      "prediction": [
-        55,
-        34
-      ],
-      "distance": 45.09988913511872
-    }
-  },
-  "tipo2_img2401": {
-    "coord1": {
-      "ground_truth": [
-        156,
-        35
-      ],
-      "prediction": [
-        18,
-        33
-      ],
-      "distance": 138.01449199268893
-    },
-    "coord2": {
-      "ground_truth": [
-        29,
-        33
-      ],
-      "prediction": [
-        63,
-        36
-      ],
-      "distance": 34.132096331752024
-    }
-  },
-  "tipo2_img2647": {
-    "coord1": {
-      "ground_truth": [
-        157,
-        34
-      ],
-      "prediction": [
-        13,
-        25
-      ],
-      "distance": 144.2809758769326
-    },
-    "coord2": {
-      "ground_truth": [
-        18,
-        24
-      ],
-      "prediction": [
-        50,
-        24
-      ],
-      "distance": 32.0
-    }
-  },
-  "tipo2_img2881": {
-    "coord1": {
-      "ground_truth": [
-        158,
-        42
-      ],
-      "prediction": [
-        18,
-        29
-      ],
-      "distance": 140.60227594174995
-    },
-    "coord2": {
-      "ground_truth": [
-        4,
-        39
-      ],
-      "prediction": [
-        63,
-        37
-      ],
-      "distance": 59.033888572581766
-    }
-  },
-  "tipo2_img3351": {
-    "coord1": {
-      "ground_truth": [
-        159,
-        40
-      ],
-      "prediction": [
-        18,
-        35
-      ],
-      "distance": 141.088624630053
-    },
-    "coord2": {
-      "ground_truth": [
-        25,
-        37
-      ],
-      "prediction": [
-        63,
-        35
-      ],
-      "distance": 38.05259518088089
-    }
-  },
-  "tipo1_img2": {
-    "coord1": {
-      "ground_truth": [
-        160,
-        23
-      ],
-      "prediction": [
-        9,
-        29
-      ],
-      "distance": 151.11915828246265
-    },
-    "coord2": {
-      "ground_truth": [
-        5,
-        31
-      ],
-      "prediction": [
-        48,
-        26
-      ],
-      "distance": 43.289721643826724
-    }
-  },
-  "tipo1_img18": {
-    "coord1": {
-      "ground_truth": [
-        161,
-        31
-      ],
-      "prediction": [
-        9,
-        35
-      ],
-      "distance": 152.0526224699857
-    },
-    "coord2": {
-      "ground_truth": [
-        10,
-        38
-      ],
-      "prediction": [
-        60,
-        36
-      ],
-      "distance": 50.039984012787215
-    }
-  },
-  "tipo1_img403": {
-    "coord1": {
-      "ground_truth": [
-        162,
-        36
-      ],
-      "prediction": [
-        18,
-        29
-      ],
-      "distance": 144.1700384962146
-    },
-    "coord2": {
-      "ground_truth": [
-        2,
-        34
-      ],
-      "prediction": [
-        63,
-        36
-      ],
-      "distance": 61.032778078668514
-    }
-  },
-  "tipo1_img449": {
-    "coord1": {
-      "ground_truth": [
-        163,
-        24
-      ],
-      "prediction": [
-        16,
-        30
-      ],
-      "distance": 147.12239802287073
-    },
-    "coord2": {
-      "ground_truth": [
-        16,
-        29
-      ],
-      "prediction": [
-        60,
-        30
-      ],
-      "distance": 44.01136216933077
-    }
-  },
-  "tipo1_img477": {
-    "coord1": {
-      "ground_truth": [
-        164,
-        32
-      ],
-      "prediction": [
-        10,
-        35
-      ],
-      "distance": 154.02921800749363
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        37
-      ],
-      "prediction": [
-        63,
-        39
-      ],
-      "distance": 51.03920062069938
-    }
-  },
-  "tipo1_img500": {
-    "coord1": {
-      "ground_truth": [
-        165,
-        33
-      ],
-      "prediction": [
-        12,
-        37
-      ],
-      "distance": 153.05227865013967
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        40
-      ],
-      "prediction": [
-        48,
-        37
-      ],
-      "distance": 41.10960958218893
-    }
-  },
-  "tipo1_img526": {
-    "coord1": {
-      "ground_truth": [
-        166,
-        39
-      ],
-      "prediction": [
-        11,
-        35
-      ],
-      "distance": 155.05160431288675
-    },
-    "coord2": {
-      "ground_truth": [
-        14,
-        32
-      ],
-      "prediction": [
-        63,
-        34
-      ],
-      "distance": 49.040799340956916
-    }
-  },
-  "tipo1_img564": {
-    "coord1": {
-      "ground_truth": [
-        167,
-        19
-      ],
-      "prediction": [
-        15,
-        24
-      ],
-      "distance": 152.08221460775746
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        21
-      ],
-      "prediction": [
-        62,
-        24
-      ],
-      "distance": 50.08991914547278
-    }
-  },
-  "tipo1_img575": {
-    "coord1": {
-      "ground_truth": [
-        168,
-        25
-      ],
-      "prediction": [
-        6,
-        28
-      ],
-      "distance": 162.02777539668932
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        32
-      ],
-      "prediction": [
-        63,
-        31
-      ],
-      "distance": 55.00909015790027
-    }
-  },
-  "tipo1_img584": {
-    "coord1": {
-      "ground_truth": [
-        169,
-        29
-      ],
-      "prediction": [
-        7,
-        32
-      ],
-      "distance": 162.02777539668932
-    },
-    "coord2": {
-      "ground_truth": [
-        9,
-        33
-      ],
-      "prediction": [
-        63,
-        32
-      ],
-      "distance": 54.00925846556311
-    }
-  },
-  "tipo1_img605": {
-    "coord1": {
-      "ground_truth": [
-        170,
-        38
-      ],
-      "prediction": [
-        10,
-        28
-      ],
-      "distance": 160.31219541881399
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        30
-      ],
-      "prediction": [
-        55,
-        30
-      ],
-      "distance": 47.0
-    }
-  },
-  "tipo1_img642": {
-    "coord1": {
-      "ground_truth": [
-        171,
-        29
-      ],
-      "prediction": [
-        17,
-        29
-      ],
-      "distance": 154.0
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        34
-      ],
-      "prediction": [
-        63,
-        28
-      ],
-      "distance": 51.35172830587107
-    }
-  },
-  "tipo1_img727": {
-    "coord1": {
-      "ground_truth": [
-        172,
-        35
-      ],
-      "prediction": [
-        9,
-        30
-      ],
-      "distance": 163.07666908543356
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        31
-      ],
-      "prediction": [
-        62,
-        30
-      ],
-      "distance": 55.00909015790027
-    }
-  },
-  "tipo1_img782": {
-    "coord1": {
-      "ground_truth": [
-        173,
-        29
-      ],
-      "prediction": [
-        7,
-        30
-      ],
-      "distance": 166.00301202086666
-    },
-    "coord2": {
-      "ground_truth": [
-        11,
-        34
-      ],
-      "prediction": [
-        57,
-        32
-      ],
-      "distance": 46.04345773288535
-    }
-  },
-  "tipo1_img914": {
-    "coord1": {
-      "ground_truth": [
-        174,
-        43
-      ],
-      "prediction": [
-        14,
-        39
-      ],
-      "distance": 160.04999218994044
-    },
-    "coord2": {
-      "ground_truth": [
-        15,
-        36
-      ],
-      "prediction": [
-        63,
-        32
-      ],
-      "distance": 48.16637831516918
-    }
-  },
-  "tipo1_img947": {
-    "coord1": {
-      "ground_truth": [
-        175,
-        43
-      ],
-      "prediction": [
-        8,
-        40
-      ],
-      "distance": 167.0269439342048
-    },
-    "coord2": {
-      "ground_truth": [
-        4,
-        40
-      ],
-      "prediction": [
-        56,
-        38
-      ],
-      "distance": 52.03844732503075
-    }
-  },
-  "tipo1_img972": {
-    "coord1": {
-      "ground_truth": [
-        176,
-        24
-      ],
-      "prediction": [
-        16,
-        26
-      ],
-      "distance": 160.0124995117569
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        25
-      ],
-      "prediction": [
-        59,
-        25
-      ],
-      "distance": 52.0
-    }
-  },
-  "tipo1_img979": {
-    "coord1": {
-      "ground_truth": [
-        177,
-        37
-      ],
-      "prediction": [
-        15,
-        37
-      ],
-      "distance": 162.0
-    },
-    "coord2": {
-      "ground_truth": [
-        6,
-        40
-      ],
-      "prediction": [
-        57,
-        38
-      ],
-      "distance": 51.03920062069938
-    }
-  },
-  "tipo1_img998": {
-    "coord1": {
-      "ground_truth": [
-        178,
-        32
-      ],
-      "prediction": [
-        18,
-        24
-      ],
-      "distance": 160.1998751560063
-    },
-    "coord2": {
-      "ground_truth": [
-        14,
-        29
-      ],
-      "prediction": [
-        63,
-        24
-      ],
-      "distance": 49.25444142409901
-    }
-  },
-  "tipo1_img1028": {
-    "coord1": {
-      "ground_truth": [
-        179,
-        35
-      ],
-      "prediction": [
-        14,
-        36
-      ],
-      "distance": 165.00303027520434
-    },
-    "coord2": {
-      "ground_truth": [
-        13,
-        41
-      ],
-      "prediction": [
-        63,
-        36
-      ],
-      "distance": 50.24937810560445
-    }
-  },
-  "tipo1_img1103": {
-    "coord1": {
-      "ground_truth": [
-        181,
-        23
-      ],
-      "prediction": [
-        18,
-        25
-      ],
-      "distance": 163.01226947687098
-    },
-    "coord2": {
-      "ground_truth": [
-        5,
-        34
-      ],
-      "prediction": [
-        63,
-        24
-      ],
-      "distance": 58.855755878248644
-    }
-  },
-  "tipo1_img1137": {
-    "coord1": {
-      "ground_truth": [
-        182,
-        29
-      ],
-      "prediction": [
-        14,
-        27
-      ],
-      "distance": 168.01190434013895
-    },
-    "coord2": {
-      "ground_truth": [
-        16,
-        25
-      ],
-      "prediction": [
-        63,
-        27
-      ],
-      "distance": 47.042533945356304
-    }
-  },
-  "tipo1_img1258": {
-    "coord1": {
-      "ground_truth": [
-        183,
-        22
-      ],
-      "prediction": [
-        18,
-        27
-      ],
-      "distance": 165.07574019219177
-    },
-    "coord2": {
-      "ground_truth": [
-        13,
-        33
-      ],
-      "prediction": [
-        63,
-        26
-      ],
-      "distance": 50.48762224545735
-    }
-  },
-  "tipo1_img1454": {
-    "coord1": {
-      "ground_truth": [
-        184,
-        34
-      ],
-      "prediction": [
-        16,
-        27
-      ],
-      "distance": 168.14577009250038
-    },
-    "coord2": {
-      "ground_truth": [
-        13,
-        26
-      ],
-      "prediction": [
-        63,
-        29
-      ],
-      "distance": 50.08991914547278
-    }
-  },
-  "tipo1_img1498": {
-    "coord1": {
-      "ground_truth": [
-        185,
-        34
-      ],
-      "prediction": [
-        12,
-        34
-      ],
-      "distance": 173.0
-    },
-    "coord2": {
-      "ground_truth": [
-        11,
-        38
-      ],
-      "prediction": [
-        63,
-        35
-      ],
-      "distance": 52.08646657242167
-    }
-  },
-  "tipo1_img1540": {
-    "coord1": {
-      "ground_truth": [
-        186,
-        37
-      ],
-      "prediction": [
-        6,
-        40
-      ],
-      "distance": 180.02499826412998
-    },
-    "coord2": {
-      "ground_truth": [
-        7,
-        43
-      ],
-      "prediction": [
-        57,
-        41
-      ],
-      "distance": 50.039984012787215
-    }
-  },
-  "tipo1_img1558": {
-    "coord1": {
-      "ground_truth": [
-        187,
-        26
-      ],
-      "prediction": [
-        14,
-        28
-      ],
-      "distance": 173.0115603073968
-    },
-    "coord2": {
-      "ground_truth": [
-        15,
-        34
-      ],
-      "prediction": [
-        48,
-        29
-      ],
-      "distance": 33.37663853655727
-    }
-  },
-  "tipo1_img1591": {
-    "coord1": {
-      "ground_truth": [
-        188,
-        31
-      ],
-      "prediction": [
-        16,
-        34
-      ],
-      "distance": 172.02616080119907
-    },
-    "coord2": {
-      "ground_truth": [
-        17,
-        38
-      ],
-      "prediction": [
-        55,
-        35
-      ],
-      "distance": 38.118237105091836
-    }
-  },
-  "tipo1_img1751": {
-    "coord1": {
-      "ground_truth": [
-        189,
-        34
-      ],
-      "prediction": [
-        4,
-        37
-      ],
-      "distance": 185.02432272541898
-    },
-    "coord2": {
-      "ground_truth": [
-        3,
-        39
-      ],
-      "prediction": [
-        46,
-        38
-      ],
-      "distance": 43.01162633521314
-    }
-  },
-  "tipo1_img1785": {
-    "coord1": {
-      "ground_truth": [
-        190,
-        41
-      ],
-      "prediction": [
-        10,
-        38
-      ],
-      "distance": 180.02499826412998
-    },
-    "coord2": {
-      "ground_truth": [
-        9,
-        34
-      ],
-      "prediction": [
-        63,
-        35
-      ],
-      "distance": 54.00925846556311
-    }
-  },
-  "tipo1_img1935": {
-    "coord1": {
-      "ground_truth": [
-        191,
-        25
-      ],
-      "prediction": [
-        18,
-        32
-      ],
-      "distance": 173.1415605797753
-    },
-    "coord2": {
-      "ground_truth": [
-        21,
-        35
-      ],
-      "prediction": [
-        55,
-        32
-      ],
-      "distance": 34.132096331752024
-    }
-  },
-  "tipo1_img2242": {
-    "coord1": {
-      "ground_truth": [
-        192,
-        34
-      ],
-      "prediction": [
-        15,
-        32
-      ],
-      "distance": 177.01129907438113
-    },
-    "coord2": {
-      "ground_truth": [
-        13,
-        31
-      ],
-      "prediction": [
-        53,
-        32
-      ],
-      "distance": 40.01249804748511
-    }
-  },
-  "tipo1_img2281": {
-    "coord1": {
-      "ground_truth": [
-        193,
-        25
-      ],
-      "prediction": [
-        14,
-        29
-      ],
-      "distance": 179.0446871593793
-    },
-    "coord2": {
-      "ground_truth": [
-        12,
-        38
-      ],
-      "prediction": [
-        59,
-        31
-      ],
-      "distance": 47.51841748206689
-    }
-  },
-  "tipo1_img2287": {
-    "coord1": {
-      "ground_truth": [
-        194,
-        32
-      ],
-      "prediction": [
-        1,
-        27
-      ],
-      "distance": 193.06475597581243
-    },
-    "coord2": {
-      "ground_truth": [
-        2,
-        24
-      ],
-      "prediction": [
-        42,
-        27
-      ],
-      "distance": 40.11234224026316
-    }
-  },
-  "tipo1_img2426": {
-    "coord1": {
-      "ground_truth": [
-        195,
-        36
-      ],
-      "prediction": [
-        15,
-        31
-      ],
-      "distance": 180.06943105369106
-    },
-    "coord2": {
-      "ground_truth": [
-        8,
-        30
-      ],
-      "prediction": [
-        61,
-        30
-      ],
-      "distance": 53.0
-    }
-  },
-  "tipo1_img2536": {
-    "coord1": {
-      "ground_truth": [
-        196,
-        28
-      ],
-      "prediction": [
-        6,
-        27
-      ],
-      "distance": 190.0026315607234
-    },
-    "coord2": {
-      "ground_truth": [
-        3,
-        21
-      ],
-      "prediction": [
-        51,
-        26
-      ],
-      "distance": 48.25971404805462
-    }
-  },
-  "tipo1_img2594": {
-    "coord1": {
-      "ground_truth": [
-        197,
-        34
-      ],
-      "prediction": [
-        9,
-        31
-      ],
-      "distance": 188.0239346466295
-    },
-    "coord2": {
-      "ground_truth": [
-        6,
-        28
-      ],
-      "prediction": [
-        63,
-        29
-      ],
-      "distance": 57.0087712549569
-    }
-  },
-  "tipo1_img2616": {
-    "coord1": {
-      "ground_truth": [
-        198,
-        24
-      ],
-      "prediction": [
-        16,
-        29
-      ],
-      "distance": 182.0686683644388
-    },
-    "coord2": {
-      "ground_truth": [
-        11,
-        34
-      ],
-      "prediction": [
-        62,
-        28
-      ],
-      "distance": 51.35172830587107
-    }
-  },
-  "tipo1_img2705": {
+  "tipo3_img741": {
     "coord1": {
       "ground_truth": [
         199,
-        38
+        33
       ],
       "prediction": [
-        14,
-        39
+        3,
+        32
       ],
-      "distance": 185.00270268296083
+      "distance": 196.0025510038071
     },
     "coord2": {
       "ground_truth": [
-        10,
-        45
+        4,
+        32
       ],
       "prediction": [
-        52,
-        41
+        53,
+        31
       ],
-      "distance": 42.190046219457976
+      "distance": 49.01020301937138
     }
   }
 }

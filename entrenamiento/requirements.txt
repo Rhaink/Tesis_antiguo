@@ -1,0 +1,16 @@
+# Dependencias principales
+numpy>=1.19.0
+opencv-python>=4.5.0
+scikit-learn>=0.24.0
+matplotlib>=3.3.0
+pillow>=8.0.0
+
+# Dependencias adicionales para entrenamiento
+pandas>=1.2.0  # Para manejo de datos
+tqdm>=4.50.0   # Para barras de progreso
+PyYAML>=5.4.0  # Para configuración
+
+# Dependencias de desarrollo
+pytest>=6.0.0   # Para pruebas unitarias
+black>=21.5b2   # Para formateo de código
+flake8>=3.9.0   # Para linting

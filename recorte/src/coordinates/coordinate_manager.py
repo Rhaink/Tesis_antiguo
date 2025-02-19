@@ -3,8 +3,9 @@ Módulo para el manejo y procesamiento de coordenadas en imágenes pulmonares.
 
 Este módulo proporciona clases y funciones para:
 - Lectura de coordenadas desde archivos CSV y JSON
-- Gestión de coordenadas de puntos de referencia
+- Gestión de coordenadas de puntos de referencia (sistema 0-based)
 - Procesamiento de coordenadas de búsqueda
+- Validación de coordenadas en rango 0-63
 """
 
 import csv
@@ -30,74 +31,100 @@ class CoordinateManager:
         self.coordinates = {}
         self.search_coordinates = {}
         
+    def _validate_coordinates(self, x: int, y: int, context: str = "") -> None:
+        """
+        Valida que las coordenadas estén en el rango 0-63.
+        
+        Args:
+            x (int): Coordenada x
+            y (int): Coordenada y
+            context (str): Contexto para el mensaje de error
+            
+        Raises:
+            ValueError: Si las coordenadas están fuera de rango
+        """
+        if not (0 <= x <= 63 and 0 <= y <= 63):
+            raise ValueError(
+                f"Coordenadas fuera de rango (0-63) {context}: ({x}, {y})"
+            )
+
     def _calculate_region_bounds(self, coord_points):
         """
         Calcula los límites de una región basado en las coordenadas de búsqueda.
+        Todas las coordenadas se manejan en sistema 0-based (0-63).
         
         Args:
-            coord_points (List[List[int]]): Lista de coordenadas [x,y]
+            coord_points (List[List[int]]): Lista de coordenadas [y,x] en formato 0-based
             
         Returns:
             Dict: Diccionario con los límites calculados (sup, inf, left, right, width, height)
+            
+        Raises:
+            ValueError: Si alguna coordenada está fuera del rango 0-63
         """
         if not coord_points:
             return None
             
-        # Extraer x,y de los puntos
-        x_coords = [p[0] for p in coord_points]
-        y_coords = [p[1] for p in coord_points]
+        # Extraer y,x de los puntos (cambiado orden para consistencia)
+        y_coords = [p[0] for p in coord_points]
+        x_coords = [p[1] for p in coord_points]
+        
+        # Validar rango 0-63
+        if any(y < 0 or y > 63 for y in y_coords) or any(x < 0 or x > 63 for x in x_coords):
+            raise ValueError("Coordenadas fuera del rango válido 0-63")
         
         # Calcular límites
-        left = min(x_coords)
-        right = max(x_coords)
-        sup = min(y_coords)
-        inf = max(y_coords)
+        sup = min(y_coords)    # y mínima (0-based)
+        inf = max(y_coords)    # y máxima (0-based)
+        left = min(x_coords)   # x mínima (0-based)
+        right = max(x_coords)  # x máxima (0-based)
         
-        # Calcular dimensiones
-        width = right - left + 1
-        height = inf - sup + 1
+        # Calcular dimensiones (incluyendo puntos extremos)
+        width = right - left + 1   # Número total de puntos en X
+        height = inf - sup + 1     # Número total de puntos en Y
         
         return {
-            "sup": sup,
-            "inf": inf,
-            "left": left,
-            "right": right,
-            "width": width,
-            "height": height
+            "sup": sup,     # y mínima (0-based)
+            "inf": inf,     # y máxima (0-based)
+            "left": left,   # x mínima (0-based)
+            "right": right, # x máxima (0-based)
+            "width": width, # Número total de puntos en X
+            "height": height # Número total de puntos en Y
         }
 
     def read_coordinates(self, filename: str) -> None:
         """
         Lee las coordenadas desde un archivo CSV.
+        Las coordenadas deben estar en formato 0-based (0-63).
         
         Args:
             filename (str): Ruta al archivo CSV con las coordenadas
             
         Raises:
             FileNotFoundError: Si no se encuentra el archivo
-            ValueError: Si el formato del archivo es inválido
+            ValueError: Si el formato del archivo es inválido o las coordenadas están fuera de rango
         """
         try:
             coordinates = {}
             with open(filename, 'r') as file:
                 csv_reader = csv.reader(file)
                 for row in csv_reader:
-                    # Convertir el índice a entero
                     index = int(row[0])
-                    # Inicializar el diccionario para este índice
                     coordinates[index] = {}
                     
-                    # MODIFICACIÓN: Procesar solo las coordenadas 1 y 2
+                    # Procesar solo las coordenadas 1 y 2
                     for i in range(2):
-                        # Calcular las posiciones en el row para cada coordenada
                         x_pos = 1 + (i * 2)  # Posición para x
                         y_pos = 2 + (i * 2)  # Posición para y
                         
-                        # Verificar que tenemos suficientes datos
                         if x_pos < len(row) and y_pos < len(row):
                             coord_name = f"Coord{i+1}"
                             x = int(row[x_pos]) if row[x_pos] else 0
                             y = int(row[y_pos]) if row[y_pos] else 0
+                            
+                            # Validar rango 0-63
+                            self._validate_coordinates(x, y, f"en índice {index}")
+                            
                             coordinates[index][coord_name] = (x, y)
                         else:
                             print(f"Advertencia: Datos faltantes para índice {index}, coordenada {i+1}")
@@ -200,14 +227,29 @@ class CoordinateManager:
     def calculate_intersection(sup: int, inf: int, left: int, right: int) -> Tuple[int, int]:
         """
         Calcula el punto de intersección de una región.
+        El punto de intersección se define como la esquina superior izquierda (left, sup)
+        de la región delimitada por los límites proporcionados.
         
         Args:
-            sup (int): Límite superior
-            inf (int): Límite inferior
-            left (int): Límite izquierdo
-            right (int): Límite derecho
+            sup (int): Límite superior (y mínima, 0-based)
+            inf (int): Límite inferior (y máxima, 0-based)
+            left (int): Límite izquierdo (x mínima, 0-based)
+            right (int): Límite derecho (x máxima, 0-based)
             
         Returns:
-            Tuple[int, int]: Coordenadas del punto de intersección (x, y)
+            Tuple[int, int]: Coordenadas del punto de intersección (x, y) en formato 0-based
+            
+        Raises:
+            ValueError: Si las coordenadas están fuera del rango 0-63 o los límites son inválidos
         """
-        return left, sup
+        # Validar rango 0-63
+        if not all(0 <= val <= 63 for val in [sup, inf, left, right]):
+            raise ValueError("Límites fuera del rango válido 0-63")
+            
+        # Validar que los límites son coherentes
+        if sup > inf:
+            raise ValueError("El límite superior no puede ser mayor que el inferior")
+        if left > right:
+            raise ValueError("El límite izquierdo no puede ser mayor que el derecho")
+            
+        return left, sup  # Retorna coordenadas (x, y) en formato 0-based

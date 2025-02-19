@@ -14,20 +14,19 @@ def generate_search_zone(csv_file, coord_num):
     coord_x = df.iloc[:, x_col].values
     coord_y = df.iloc[:, y_col].values
     
-    # Convertir 0 → 1 y valores >64 → 64 (1-based)
-    coord_x = np.clip(coord_x, 1, 64)
-    coord_y = np.clip(coord_y, 1, 64)
+    # Asegurar que las coordenadas estén en rango 0-63 (0-based)
+    coord_x = np.clip(coord_x, 0, 63)
+    coord_y = np.clip(coord_y, 0, 63)
 
     print(f"\nDiagnósticos para Coord{coord_num}:")
     print(f"Número total de puntos: {len(coord_x)}")
     print(f"Rango X : {coord_x.min()} - {coord_x.max()}")
     print(f"Rango Y : {coord_y.min()} - {coord_y.max()}")
 
-    # Crear heatmap 64x64
+    # Crear heatmap 64x64 (0-63 x 0-63)
     heatmap = np.zeros((64, 64))
     for x, y in zip(coord_x, coord_y):
-        x_adj, y_adj = x - 1, y - 1  # Convertir a 0-based (0-63)
-        heatmap[y_adj, x_adj] += 1  # Ya no hay valores fuera de rango
+        heatmap[y, x] += 1  # Usar coordenadas 0-based directamente
 
     # Calcular área de interés
     non_zero = np.nonzero(heatmap)
@@ -42,9 +41,9 @@ def generate_search_zone(csv_file, coord_num):
     search_zone = np.zeros((64, 64))
     search_zone[min_y:max_y+1, min_x:max_x+1] = 1
 
-    # Obtener coordenadas (1-based)
+    # Obtener coordenadas (0-based)
     search_coordinates = [
-        (int(y+1), int(x+1)) 
+        (int(y), int(x))
         for y, x in np.argwhere(search_zone == 1)
     ]
 
@@ -61,10 +60,9 @@ def generate_search_zone(csv_file, coord_num):
         linecolor='black'
     )
     
-    # Ajustar ejes
-    xticks_pos = np.arange(0, 65, 8)
-    xticks_labels = np.arange(1, 65, 8)
-    xticks_labels = np.append(xticks_labels, 65)
+    # Ajustar ejes (0-based)
+    xticks_pos = np.arange(0, 64, 8)
+    xticks_labels = np.arange(0, 64, 8)
     
     plt.xticks(xticks_pos, labels=xticks_labels)
     plt.yticks(xticks_pos, labels=xticks_labels)
@@ -76,8 +74,8 @@ def generate_search_zone(csv_file, coord_num):
         plt.axvline(x=i, color='black', linewidth=1.5)
     
     plt.title(f'Zona de Búsqueda para Coord{coord_num}')
-    plt.xlabel('Coordenada X (1-based)')
-    plt.ylabel('Coordenada Y (1-based)')
+    plt.xlabel('Coordenada X (0-based)')
+    plt.ylabel('Coordenada Y (0-based)')
     
     # Guardar y cerrar
     plt.tight_layout()
@@ -87,7 +85,7 @@ def generate_search_zone(csv_file, coord_num):
     return search_coordinates
 
 # Ejecutar análisis
-csv_file = 'Tesis/coordenadas_64x64.csv'
+csv_file = 'Tesis/coordenadas.csv'
 all_search_zones = {}
 
 for coord_num in range(1, 16):

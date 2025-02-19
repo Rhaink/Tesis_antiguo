@@ -16,6 +16,7 @@ def process_images(coord_manager: CoordinateManager,
                   indices_file: str) -> Dict:
     """
     Procesa las imágenes y extrae las regiones de interés.
+    Todas las coordenadas se manejan en sistema 0-based (0-63).
     
     Args:
         coord_manager: Gestor de coordenadas
@@ -64,24 +65,24 @@ def process_images(coord_manager: CoordinateManager,
                     # Cargar y redimensionar imagen
                     image = image_processor.load_and_resize_image(image_path)
                     
-                    # Obtener nuevas coordenadas
+                    # Obtener coordenadas (ya en formato 0-based)
                     new_x, new_y = coords[coord_name]
                     
                     # Crear región de búsqueda
                     search_region = np.zeros((64, 64))
                     search_coords = coord_manager.get_search_coordinates(coord_name.lower())
                     for y, x in search_coords:
-                        search_region[y-1, x-1] = 1  # Convertir de 1-based a 0-based
+                        search_region[y, x] = 1  # Coordenadas ya están en 0-based
                     
                     # Extraer región usando template
                     print(f"\nExtrayendo región para imagen {index}:")
-                    print(f"Punto etiquetado: ({new_x-1}, {new_y-1})")
+                    print(f"Punto etiquetado: ({new_x}, {new_y})")
                     
                     try:
                         cropped_image = image_processor.extract_region(
                             image=image,
                             search_region=search_region,
-                            labeled_point=(new_x-1, new_y-1),  # Convertir de 1-based a 0-based
+                            labeled_point=(new_x, new_y),  # Ya en 0-based
                             coord_num=int(coord_name.replace("Coord", "")),
                             template_size=config["width"]
                         )
@@ -157,7 +158,7 @@ def main():
             visualization_dir=str(VISUALIZATION_DIR)
         )
         
-        # Cargar coordenadas de búsqueda
+        # Cargar coordenadas de búsqueda ya en formato 0-based
         coord_manager.read_search_coordinates(str(PROJECT_ROOT.parent / "all_search_coordinates.json"))
 
         # Procesar imágenes

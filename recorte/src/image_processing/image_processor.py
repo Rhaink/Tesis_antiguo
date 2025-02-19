@@ -3,7 +3,7 @@ Módulo para el procesamiento de imágenes pulmonares.
 
 Este módulo proporciona clases y funciones para:
 - Carga y redimensionamiento de imágenes
-- Extracción de regiones de interés usando templates
+- Extracción de regiones de interés usando templates (sistema 0-based)
 - Procesamiento de imágenes recortadas
 - Gestión de rutas de imágenes
 """
@@ -22,7 +22,7 @@ class ImageProcessor:
     
     Esta clase maneja:
     - Carga y redimensionamiento de imágenes
-    - Extracción de regiones de interés
+    - Extracción de regiones de interés usando sistema 0-based
     - Guardado de imágenes procesadas
     - Gestión de rutas de archivos
     - Mejoramiento de contraste mediante SAHS
@@ -45,6 +45,23 @@ class ImageProcessor:
         self.output_base_path = Path(base_path).parent / "processed_images"
         self.contrast_enhancer = ContrastEnhancer()
         self.template_processor = TemplateProcessor(visualization_dir)
+
+    def _validate_coordinates(self, x: int, y: int, context: str = "") -> None:
+        """
+        Valida que las coordenadas estén en el rango 0-63.
+        
+        Args:
+            x (int): Coordenada x
+            y (int): Coordenada y
+            context (str): Contexto para el mensaje de error
+            
+        Raises:
+            ValueError: Si las coordenadas están fuera de rango
+        """
+        if not (0 <= x <= 63 and 0 <= y <= 63):
+            raise ValueError(
+                f"Coordenadas fuera de rango (0-63) {context}: ({x}, {y})"
+            )
 
     def get_image_path(self, index: int, indices_file: str) -> str:
         """
@@ -117,14 +134,14 @@ class ImageProcessor:
             image = cv2.imread(image_path)
             if image is None:
                 raise FileNotFoundError(f"No se pudo cargar la imagen: {image_path}")
-            
-            # Aplicar mejora de contraste SAHS
-            enhanced_image = self.contrast_enhancer.enhance_contrast_sahs(image)
-            if enhanced_image is None:
-                enhanced_image = image
+
+            if len(image.shape) > 2:
+                image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+            else:
+                image_gray = image.copy()
             
             # Redimensionar imagen
-            return cv2.resize(enhanced_image, size)
+            return cv2.resize(image_gray, size)
             
         except Exception as e:
             print(f"Error al cargar/procesar la imagen {image_path}: {str(e)}")
@@ -151,12 +168,13 @@ class ImageProcessor:
                       template_size: int = None) -> np.ndarray:
         """
         Extrae una región de interés de la imagen usando un template.
+        Todas las coordenadas se manejan en sistema 0-based (0-63).
         
         Args:
-            image (np.ndarray): Imagen fuente
-            search_region (np.ndarray): Región de búsqueda binaria
-            labeled_point (Tuple[int, int]): Punto etiquetado (x,y)
-            coord_num (int): Número de coordenada
+            image (np.ndarray): Imagen fuente (64x64)
+            search_region (np.ndarray): Región de búsqueda binaria (0-based)
+            labeled_point (Tuple[int, int]): Punto etiquetado (x,y) en formato 0-based
+            coord_num (int): Número de coordenada (1 o 2)
             template_size (int): Tamaño del template
             
         Returns:
@@ -169,13 +187,16 @@ class ImageProcessor:
             # Validar número de coordenada
             self.validate_coord_number(coord_num)
             
+            # Validar coordenadas del punto etiquetado
+            self._validate_coordinates(labeled_point[0], labeled_point[1], "punto etiquetado")
+            
             # Asegurar que la imagen tenga el tamaño correcto
             if image.shape[:2] != (64, 64):
                 image = cv2.resize(image, (64, 64))
                 
             # Asegurar que la región de búsqueda sea 64x64
             if search_region.shape != (64, 64):
-                search_region = cv2.resize(search_region.astype(np.float32), (64, 64)) > 0.5
+                search_region = cv2.resize(search_region.astype(np.float32), (64, 64), interpolation=cv2.INTER_NEAREST)
                 
             # Preparar nombre de coordenada
             coord_name = f"coord{coord_num}"
@@ -185,7 +206,7 @@ class ImageProcessor:
             if template_data is None:
                 raise ValueError(f"No se encontraron datos pre-calculados para {coord_name}")
             
-            # Extraer datos
+            # Extraer datos (todos en formato 0-based)
             template_bounds = template_data["template_bounds"]
             width = template_bounds["width"]
             height = template_bounds["height"]
@@ -196,9 +217,16 @@ class ImageProcessor:
                 template_data["intersection_point"]["y"]
             )
             
+            # Validar punto de intersección
+            self._validate_coordinates(
+                intersection_point[0], 
+                intersection_point[1], 
+                "punto de intersección"
+            )
+            
             # Crear template de recorte
             cutting_template = np.zeros((64, 64), dtype=np.uint8)
-            cutting_template[0: height, 0: width] = 1
+            cutting_template[0:height, 0:width] = 1
             
             # Obtener región recortada
             cropped = self.template_processor.crop_aligned_image(
