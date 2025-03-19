@@ -65,14 +65,14 @@ def process_images(coord_manager: CoordinateManager,
                     # Cargar y redimensionar imagen
                     image = image_processor.load_and_resize_image(image_path)
                     
-                    # Obtener coordenadas (ya en formato 0-based)
+                    # Obtener coordenadas 
                     new_x, new_y = coords[coord_name]
                     
                     # Crear región de búsqueda
                     search_region = np.zeros((64, 64))
                     search_coords = coord_manager.get_search_coordinates(coord_name.lower())
                     for y, x in search_coords:
-                        search_region[y, x] = 1  # Coordenadas ya están en 0-based
+                        search_region[y, x] = 1  
                     
                     # Extraer región usando template
                     print(f"\nExtrayendo región para imagen {index}:")
@@ -82,7 +82,7 @@ def process_images(coord_manager: CoordinateManager,
                         cropped_image = image_processor.extract_region(
                             image=image,
                             search_region=search_region,
-                            labeled_point=(new_x, new_y),  # Ya en 0-based
+                            labeled_point=(new_x, new_y),  
                             coord_num=int(coord_name.replace("Coord", "")),
                             template_size=config["width"]
                         )
@@ -137,7 +137,7 @@ def main():
         DATASET_PATH = PROJECT_ROOT.parent / "COVID-19_Radiography_Dataset"
         COORDINATES_FILE = PROJECT_ROOT.parent / "coordenadas.csv"
         INDICES_FILE = PROJECT_ROOT.parent / "indices.csv"
-        VISUALIZATION_DIR = PROJECT_ROOT.parent / "visualization_results"
+        VISUALIZATION_DIR = PROJECT_ROOT.parent / "resultados/recorte/imagenes_recortadas"
         
         # Validar rutas
         if not DATASET_PATH.exists():
@@ -159,7 +159,7 @@ def main():
         )
         
         # Cargar coordenadas de búsqueda ya en formato 0-based
-        coord_manager.read_search_coordinates(str(PROJECT_ROOT.parent / "all_search_coordinates.json"))
+        coord_manager.read_search_coordinates(str(PROJECT_ROOT.parent / "resultados/region_busqueda/json/all_search_coordinates.json"))
 
         # Procesar imágenes
         results = process_images(

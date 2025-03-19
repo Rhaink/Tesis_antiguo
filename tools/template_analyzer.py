@@ -62,9 +62,9 @@ class TemplateAnalyzer:
         if not coord_points:
             return None
             
-        # Extraer x,y de los puntos
-        x_coords = [p[0] for p in coord_points]
-        y_coords = [p[1] for p in coord_points]
+        # Extraer y,x de los puntos 
+        y_coords = [p[0] for p in coord_points]
+        x_coords = [p[1] for p in coord_points]
         
         # Calcular límites
         left = min(x_coords)
@@ -141,8 +141,15 @@ class TemplateAnalyzer:
             Matriz binaria con la región de búsqueda
         """
         search_region = np.zeros((64, 64))
-        for x, y in coord_points:
-            search_region[x, y] = 1  # Coordenadas ya están en 0-based
+        for point in coord_points:
+            try:
+                y, x = point[0], point[1]  # Los puntos vienen como [y,x]
+                if 0 <= x < 64 and 0 <= y < 64:
+                    search_region[y, x] = 1  # Mantener orden [y,x] para formato de imagen numpy
+                else:
+                    print(f"Advertencia: Ignorando coordenada fuera de rango y={y}, x={x}")
+            except Exception as e:
+                print(f"Error procesando punto {point}: {str(e)}")
         return search_region
         
     def create_cutting_template(self, a: int, b: int, c: int, d: int) -> np.ndarray:
@@ -165,8 +172,8 @@ class TemplateAnalyzer:
         if height <= 0 or width <= 0:
             raise ValueError(f"Dimensiones inválidas: {width}x{height}")
             
-        # Crear template desde el punto (d,a)
-        template[a:a+height, d:d+width] = 1
+        # Crear template desde el origen (0,0)
+        template[0:height, 0:width] = 1
         
         return template
         
@@ -179,15 +186,19 @@ class TemplateAnalyzer:
             d: Distancia desde el borde izquierdo
             
         Returns:
-            Tuple con las coordenadas (x,y) del punto de intersección
+            Tuple con las coordenadas (x,y) del punto de intersección donde:
+            x = d (distancia desde el borde izquierdo)
+            y = a (distancia desde el borde superior)
         """
-        return d, a
+        return d, a  # Retorna el punto (d,a) como debe ser
         
     def visualize_template(self, 
                           search_region: np.ndarray,
                           template: np.ndarray,
                           intersection_point: Tuple[int, int],
-                          coord_name: str) -> None:
+                          coord_name: str,
+                          a: int,
+                          d: int) -> None:
         """
         Genera una visualización del template y punto de intersección.
         
@@ -205,13 +216,16 @@ class TemplateAnalyzer:
         
         # Template y punto de intersección
         ax2.imshow(template, cmap='binary')
-        ax2.plot(intersection_point[0], intersection_point[1], 'r*', 
+        # Ajustamos la visualización para mostrar el punto relativo al origen (0,0)
+        ax2.plot(0, 0, 'r*', 
+                markersize=15, label=f'Origen (0,0)')
+        ax2.plot(intersection_point[0], intersection_point[1], 'g*', 
                 markersize=15, label=f'Intersección ({intersection_point[0]},{intersection_point[1]})')
         ax2.set_title(f'Template de Recorte - {coord_name}')
         ax2.legend()
         
         plt.tight_layout()
-        plt.savefig(self.output_dir / f'template_analysis_{coord_name}.png')
+        plt.savefig(self.output_dir / f'template_analysis_{coord_name}.png', dpi=1200)
         plt.close()
         
     def analyze_templates(self) -> None:
@@ -244,7 +258,7 @@ class TemplateAnalyzer:
                 # Crear template de recorte
                 template = self.create_cutting_template(a, b, c, d)
                 
-                # Encontrar punto de intersección
+                # Encontrar punto de intersección (ahora usando a, d en el orden correcto)
                 intersection_point = self.find_intersection_point(a, d)
                 
                 # Guardar datos
@@ -275,7 +289,9 @@ class TemplateAnalyzer:
                     search_region,
                     template,
                     intersection_point,
-                    coord_name
+                    coord_name,
+                    a,  # Pasar la distancia superior
+                    d   # Pasar la distancia izquierda
                 )
                 
             # Guardar resultados
@@ -300,8 +316,8 @@ class TemplateAnalyzer:
 def main():
     # Configurar rutas
     tesis_root = Path("/home/donrobot/projects/Tesis")
-    search_coordinates_file = tesis_root / "all_search_coordinates.json"
-    output_dir = tesis_root / "tools/template_analysis"
+    search_coordinates_file = tesis_root / "resultados/region_busqueda/json/all_search_coordinates.json"
+    output_dir = tesis_root / "resultados/analisis_regiones"
     
     # Crear y ejecutar analizador
     analyzer = TemplateAnalyzer(

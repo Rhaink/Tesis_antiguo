@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import json
+import os
 
 def generate_search_zone(csv_file, coord_num):
     # Cargar datos del CSV
@@ -14,7 +15,7 @@ def generate_search_zone(csv_file, coord_num):
     coord_x = df.iloc[:, x_col].values
     coord_y = df.iloc[:, y_col].values
     
-    # Asegurar que las coordenadas estén en rango 0-63 (0-based)
+    # Asegurar que las coordenadas estén en rango 0-63
     coord_x = np.clip(coord_x, 0, 63)
     coord_y = np.clip(coord_y, 0, 63)
 
@@ -26,7 +27,7 @@ def generate_search_zone(csv_file, coord_num):
     # Crear heatmap 64x64 (0-63 x 0-63)
     heatmap = np.zeros((64, 64))
     for x, y in zip(coord_x, coord_y):
-        heatmap[y, x] += 1  # Usar coordenadas 0-based directamente
+        heatmap[y, x] += 1 
 
     # Calcular área de interés
     non_zero = np.nonzero(heatmap)
@@ -41,7 +42,7 @@ def generate_search_zone(csv_file, coord_num):
     search_zone = np.zeros((64, 64))
     search_zone[min_y:max_y+1, min_x:max_x+1] = 1
 
-    # Obtener coordenadas (0-based)
+    # Obtener coordenadas
     search_coordinates = [
         (int(y), int(x))
         for y, x in np.argwhere(search_zone == 1)
@@ -60,7 +61,7 @@ def generate_search_zone(csv_file, coord_num):
         linecolor='black'
     )
     
-    # Ajustar ejes (0-based)
+    # Ajustar ejes 
     xticks_pos = np.arange(0, 64, 8)
     xticks_labels = np.arange(0, 64, 8)
     
@@ -79,7 +80,12 @@ def generate_search_zone(csv_file, coord_num):
     
     # Guardar y cerrar
     plt.tight_layout()
-    plt.savefig(f'coord{coord_num}_search_zone.png', dpi=300, bbox_inches='tight')
+    
+    # Crear la carpeta si no existe
+    output_dir = 'Tesis/resultados/region_busqueda/imagenes'
+    os.makedirs(output_dir, exist_ok=True)
+    
+    plt.savefig(os.path.join(output_dir, f'coord{coord_num}_search_zone.png'), dpi=1200, bbox_inches='tight')
     plt.close()
     
     return search_coordinates
@@ -93,8 +99,12 @@ for coord_num in range(1, 16):
     if search_coordinates:
         all_search_zones[f'coord{coord_num}'] = search_coordinates
 
+# Crear la carpeta para el archivo JSON
+output_dir_json = 'Tesis/resultados/region_busqueda/json'
+os.makedirs(output_dir_json, exist_ok=True)
+
 # Guardar resultados
-with open('all_search_coordinates_prueba2.json', 'w') as f:
+with open(os.path.join(output_dir_json, 'all_search_coordinates.json'), 'w') as f:
     json.dump(all_search_zones, f, indent=2)
 
-print("\n¡Proceso completado! Coordenadas guardadas en 'all_search_coordinates_prueba2.json'")
+print("\n¡Proceso completado! Coordenadas guardadas en 'all_search_coordinates.json'")

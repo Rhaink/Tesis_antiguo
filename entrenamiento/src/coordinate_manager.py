@@ -18,8 +18,8 @@ class CoordinateManager:
     
     def __init__(self):
         """Inicializa el gestor de coordenadas."""
-        self.template_data = {}  # Datos completos del JSON
-        self.search_coordinates = {}  # Coordenadas de búsqueda generadas
+        self.template_data = {}  
+        self.search_coordinates = {} 
 
     def read_search_coordinates(self, json_path: str) -> None:
         """
