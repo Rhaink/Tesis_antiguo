@@ -316,8 +316,8 @@ class TemplateAnalyzer:
 def main():
     # Configurar rutas
     tesis_root = Path("/home/donrobot/projects/Tesis")
-    search_coordinates_file = tesis_root / "resultados/region_busqueda/json/all_search_coordinates.json"
-    output_dir = tesis_root / "resultados/analisis_regiones"
+    search_coordinates_file = tesis_root / "resultados/region_busqueda/json_1/all_search_coordinates.json"
+    output_dir = tesis_root / "resultados/analisis_regiones/prueba_2"
     
     # Crear y ejecutar analizador
     analyzer = TemplateAnalyzer(

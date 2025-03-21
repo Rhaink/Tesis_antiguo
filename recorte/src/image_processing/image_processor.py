@@ -42,7 +42,7 @@ class ImageProcessor:
             visualization_dir (str): Directorio para guardar visualizaciones
         """
         self.base_path = Path(base_path)
-        self.output_base_path = Path(base_path).parent / "resultados/recorte/processed_images"
+        self.output_base_path = Path(base_path).parent / "resultados/recorte/prueba_2/processed_images"
         self.contrast_enhancer = ContrastEnhancer()
         self.template_processor = TemplateProcessor(visualization_dir)
 

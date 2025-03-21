@@ -19,10 +19,10 @@ PROJECT_ROOT = BASE_DIR / "Tesis"
 sys.path.append(str(PROJECT_ROOT / "entrenamiento"))
 # Definir rutas absolutas para archivos y directorios
 DATASET_PATH = PROJECT_ROOT / "COVID-19_Radiography_Dataset"
-COORD_FILE = PROJECT_ROOT / "resultados/analisis_regiones/template_analysis_results.json"
-MODELS_DIR = PROJECT_ROOT / "resultados/entrenamiento/models"
-OUTPUT_DIR = PROJECT_ROOT / "resultados/entrenamiento/visualization_results"
-LOG_FILE = PROJECT_ROOT / "resultados/entrenamiento/training.log"
+COORD_FILE = PROJECT_ROOT / "resultados/analisis_regiones/prueba_2/template_analysis_results.json"
+MODELS_DIR = PROJECT_ROOT / "resultados/entrenamiento/prueba_2/models"
+OUTPUT_DIR = PROJECT_ROOT / "resultados/entrenamiento/prueba_2/visualization_results"
+LOG_FILE = PROJECT_ROOT / "resultados/entrenamiento/prueba_2/training.log"
 
 from src.pca_analyzer import PCAAnalyzer
 from src.coordinate_manager import CoordinateManager

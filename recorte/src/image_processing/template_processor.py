@@ -35,7 +35,7 @@ class TemplateProcessor:
         self.visualization_dir.mkdir(parents=True, exist_ok=True)
         
         # Ruta al archivo de datos pre-calculados
-        self.template_data_path = Path(__file__).parent.parent.parent.parent / "resultados" / "analisis_regiones" / "template_analysis_results.json" 
+        self.template_data_path = Path(__file__).parent.parent.parent.parent / "resultados" / "analisis_regiones" / "prueba_2" /  "template_analysis_results.json" 
         self.template_data = self._load_template_data_file()
         
     def _load_template_data_file(self) -> Dict:
