@@ -42,7 +42,7 @@ class ImageProcessor:
             visualization_dir (str): Directorio para guardar visualizaciones
         """
         self.base_path = Path(base_path)
-        self.output_base_path = Path(base_path).parent / "resultados/recorte/prueba_2/processed_images"
+        self.output_base_path = Path(base_path).parent / "resultados/recorte/prueba_sahs/processed_images"
         self.contrast_enhancer = ContrastEnhancer()
         self.template_processor = TemplateProcessor(visualization_dir)
 
@@ -135,13 +135,19 @@ class ImageProcessor:
             if image is None:
                 raise FileNotFoundError(f"No se pudo cargar la imagen: {image_path}")
 
-            if len(image.shape) > 2:
-                image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            else:
-                image_gray = image.copy()
+            #if len(image.shape) > 2:
+            #    image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+            #else:
+            #    image_gray = image.copy()
+
+            # Aplicar mejora de contraste SAHS
+            enhanced_image = self.contrast_enhancer.enhance_contrast_sahs(image)
+            if enhanced_image is None:
+                print(f"Advertencia: No se pudo mejorar el contraste de {image_path}")
+                enhanced_image = image
             
             # Redimensionar imagen
-            return cv2.resize(image_gray, size)
+            return cv2.resize(enhanced_image, size)
             
         except Exception as e:
             print(f"Error al cargar/procesar la imagen {image_path}: {str(e)}")

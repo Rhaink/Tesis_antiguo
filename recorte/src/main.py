@@ -135,9 +135,9 @@ def main():
         # Configurar rutas
         PROJECT_ROOT = Path(__file__).parent.parent
         DATASET_PATH = PROJECT_ROOT.parent / "COVID-19_Radiography_Dataset"
-        COORDINATES_FILE = PROJECT_ROOT.parent / "coordenadas/coordenadas_1.csv"
-        INDICES_FILE = PROJECT_ROOT.parent / "indices/indices_1.csv"
-        VISUALIZATION_DIR = PROJECT_ROOT.parent / "resultados/recorte/imagenes_recortadas/prueba_2"
+        COORDINATES_FILE = PROJECT_ROOT.parent / "coordenadas/coordenadas.csv"
+        INDICES_FILE = PROJECT_ROOT.parent / "indices/indices.csv"
+        VISUALIZATION_DIR = PROJECT_ROOT.parent / "resultados/recorte/imagenes_recortadas/sahs"
         
         # Validar rutas
         if not DATASET_PATH.exists():
@@ -158,8 +158,8 @@ def main():
             visualization_dir=str(VISUALIZATION_DIR)
         )
         
-        # Cargar coordenadas de búsqueda ya en formato 0-based
-        coord_manager.read_search_coordinates(str(PROJECT_ROOT.parent / "resultados/region_busqueda/json_1/all_search_coordinates.json"))
+        # Cargar coordenadas de búsqueda 
+        coord_manager.read_search_coordinates(str(PROJECT_ROOT.parent / "resultados/region_busqueda/json/all_search_coordinates.json"))
 
         # Procesar imágenes
         results = process_images(

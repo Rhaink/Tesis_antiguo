@@ -102,7 +102,7 @@ class ImageProcessor:
         template_bounds = template_data["template_bounds"]
         template_size = (int(template_bounds["width"]), int(template_bounds["height"]))
             
-        training_dir = Path("/home/donrobot/projects/Tesis/resultados/recorte/prueba_2/processed_images") / f"cropped_images_Coord{coord_name[-1]}"
+        training_dir = Path("/home/donrobot/projects/Tesis/resultados/recorte/prueba_sahs/processed_images") / f"cropped_images_Coord{coord_name[-1]}"
         if not training_dir.exists():
             raise FileNotFoundError(f"No se encontró el directorio de entrenamiento: {training_dir}")
             

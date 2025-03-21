@@ -1,0 +1,6002 @@
+{
+    "Viral Pneumonia-1007.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                29
+            ],
+            "error": 494.36618357487924
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                29
+            ],
+            "error": 1011.6017002753604
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                30
+            ],
+            "error": 356.81304347826085
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                30
+            ],
+            "error": 757.9373325018369
+        }
+    },
+    "COVID-605.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                29
+            ],
+            "error": 449.8502415458937
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                29
+            ],
+            "error": 964.981865114573
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                33
+            ],
+            "error": 341.89875776397514
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                33
+            ],
+            "error": 741.9278940705761
+        }
+    },
+    "COVID-477.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                33
+            ],
+            "error": 427.5463768115942
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                33
+            ],
+            "error": 940.7555474192008
+        },
+        "coord2_mse": {
+            "coordinate": [
+                45,
+                34
+            ],
+            "error": 298.6944099378882
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                45,
+                34
+            ],
+            "error": 693.4680958775249
+        }
+    },
+    "COVID-1970.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 363.76038647342995
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 867.7465067633519
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                31
+            ],
+            "error": 316.15714285714284
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                31
+            ],
+            "error": 713.4514699683504
+        }
+    },
+    "COVID-2913.png": {
+        "coord1_mse": {
+            "coordinate": [
+                2,
+                34
+            ],
+            "error": 558.0449275362319
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                2,
+                34
+            ],
+            "error": 1074.7804426951582
+        },
+        "coord2_mse": {
+            "coordinate": [
+                41,
+                30
+            ],
+            "error": 415.5534161490683
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                41,
+                30
+            ],
+            "error": 817.9492649302889
+        }
+    },
+    "Normal-1088.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 494.52995169082124
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 1011.7692424658895
+        },
+        "coord2_mse": {
+            "coordinate": [
+                48,
+                31
+            ],
+            "error": 461.12360248447203
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                48,
+                31
+            ],
+            "error": 861.6315918070785
+        }
+    },
+    "Normal-6922.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                35
+            ],
+            "error": 373.5294685990338
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                35
+            ],
+            "error": 879.3213292079296
+        },
+        "coord2_mse": {
+            "coordinate": [
+                46,
+                33
+            ],
+            "error": 291.2608695652174
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                46,
+                33
+            ],
+            "error": 684.7846376781536
+        }
+    },
+    "COVID-782.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                31
+            ],
+            "error": 494.5743961352657
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                31
+            ],
+            "error": 1011.8147063568507
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                33
+            ],
+            "error": 408.1527950310559
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                33
+            ],
+            "error": 810.6330859272894
+        }
+    },
+    "COVID-2068.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                33
+            ],
+            "error": 412.487922705314
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                33
+            ],
+            "error": 924.040042422405
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                34
+            ],
+            "error": 316.639751552795
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                34
+            ],
+            "error": 713.9957983069648
+        }
+    },
+    "Viral Pneumonia-890.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                30
+            ],
+            "error": 428.0927536231884
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                30
+            ],
+            "error": 941.356468082097
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                33
+            ],
+            "error": 363.9130434782609
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                33
+            ],
+            "error": 765.4410493303844
+        }
+    },
+    "Normal-6438.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                36
+            ],
+            "error": 439.43961352657004
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                36
+            ],
+            "error": 953.7504914808694
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                30
+            ],
+            "error": 336.4919254658385
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                30
+            ],
+            "error": 736.0380424950873
+        }
+    },
+    "Normal-8661.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                38
+            ],
+            "error": 434.39565217391305
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                38
+            ],
+            "error": 948.2610400095535
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 339.8975155279503
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 739.753337268579
+        }
+    },
+    "Normal-9875.png": {
+        "coord1_mse": {
+            "coordinate": [
+                1,
+                34
+            ],
+            "error": 464.06666666666666
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                1,
+                34
+            ],
+            "error": 980.1112181788351
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                34
+            ],
+            "error": 419.0577639751553
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                34
+            ],
+            "error": 821.3908935458196
+        }
+    },
+    "Normal-9175.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 514.9415458937198
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 1032.4383758849726
+        },
+        "coord2_mse": {
+            "coordinate": [
+                58,
+                32
+            ],
+            "error": 387.7335403726708
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                58,
+                32
+            ],
+            "error": 790.095563840223
+        }
+    },
+    "COVID-500.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                38
+            ],
+            "error": 433.8792270531401
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                38
+            ],
+            "error": 947.6972090282845
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                40
+            ],
+            "error": 287.6478260869565
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                40
+            ],
+            "error": 680.5240627633971
+        }
+    },
+    "COVID-575.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 507.56859903381644
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 1025.020487600126
+        },
+        "coord2_mse": {
+            "coordinate": [
+                58,
+                33
+            ],
+            "error": 355.9627329192547
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                58,
+                33
+            ],
+            "error": 757.0336848516056
+        }
+    },
+    "Viral Pneumonia-82.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                33
+            ],
+            "error": 471.7695652173913
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                33
+            ],
+            "error": 988.2120217847989
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                35
+            ],
+            "error": 415.32981366459626
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                35
+            ],
+            "error": 817.7291727705451
+        }
+    },
+    "COVID-2259.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                28
+            ],
+            "error": 460.9367149758454
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                28
+            ],
+            "error": 976.8003890253116
+        },
+        "coord2_mse": {
+            "coordinate": [
+                43,
+                29
+            ],
+            "error": 346.20310559006214
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                43,
+                29
+            ],
+            "error": 746.5835519216854
+        }
+    },
+    "COVID-192.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                35
+            ],
+            "error": 426.70531400966183
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                35
+            ],
+            "error": 939.8297718204079
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                30
+            ],
+            "error": 314.74844720496895
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                30
+            ],
+            "error": 711.8602390919161
+        }
+    },
+    "Normal-1254.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                31
+            ],
+            "error": 561.3903381642513
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                31
+            ],
+            "error": 1077.9972170650535
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 479.2577639751553
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 878.4104962943009
+        }
+    },
+    "Normal-1943.png": {
+        "coord1_mse": {
+            "coordinate": [
+                14,
+                38
+            ],
+            "error": 437.8705314009662
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                14,
+                38
+            ],
+            "error": 952.0462173655227
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                35
+            ],
+            "error": 371.69068322981366
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                35
+            ],
+            "error": 773.5774040133282
+        }
+    },
+    "Normal-1945.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                35
+            ],
+            "error": 666.5299516908212
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                35
+            ],
+            "error": 1174.6135534719494
+        },
+        "coord2_mse": {
+            "coordinate": [
+                46,
+                39
+            ],
+            "error": 452.1664596273292
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                46,
+                39
+            ],
+            "error": 853.2221281706189
+        }
+    },
+    "Normal-8438.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                35
+            ],
+            "error": 405.68212560386473
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                35
+            ],
+            "error": 916.3852901481996
+        },
+        "coord2_mse": {
+            "coordinate": [
+                60,
+                34
+            ],
+            "error": 313.81801242236025
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                60,
+                34
+            ],
+            "error": 710.807287525951
+        }
+    },
+    "COVID-2426.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                30
+            ],
+            "error": 387.68067632850244
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                30
+            ],
+            "error": 895.8230852126998
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 273.87950310559006
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 664.0376495350245
+        }
+    },
+    "COVID-18.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                36
+            ],
+            "error": 386.62367149758455
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                36
+            ],
+            "error": 894.6010283919866
+        },
+        "coord2_mse": {
+            "coordinate": [
+                60,
+                38
+            ],
+            "error": 256.1347826086957
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                60,
+                38
+            ],
+            "error": 642.1658664239326
+        }
+    },
+    "COVID-1953.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                36
+            ],
+            "error": 550.0613526570048
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                36
+            ],
+            "error": 1067.0646653319563
+        },
+        "coord2_mse": {
+            "coordinate": [
+                49,
+                36
+            ],
+            "error": 396.4229813664596
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                49,
+                36
+            ],
+            "error": 798.8998685692719
+        }
+    },
+    "COVID-2025.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                31
+            ],
+            "error": 432.4826086956522
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                31
+            ],
+            "error": 946.1707034145583
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                36
+            ],
+            "error": 298.81304347826085
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                36
+            ],
+            "error": 693.6057958235355
+        }
+    },
+    "Normal-10027.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 426.1202898550725
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 939.1852852339628
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                33
+            ],
+            "error": 304.1472049689441
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                33
+            ],
+            "error": 699.7692476809766
+        }
+    },
+    "Normal-7595.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                31
+            ],
+            "error": 423.62125603864735
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                31
+            ],
+            "error": 936.4272529139677
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                32
+            ],
+            "error": 329.53540372670807
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                32
+            ],
+            "error": 728.390005422919
+        }
+    },
+    "Normal-2647.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                24
+            ],
+            "error": 488.1352657004831
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                24
+            ],
+            "error": 1005.2064464576418
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                28
+            ],
+            "error": 407.60496894409937
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                28
+            ],
+            "error": 810.0888840121188
+        }
+    },
+    "Normal-9390.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                29
+            ],
+            "error": 395.7695652173913
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                29
+            ],
+            "error": 905.1204339755014
+        },
+        "coord2_mse": {
+            "coordinate": [
+                49,
+                31
+            ],
+            "error": 320.40434782608696
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                49,
+                31
+            ],
+            "error": 718.2276797784948
+        }
+    },
+    "COVID-3305.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                30
+            ],
+            "error": 409.90676328502417
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                30
+            ],
+            "error": 921.1443969324245
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                39
+            ],
+            "error": 289.4223602484472
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                39
+            ],
+            "error": 682.619952828805
+        }
+    },
+    "Normal-4005.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                33
+            ],
+            "error": 609.819806763285
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                33
+            ],
+            "error": 1123.533266085166
+        },
+        "coord2_mse": {
+            "coordinate": [
+                49,
+                31
+            ],
+            "error": 529.616149068323
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                49,
+                31
+            ],
+            "error": 923.4078188969379
+        }
+    },
+    "Normal-551.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                29
+            ],
+            "error": 703.7444444444444
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                29
+            ],
+            "error": 1206.9594027969624
+        },
+        "coord2_mse": {
+            "coordinate": [
+                41,
+                31
+            ],
+            "error": 565.7347826086957
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                41,
+                31
+            ],
+            "error": 954.3757121804808
+        }
+    },
+    "COVID-403.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                29
+            ],
+            "error": 380.4207729468599
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                29
+            ],
+            "error": 887.3956276655864
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                31
+            ],
+            "error": 275.80062111801243
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                31
+            ],
+            "error": 666.3625139516778
+        }
+    },
+    "COVID-3003.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                30
+            ],
+            "error": 388.4632850241546
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                30
+            ],
+            "error": 896.7268257390318
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                37
+            ],
+            "error": 299.4223602484472
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                37
+            ],
+            "error": 694.3126097083359
+        }
+    },
+    "COVID-140.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                29
+            ],
+            "error": 366.56280193236717
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                29
+            ],
+            "error": 871.0826596827651
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                31
+            ],
+            "error": 274.67329192546583
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                31
+            ],
+            "error": 664.9992481198757
+        }
+    },
+    "Normal-3805.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                34
+            ],
+            "error": 415.20386473429954
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                34
+            ],
+            "error": 927.077127320052
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                36
+            ],
+            "error": 326.3416149068323
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                36
+            ],
+            "error": 724.8517089722559
+        }
+    },
+    "COVID-564.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                24
+            ],
+            "error": 537.2198067632851
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                24
+            ],
+            "error": 1054.535442742443
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                24
+            ],
+            "error": 364.972049689441
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                24
+            ],
+            "error": 766.5539772253484
+        }
+    },
+    "Viral Pneumonia-543.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                34
+            ],
+            "error": 489.92512077294685
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                34
+            ],
+            "error": 1007.0476652075611
+        },
+        "coord2_mse": {
+            "coordinate": [
+                60,
+                37
+            ],
+            "error": 415.4714285714286
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                60,
+                37
+            ],
+            "error": 817.8685713487223
+        }
+    },
+    "Viral Pneumonia-1248.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                32
+            ],
+            "error": 579.0574879227053
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                32
+            ],
+            "error": 1094.8282970402254
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                32
+            ],
+            "error": 452.99378881987576
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                32
+            ],
+            "error": 854.0023419171636
+        }
+    },
+    "Viral Pneumonia-1327.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                30
+            ],
+            "error": 405.4492753623188
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                30
+            ],
+            "error": 916.1222625828934
+        },
+        "coord2_mse": {
+            "coordinate": [
+                61,
+                31
+            ],
+            "error": 383.64906832298135
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                61,
+                31
+            ],
+            "error": 785.9230242205657
+        }
+    },
+    "Normal-10144.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                35
+            ],
+            "error": 391.892270531401
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                35
+            ],
+            "error": 900.6758573426957
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                36
+            ],
+            "error": 342.29689440993786
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                36
+            ],
+            "error": 742.359751064132
+        }
+    },
+    "Viral Pneumonia-793.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                32
+            ],
+            "error": 540.6613526570048
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                32
+            ],
+            "error": 1057.907840976708
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                33
+            ],
+            "error": 449.1844720496894
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                33
+            ],
+            "error": 850.4040216273675
+        }
+    },
+    "COVID-2933.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                33
+            ],
+            "error": 398.61545893719807
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                33
+            ],
+            "error": 908.3688678064655
+        },
+        "coord2_mse": {
+            "coordinate": [
+                47,
+                31
+            ],
+            "error": 337.39565217391305
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                47,
+                31
+            ],
+            "error": 737.0257797390808
+        }
+    },
+    "Normal-10115.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                29
+            ],
+            "error": 434.15942028985506
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                29
+            ],
+            "error": 948.0031645516801
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                33
+            ],
+            "error": 357.38695652173914
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                33
+            ],
+            "error": 758.5466366677794
+        }
+    },
+    "Normal-5098.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                33
+            ],
+            "error": 406.6647342995169
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                33
+            ],
+            "error": 917.4944141519337
+        },
+        "coord2_mse": {
+            "coordinate": [
+                48,
+                33
+            ],
+            "error": 298.02298136645965
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                48,
+                33
+            ],
+            "error": 692.6882415632591
+        }
+    },
+    "Normal-52.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                40
+            ],
+            "error": 474.52463768115945
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                40
+            ],
+            "error": 991.0933356652138
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                41
+            ],
+            "error": 339.183850931677
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                41
+            ],
+            "error": 738.9763189710479
+        }
+    },
+    "COVID-972.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                24
+            ],
+            "error": 404.6062801932367
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                24
+            ],
+            "error": 915.1693832291376
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 266.7944099378882
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 655.3922489624057
+        }
+    },
+    "Normal-7314.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                34
+            ],
+            "error": 382.1072463768116
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                34
+            ],
+            "error": 889.3604443643758
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                33
+            ],
+            "error": 315.8155279503106
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                33
+            ],
+            "error": 713.0659156066849
+        }
+    },
+    "COVID-526.png": {
+        "coord1_mse": {
+            "coordinate": [
+                16,
+                31
+            ],
+            "error": 430.8797101449275
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                16,
+                31
+            ],
+            "error": 944.4156923728026
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                32
+            ],
+            "error": 291.3074534161491
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                32
+            ],
+            "error": 684.8393972312049
+        }
+    },
+    "COVID-1028.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                34
+            ],
+            "error": 364.2386473429952
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                34
+            ],
+            "error": 868.3167624778414
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                39
+            ],
+            "error": 285.6347826086957
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                39
+            ],
+            "error": 678.138628895302
+        }
+    },
+    "Normal-6194.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 631.5502415458938
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 1143.3761410839393
+        },
+        "coord2_mse": {
+            "coordinate": [
+                42,
+                31
+            ],
+            "error": 507.5819875776398
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                42,
+                31
+            ],
+            "error": 903.9950221101884
+        }
+    },
+    "Normal-2007.png": {
+        "coord1_mse": {
+            "coordinate": [
+                4,
+                27
+            ],
+            "error": 553.2613526570049
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                4,
+                27
+            ],
+            "error": 1070.1640061224261
+        },
+        "coord2_mse": {
+            "coordinate": [
+                43,
+                29
+            ],
+            "error": 457.8447204968944
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                43,
+                29
+            ],
+            "error": 858.5627525114282
+        }
+    },
+    "COVID-2292.png": {
+        "coord1_mse": {
+            "coordinate": [
+                16,
+                33
+            ],
+            "error": 427.1231884057971
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                16,
+                33
+            ],
+            "error": 940.2898489295734
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                32
+            ],
+            "error": 308.5906832298137
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                32
+            ],
+            "error": 704.862397918913
+        }
+    },
+    "COVID-1540.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                41
+            ],
+            "error": 396.9091787439614
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                41
+            ],
+            "error": 906.4226387287555
+        },
+        "coord2_mse": {
+            "coordinate": [
+                47,
+                41
+            ],
+            "error": 297.70372670807456
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                47,
+                41
+            ],
+            "error": 692.3171238673791
+        }
+    },
+    "COVID-998.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                24
+            ],
+            "error": 478.46666666666664
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                24
+            ],
+            "error": 995.2014871371525
+        },
+        "coord2_mse": {
+            "coordinate": [
+                47,
+                28
+            ],
+            "error": 359.03788819875774
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                47,
+                28
+            ],
+            "error": 760.2966526297482
+        }
+    },
+    "Viral Pneumonia-700.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                31
+            ],
+            "error": 363.3743961352657
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                31
+            ],
+            "error": 867.2859966585416
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 292.61801242236027
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 686.378175643719
+        }
+    },
+    "COVID-1258.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                31
+            ],
+            "error": 436.35410628019326
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                31
+            ],
+            "error": 950.3962331575184
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                30
+            ],
+            "error": 309.75217391304346
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                30
+            ],
+            "error": 706.1876521152151
+        }
+    },
+    "Normal-764.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                31
+            ],
+            "error": 530.7734299516908
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                31
+            ],
+            "error": 1048.1893912838461
+        },
+        "coord2_mse": {
+            "coordinate": [
+                61,
+                29
+            ],
+            "error": 418.9472049689441
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                61,
+                29
+            ],
+            "error": 821.2825336021704
+        }
+    },
+    "COVID-709.png": {
+        "coord1_mse": {
+            "coordinate": [
+                14,
+                29
+            ],
+            "error": 347.5130434782609
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                14,
+                29
+            ],
+            "error": 848.1462138098595
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                31
+            ],
+            "error": 291.8639751552795
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                31
+            ],
+            "error": 685.4932530667243
+        }
+    },
+    "COVID-106.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                31
+            ],
+            "error": 380.2386473429952
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                31
+            ],
+            "error": 887.1831828884044
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                30
+            ],
+            "error": 298.1478260869565
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                30
+            ],
+            "error": 692.8333132868252
+        }
+    },
+    "Viral Pneumonia-804.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                32
+            ],
+            "error": 476.6347826086957
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                32
+            ],
+            "error": 993.2945182572992
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                31
+            ],
+            "error": 381.5217391304348
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                31
+            ],
+            "error": 783.7410286567879
+        }
+    },
+    "Normal-1537.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                27
+            ],
+            "error": 521.2019323671498
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                27
+            ],
+            "error": 1038.6953355050748
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                33
+            ],
+            "error": 409.5782608695652
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                33
+            ],
+            "error": 812.0474124089061
+        }
+    },
+    "COVID-2536.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                24
+            ],
+            "error": 386.37487922705316
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                24
+            ],
+            "error": 894.3131442621203
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                35
+            ],
+            "error": 306.46832298136644
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                35
+            ],
+            "error": 702.4343385683818
+        }
+    },
+    "Viral Pneumonia-934.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                30
+            ],
+            "error": 421.96280193236714
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                30
+            ],
+            "error": 934.5924245359578
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                32
+            ],
+            "error": 325.65341614906833
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                32
+            ],
+            "error": 724.0870113460122
+        }
+    },
+    "Normal-6955.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                35
+            ],
+            "error": 384.0608695652174
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                35
+            ],
+            "error": 891.6310896329267
+        },
+        "coord2_mse": {
+            "coordinate": [
+                48,
+                35
+            ],
+            "error": 308.23167701863355
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                48,
+                35
+            ],
+            "error": 704.4522694973734
+        }
+    },
+    "Normal-9419.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                33
+            ],
+            "error": 437.38454106280193
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                33
+            ],
+            "error": 951.5177349897373
+        },
+        "coord2_mse": {
+            "coordinate": [
+                45,
+                33
+            ],
+            "error": 323.9913043478261
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                45,
+                33
+            ],
+            "error": 722.236803271614
+        }
+    },
+    "Normal-223.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                33
+            ],
+            "error": 668.7057971014493
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                33
+            ],
+            "error": 1176.5292176567482
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                36
+            ],
+            "error": 553.7590062111801
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                36
+            ],
+            "error": 944.2203132743967
+        }
+    },
+    "COVID-2594.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                28
+            ],
+            "error": 472.47729468599033
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                28
+            ],
+            "error": 988.9529816932653
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                28
+            ],
+            "error": 371.12360248447203
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                28
+            ],
+            "error": 772.9870632811393
+        }
+    },
+    "Normal-1978.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                40
+            ],
+            "error": 348.743961352657
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                40
+            ],
+            "error": 849.6469855181033
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                41
+            ],
+            "error": 278.6068322981366
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                41
+            ],
+            "error": 669.7439809359992
+        }
+    },
+    "COVID-1103.png": {
+        "coord1_mse": {
+            "coordinate": [
+                2,
+                27
+            ],
+            "error": 676.3685990338164
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                2,
+                27
+            ],
+            "error": 1183.2510300016645
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                30
+            ],
+            "error": 458.34285714285716
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                30
+            ],
+            "error": 859.0296851680971
+        }
+    },
+    "Normal-1927.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                31
+            ],
+            "error": 412.67487922705317
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                31
+            ],
+            "error": 924.2494252094507
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                31
+            ],
+            "error": 326.90745341614905
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                31
+            ],
+            "error": 725.4798412085618
+        }
+    },
+    "COVID-642.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                28
+            ],
+            "error": 427.3946859903382
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                28
+            ],
+            "error": 940.5886454768631
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                30
+            ],
+            "error": 326.4577639751553
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                30
+            ],
+            "error": 724.9806893980004
+        }
+    },
+    "Viral Pneumonia-40.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                31
+            ],
+            "error": 410.78599033816425
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                31
+            ],
+            "error": 922.1317693258377
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                32
+            ],
+            "error": 304.7136645962733
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                32
+            ],
+            "error": 700.4205879327078
+        }
+    },
+    "Normal-128.png": {
+        "coord1_mse": {
+            "coordinate": [
+                14,
+                33
+            ],
+            "error": 489.5106280193237
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                14,
+                33
+            ],
+            "error": 1006.6215773566549
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                30
+            ],
+            "error": 423.91987577639753
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                30
+            ],
+            "error": 826.1422395689498
+        }
+    },
+    "COVID-2242.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                31
+            ],
+            "error": 365.8256038647343
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                31
+            ],
+            "error": 870.2062973801097
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 271.2173913043478
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 660.8025423679906
+        }
+    },
+    "COVID-947.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                38
+            ],
+            "error": 353.856038647343
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                38
+            ],
+            "error": 855.851622654301
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                36
+            ],
+            "error": 284.2509316770186
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                36
+            ],
+            "error": 676.4939024115442
+        }
+    },
+    "COVID-1498.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                34
+            ],
+            "error": 367.4888888888889
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                34
+            ],
+            "error": 872.1823203894929
+        },
+        "coord2_mse": {
+            "coordinate": [
+                48,
+                36
+            ],
+            "error": 290.5360248447205
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                48,
+                36
+            ],
+            "error": 683.9320141651508
+        }
+    },
+    "Normal-7327.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 408.2893719806763
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 919.3252960731583
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                33
+            ],
+            "error": 328.688198757764
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                33
+            ],
+            "error": 727.453091271183
+        }
+    },
+    "COVID-727.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 399.70917874396133
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 909.614203934833
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                28
+            ],
+            "error": 308.6689440993789
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                28
+            ],
+            "error": 704.9517714000016
+        }
+    },
+    "Viral Pneumonia-891.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                31
+            ],
+            "error": 452.01787439613526
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                31
+            ],
+            "error": 967.303985311753
+        },
+        "coord2_mse": {
+            "coordinate": [
+                60,
+                32
+            ],
+            "error": 374.0944099378882
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                60,
+                32
+            ],
+            "error": 776.074738668899
+        }
+    },
+    "Normal-3351.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                34
+            ],
+            "error": 743.0202898550725
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                34
+            ],
+            "error": 1240.1822446721287
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 372.41180124223604
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 774.3274501139682
+        }
+    },
+    "COVID-1656.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 759.715458937198
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 1254.0378782158057
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 448.2304347826087
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                37
+            ],
+            "error": 849.5004414360242
+        }
+    },
+    "Normal-1756.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                39
+            ],
+            "error": 483.5502415458937
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                39
+            ],
+            "error": 1000.4743874782603
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                40
+            ],
+            "error": 445.5621118012422
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                40
+            ],
+            "error": 846.9681221864256
+        }
+    },
+    "Viral Pneumonia-968.png": {
+        "coord1_mse": {
+            "coordinate": [
+                16,
+                31
+            ],
+            "error": 447.80434782608694
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                16,
+                31
+            ],
+            "error": 962.785022733528
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                29
+            ],
+            "error": 375.4018633540373
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                29
+            ],
+            "error": 777.4297395906591
+        }
+    },
+    "Normal-1211.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                27
+            ],
+            "error": 744.5236714975846
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                27
+            ],
+            "error": 1241.436264976982
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 535.1298136645963
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 928.202025423345
+        }
+    },
+    "Viral Pneumonia-206.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                30
+            ],
+            "error": 457.47971014492754
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                30
+            ],
+            "error": 973.1305153986283
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                32
+            ],
+            "error": 344.48571428571427
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                32
+            ],
+            "error": 744.7294810869246
+        }
+    },
+    "Normal-456.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                31
+            ],
+            "error": 488.80483091787437
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                31
+            ],
+            "error": 1005.895620827529
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                31
+            ],
+            "error": 414.28757763975153
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                31
+            ],
+            "error": 816.7025162199515
+        }
+    },
+    "Normal-7279.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                31
+            ],
+            "error": 370.40579710144925
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                31
+            ],
+            "error": 875.6369110538911
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                33
+            ],
+            "error": 310.927950310559
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                33
+            ],
+            "error": 707.5266779422526
+        }
+    },
+    "Viral Pneumonia-1321.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                31
+            ],
+            "error": 469.1178743961353
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                31
+            ],
+            "error": 985.4308702288557
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 377.37453416149066
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 779.4696915211008
+        }
+    },
+    "Normal-2430.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                28
+            ],
+            "error": 358.9661835748792
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                28
+            ],
+            "error": 862.0092806924993
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                29
+            ],
+            "error": 295.1757763975155
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                29
+            ],
+            "error": 689.3714528467218
+        }
+    },
+    "Viral Pneumonia-1260.png": {
+        "coord1_mse": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 477.9903381642512
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 994.7059867116513
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                33
+            ],
+            "error": 405.1142857142857
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                33
+            ],
+            "error": 807.6100544198296
+        }
+    },
+    "Normal-1466.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                37
+            ],
+            "error": 592.2314009661836
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                37
+            ],
+            "error": 1107.2122651054765
+        },
+        "coord2_mse": {
+            "coordinate": [
+                49,
+                34
+            ],
+            "error": 483.76459627329194
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                49,
+                34
+            ],
+            "error": 882.5310192848748
+        }
+    },
+    "Normal-625.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                32
+            ],
+            "error": 542.0705314009662
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                32
+            ],
+            "error": 1059.2856083228924
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 412.3981366459627
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 814.8380207133195
+        }
+    },
+    "COVID-584.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 567.1285024154589
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 1083.492501127719
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                34
+            ],
+            "error": 459.927950310559
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                34
+            ],
+            "error": 860.5138000055548
+        }
+    },
+    "COVID-1454.png": {
+        "coord1_mse": {
+            "coordinate": [
+                16,
+                27
+            ],
+            "error": 342.8782608695652
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                16,
+                27
+            ],
+            "error": 842.4713644985211
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                27
+            ],
+            "error": 273.77329192546586
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                27
+            ],
+            "error": 663.9088792899219
+        }
+    },
+    "Normal-6587.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                27
+            ],
+            "error": 464.78164251207727
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                27
+            ],
+            "error": 980.8659439495287
+        },
+        "coord2_mse": {
+            "coordinate": [
+                50,
+                26
+            ],
+            "error": 371.0006211180124
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                50,
+                26
+            ],
+            "error": 772.8589780807363
+        }
+    },
+    "COVID-1785.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                36
+            ],
+            "error": 457.9231884057971
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                36
+            ],
+            "error": 973.6020747718238
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                34
+            ],
+            "error": 325.7217391304348
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                34
+            ],
+            "error": 724.1629650845174
+        }
+    },
+    "Viral Pneumonia-822.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                33
+            ],
+            "error": 408.57632850241544
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                33
+            ],
+            "error": 919.6483023417159
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                31
+            ],
+            "error": 351.74037267080746
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                31
+            ],
+            "error": 752.530398057115
+        }
+    },
+    "COVID-824.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                35
+            ],
+            "error": 414.2004830917874
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                35
+            ],
+            "error": 925.956262465998
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                36
+            ],
+            "error": 311.55527950310557
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                36
+            ],
+            "error": 708.2400722918748
+        }
+    },
+    "COVID-2251.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 369.29855072463766
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 874.3271698855069
+        },
+        "coord2_mse": {
+            "coordinate": [
+                61,
+                30
+            ],
+            "error": 296.02360248447206
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                61,
+                30
+            ],
+            "error": 690.3607752472616
+        }
+    },
+    "COVID-1943.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                30
+            ],
+            "error": 327.6666666666667
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                30
+            ],
+            "error": 823.5714905216183
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 271.78012422360246
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 661.4877171951116
+        }
+    },
+    "Viral Pneumonia-856.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                30
+            ],
+            "error": 587.731884057971
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                30
+            ],
+            "error": 1102.9981867618822
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                33
+            ],
+            "error": 422.7217391304348
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                33
+            ],
+            "error": 824.9739389823172
+        }
+    },
+    "Normal-5861.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                39
+            ],
+            "error": 466.3202898550725
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                39
+            ],
+            "error": 982.4881678676848
+        },
+        "coord2_mse": {
+            "coordinate": [
+                45,
+                38
+            ],
+            "error": 365.23229813664597
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                45,
+                38
+            ],
+            "error": 766.8272295634787
+        }
+    },
+    "Normal-6859.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 434.1048309178744
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 947.9435637209633
+        },
+        "coord2_mse": {
+            "coordinate": [
+                44,
+                34
+            ],
+            "error": 326.41490683229813
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                44,
+                34
+            ],
+            "error": 724.9331003616817
+        }
+    },
+    "COVID-3387.png": {
+        "coord1_mse": {
+            "coordinate": [
+                14,
+                32
+            ],
+            "error": 380.380193236715
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                14,
+                32
+            ],
+            "error": 887.3482968936155
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                29
+            ],
+            "error": 269.44534161490685
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                29
+            ],
+            "error": 658.6402660026184
+        }
+    },
+    "Normal-8981.png": {
+        "coord1_mse": {
+            "coordinate": [
+                2,
+                35
+            ],
+            "error": 413.34057971014494
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                2,
+                35
+            ],
+            "error": 924.9945945788007
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                34
+            ],
+            "error": 303.9577639751553
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                34
+            ],
+            "error": 699.5512847533053
+        }
+    },
+    "COVID-2078.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                30
+            ],
+            "error": 408.98985507246374
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                30
+            ],
+            "error": 920.1135799454327
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                31
+            ],
+            "error": 315.87142857142857
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                31
+            ],
+            "error": 713.1290205846344
+        }
+    },
+    "Normal-359.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                33
+            ],
+            "error": 524.8512077294686
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                33
+            ],
+            "error": 1042.3252851197653
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                30
+            ],
+            "error": 424.3391304347826
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                30
+            ],
+            "error": 826.5506639039133
+        }
+    },
+    "COVID-670.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                26
+            ],
+            "error": 475.60048309178745
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                26
+            ],
+            "error": 992.2162062776439
+        },
+        "coord2_mse": {
+            "coordinate": [
+                61,
+                40
+            ],
+            "error": 331.61614906832295
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                61,
+                40
+            ],
+            "error": 730.6859790635099
+        }
+    },
+    "Normal-1659.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                28
+            ],
+            "error": 706.9328502415459
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                28
+            ],
+            "error": 1209.6904562738355
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                36
+            ],
+            "error": 532.1894409937888
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                36
+            ],
+            "error": 925.648421378225
+        }
+    },
+    "COVID-624.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                41
+            ],
+            "error": 474.1101449275362
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                41
+            ],
+            "error": 990.6603858033287
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                41
+            ],
+            "error": 335.92360248447204
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                41
+            ],
+            "error": 735.4162086872984
+        }
+    },
+    "COVID-1591.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                35
+            ],
+            "error": 358.36038647342997
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                35
+            ],
+            "error": 861.2816031937522
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                36
+            ],
+            "error": 266.9031055900621
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                36
+            ],
+            "error": 655.5257432015924
+        }
+    },
+    "Normal-7608.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                30
+            ],
+            "error": 396.76666666666665
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                30
+            ],
+            "error": 906.2598964976879
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                29
+            ],
+            "error": 322.8770186335404
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                29
+            ],
+            "error": 720.9937586415017
+        }
+    },
+    "Normal-9898.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                32
+            ],
+            "error": 404.13864734299517
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                32
+            ],
+            "error": 914.6403664829144
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                32
+            ],
+            "error": 360.44844720496894
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                32
+            ],
+            "error": 761.7886846101089
+        }
+    },
+    "Viral Pneumonia-847.png": {
+        "coord1_mse": {
+            "coordinate": [
+                16,
+                31
+            ],
+            "error": 459.5
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                16,
+                31
+            ],
+            "error": 975.2768837617346
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                32
+            ],
+            "error": 371.6267080745342
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                32
+            ],
+            "error": 773.5108273321066
+        }
+    },
+    "Viral Pneumonia-889.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                30
+            ],
+            "error": 443.13574879227053
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                30
+            ],
+            "error": 957.7530997078527
+        },
+        "coord2_mse": {
+            "coordinate": [
+                60,
+                31
+            ],
+            "error": 333.91242236024846
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                60,
+                31
+            ],
+            "error": 733.2114292617104
+        }
+    },
+    "COVID-3090.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                33
+            ],
+            "error": 430.3463768115942
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                33
+            ],
+            "error": 943.8310230120644
+        },
+        "coord2_mse": {
+            "coordinate": [
+                48,
+                33
+            ],
+            "error": 368.9801242236025
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                48,
+                33
+            ],
+            "error": 770.7515812504053
+        }
+    },
+    "Normal-1533.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                31
+            ],
+            "error": 357.58357487922706
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                31
+            ],
+            "error": 860.3476041693846
+        },
+        "coord2_mse": {
+            "coordinate": [
+                46,
+                32
+            ],
+            "error": 294.9049689440994
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                46,
+                32
+            ],
+            "error": 689.0551501875593
+        }
+    },
+    "Viral Pneumonia-1092.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                32
+            ],
+            "error": 496.95893719806764
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                32
+            ],
+            "error": 1014.2509551388157
+        },
+        "coord2_mse": {
+            "coordinate": [
+                58,
+                33
+            ],
+            "error": 401.54347826086956
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                58,
+                33
+            ],
+            "error": 804.0429093027312
+        }
+    },
+    "Normal-2121.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                32
+            ],
+            "error": 604.2743961352656
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                32
+            ],
+            "error": 1118.4131615820693
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                37
+            ],
+            "error": 371.89627329192547
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                37
+            ],
+            "error": 773.7913155366891
+        }
+    },
+    "Normal-9207.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                32
+            ],
+            "error": 428.4705314009662
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                32
+            ],
+            "error": 941.7717345514252
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                34
+            ],
+            "error": 355.24347826086955
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                34
+            ],
+            "error": 756.2684708488117
+        }
+    },
+    "Normal-3720.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                34
+            ],
+            "error": 355.2405797101449
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                34
+            ],
+            "error": 857.5243436777757
+        },
+        "coord2_mse": {
+            "coordinate": [
+                61,
+                36
+            ],
+            "error": 256.67453416149067
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                61,
+                36
+            ],
+            "error": 642.8421268087524
+        }
+    },
+    "Normal-937.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 540.9541062801933
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                30
+            ],
+            "error": 1058.1942165784124
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                32
+            ],
+            "error": 398.79627329192544
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                32
+            ],
+            "error": 801.287713621019
+        }
+    },
+    "Viral Pneumonia-1209.png": {
+        "coord1_mse": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 414.2149758454106
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 925.972461793546
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 385.0645962732919
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 787.371576830152
+        }
+    },
+    "Normal-2881.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                24
+            ],
+            "error": 1534.7792270531402
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                24
+            ],
+            "error": 1782.412129671474
+        },
+        "coord2_mse": {
+            "coordinate": [
+                37,
+                29
+            ],
+            "error": 1074.8850931677018
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                37,
+                29
+            ],
+            "error": 1315.5094070359207
+        }
+    },
+    "Viral Pneumonia-1268.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                33
+            ],
+            "error": 436.7004830917874
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                33
+            ],
+            "error": 950.7733694209152
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 333.29316770186335
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 732.5312280032845
+        }
+    },
+    "Viral Pneumonia-94.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                31
+            ],
+            "error": 370.987922705314
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                31
+            ],
+            "error": 876.32471150824
+        },
+        "coord2_mse": {
+            "coordinate": [
+                61,
+                36
+            ],
+            "error": 313.32919254658384
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                61,
+                36
+            ],
+            "error": 710.2534758802663
+        }
+    },
+    "Viral Pneumonia-162.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                29
+            ],
+            "error": 443.89565217391305
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                29
+            ],
+            "error": 958.573940809993
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                34
+            ],
+            "error": 355.7223602484472
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                34
+            ],
+            "error": 756.77803879341
+        }
+    },
+    "Normal-2183.png": {
+        "coord1_mse": {
+            "coordinate": [
+                4,
+                33
+            ],
+            "error": 431.0743961352657
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                4,
+                33
+            ],
+            "error": 944.6290277140545
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 349.5055900621118
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 750.1359876715688
+        }
+    },
+    "Normal-4297.png": {
+        "coord1_mse": {
+            "coordinate": [
+                8,
+                32
+            ],
+            "error": 425.619806763285
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                8,
+                32
+            ],
+            "error": 938.6335813297967
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                32
+            ],
+            "error": 348.0739130434783
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                32
+            ],
+            "error": 748.5980229736117
+        }
+    },
+    "COVID-979.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                39
+            ],
+            "error": 365.29082125603867
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                39
+            ],
+            "error": 869.5700086824522
+        },
+        "coord2_mse": {
+            "coordinate": [
+                58,
+                41
+            ],
+            "error": 276.4298136645963
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                58,
+                41
+            ],
+            "error": 667.1221777155965
+        }
+    },
+    "Normal-335.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                34
+            ],
+            "error": 507.3188405797101
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                34
+            ],
+            "error": 1024.7682664875997
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                33
+            ],
+            "error": 397.860248447205
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                33
+            ],
+            "error": 800.3467998311731
+        }
+    },
+    "Normal-3945.png": {
+        "coord1_mse": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 379.38357487922707
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 886.1850822486238
+        },
+        "coord2_mse": {
+            "coordinate": [
+                45,
+                32
+            ],
+            "error": 298.8366459627329
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                45,
+                32
+            ],
+            "error": 693.633188363994
+        }
+    },
+    "COVID-1751.png": {
+        "coord1_mse": {
+            "coordinate": [
+                4,
+                37
+            ],
+            "error": 515.7966183574879
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                4,
+                37
+            ],
+            "error": 1033.2952143506714
+        },
+        "coord2_mse": {
+            "coordinate": [
+                47,
+                39
+            ],
+            "error": 333.4130434782609
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                47,
+                39
+            ],
+            "error": 732.6629511583071
+        }
+    },
+    "Normal-647.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 503.32173913043476
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 1020.7232729785287
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                32
+            ],
+            "error": 421.9086956521739
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                32
+            ],
+            "error": 824.1801987429691
+        }
+    },
+    "Normal-270.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                34
+            ],
+            "error": 480.56618357487923
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                34
+            ],
+            "error": 997.3825745419858
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                31
+            ],
+            "error": 398.15341614906833
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                31
+            ],
+            "error": 800.641617704201
+        }
+    },
+    "COVID-1558.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                28
+            ],
+            "error": 334.9594202898551
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                28
+            ],
+            "error": 832.6860152542494
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                35
+            ],
+            "error": 248.25403726708075
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                35
+            ],
+            "error": 632.2096171365949
+        }
+    },
+    "Viral Pneumonia-149.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                33
+            ],
+            "error": 618.7106280193236
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                33
+            ],
+            "error": 1131.693863197994
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                31
+            ],
+            "error": 455.6316770186335
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                31
+            ],
+            "error": 856.4852596513264
+        }
+    },
+    "Normal-7806.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                34
+            ],
+            "error": 550.6342995169082
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                34
+            ],
+            "error": 1067.6202508382837
+        },
+        "coord2_mse": {
+            "coordinate": [
+                60,
+                35
+            ],
+            "error": 423.3403726708074
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                60,
+                35
+            ],
+            "error": 825.5773737209614
+        }
+    },
+    "COVID-1935.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 621.175845410628
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 1133.946206836991
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                34
+            ],
+            "error": 423.62608695652176
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                34
+            ],
+            "error": 825.8559196373178
+        }
+    },
+    "Viral Pneumonia-1167.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                30
+            ],
+            "error": 534.0850241545894
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                30
+            ],
+            "error": 1051.454231053354
+        },
+        "coord2_mse": {
+            "coordinate": [
+                47,
+                33
+            ],
+            "error": 413.9751552795031
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                47,
+                33
+            ],
+            "error": 816.3945124754331
+        }
+    },
+    "Normal-3541.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                31
+            ],
+            "error": 416.7338164251208
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                31
+            ],
+            "error": 928.7836131198698
+        },
+        "coord2_mse": {
+            "coordinate": [
+                48,
+                32
+            ],
+            "error": 328.4192546583851
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                48,
+                32
+            ],
+            "error": 727.1554166751424
+        }
+    },
+    "Normal-1932.png": {
+        "coord1_mse": {
+            "coordinate": [
+                14,
+                29
+            ],
+            "error": 421.43961352657004
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                14,
+                29
+            ],
+            "error": 934.0128478773726
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                34
+            ],
+            "error": 286.75217391304346
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                34
+            ],
+            "error": 679.4637591512884
+        }
+    },
+    "Normal-238.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 618.7091787439614
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 1131.6925377504263
+        },
+        "coord2_mse": {
+            "coordinate": [
+                49,
+                29
+            ],
+            "error": 448.04844720496897
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                49,
+                29
+            ],
+            "error": 849.3279696324619
+        }
+    },
+    "Normal-1940.png": {
+        "coord1_mse": {
+            "coordinate": [
+                4,
+                29
+            ],
+            "error": 828.9739130434782
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                4,
+                29
+            ],
+            "error": 1309.9526709007466
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                38
+            ],
+            "error": 599.3080745341615
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                38
+            ],
+            "error": 982.2861090334119
+        }
+    },
+    "Normal-2001.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                33
+            ],
+            "error": 619.491304347826
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                33
+            ],
+            "error": 1132.4076121255985
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                38
+            ],
+            "error": 369.655900621118
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                38
+            ],
+            "error": 771.4570629659178
+        }
+    },
+    "Viral Pneumonia-1043.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                30
+            ],
+            "error": 423.7294685990338
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                30
+            ],
+            "error": 936.5468488014894
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                31
+            ],
+            "error": 358.08757763975154
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                31
+            ],
+            "error": 759.2897997471058
+        }
+    },
+    "Normal-2744.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 348.51400966183576
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 849.3668229922805
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                33
+            ],
+            "error": 281.7465838509317
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                33
+            ],
+            "error": 673.507238268454
+        }
+    },
+    "Normal-1572.png": {
+        "coord1_mse": {
+            "coordinate": [
+                3,
+                37
+            ],
+            "error": 601.248309178744
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                3,
+                37
+            ],
+            "error": 1115.609250589112
+        },
+        "coord2_mse": {
+            "coordinate": [
+                41,
+                37
+            ],
+            "error": 486.58385093167703
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                41,
+                37
+            ],
+            "error": 885.0988645343524
+        }
+    },
+    "COVID-1137.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                24
+            ],
+            "error": 446.66376811594205
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                24
+            ],
+            "error": 961.5581105684669
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                24
+            ],
+            "error": 324.1310559006211
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                24
+            ],
+            "error": 722.3925525640474
+        }
+    },
+    "COVID-1088.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                38
+            ],
+            "error": 512.2019323671498
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                38
+            ],
+            "error": 1029.688302351736
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                41
+            ],
+            "error": 341.7937888198758
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                41
+            ],
+            "error": 741.813992858048
+        }
+    },
+    "Normal-2267.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                26
+            ],
+            "error": 374.2995169082126
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                26
+            ],
+            "error": 880.2272433866154
+        },
+        "coord2_mse": {
+            "coordinate": [
+                60,
+                30
+            ],
+            "error": 280.46086956521737
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                60,
+                30
+            ],
+            "error": 671.9687492733572
+        }
+    },
+    "COVID-914.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                36
+            ],
+            "error": 382.98599033816424
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                36
+            ],
+            "error": 890.382502074249
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                31
+            ],
+            "error": 268.483850931677
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                31
+            ],
+            "error": 657.4640674592034
+        }
+    },
+    "COVID-2.png": {
+        "coord1_mse": {
+            "coordinate": [
+                4,
+                28
+            ],
+            "error": 588.1541062801932
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                4,
+                28
+            ],
+            "error": 1103.394308486318
+        },
+        "coord2_mse": {
+            "coordinate": [
+                49,
+                28
+            ],
+            "error": 400.3608695652174
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                49,
+                28
+            ],
+            "error": 802.858019826669
+        }
+    },
+    "Normal-706.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                34
+            ],
+            "error": 704.2009661835749
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                34
+            ],
+            "error": 1207.350818942034
+        },
+        "coord2_mse": {
+            "coordinate": [
+                54,
+                27
+            ],
+            "error": 517.2689440993789
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                54,
+                27
+            ],
+            "error": 912.5804074162452
+        }
+    },
+    "Viral Pneumonia-1168.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                32
+            ],
+            "error": 492.38502415458936
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                32
+            ],
+            "error": 1009.5726818808045
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                33
+            ],
+            "error": 375.3223602484472
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                33
+            ],
+            "error": 777.3474126798134
+        }
+    },
+    "Normal-2095.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                37
+            ],
+            "error": 603.0033816425121
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                37
+            ],
+            "error": 1117.2363223597772
+        },
+        "coord2_mse": {
+            "coordinate": [
+                46,
+                34
+            ],
+            "error": 475.5608695652174
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                46,
+                34
+            ],
+            "error": 875.015999853717
+        }
+    },
+    "Viral Pneumonia-101.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 426.4806763285024
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 939.5823540275754
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                32
+            ],
+            "error": 349.5521739130435
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                32
+            ],
+            "error": 750.1859769417181
+        }
+    },
+    "Normal-7156.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                37
+            ],
+            "error": 499.5304347826087
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                37
+            ],
+            "error": 1016.8716733196967
+        },
+        "coord2_mse": {
+            "coordinate": [
+                45,
+                38
+            ],
+            "error": 360.3310559006211
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                45,
+                38
+            ],
+            "error": 761.6646243590417
+        }
+    },
+    "COVID-2287.png": {
+        "coord1_mse": {
+            "coordinate": [
+                0,
+                27
+            ],
+            "error": 479.2169082125604
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                0,
+                27
+            ],
+            "error": 995.9814255296129
+        },
+        "coord2_mse": {
+            "coordinate": [
+                39,
+                26
+            ],
+            "error": 432.2527950310559
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                39,
+                26
+            ],
+            "error": 834.2223924110405
+        }
+    },
+    "Normal-8460.png": {
+        "coord1_mse": {
+            "coordinate": [
+                7,
+                33
+            ],
+            "error": 487.7062801932367
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                7,
+                33
+            ],
+            "error": 1004.7646490596691
+        },
+        "coord2_mse": {
+            "coordinate": [
+                46,
+                32
+            ],
+            "error": 359.9310559006211
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                46,
+                32
+            ],
+            "error": 761.2417487237547
+        }
+    },
+    "Normal-4874.png": {
+        "coord1_mse": {
+            "coordinate": [
+                4,
+                33
+            ],
+            "error": 407.0381642512077
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                4,
+                33
+            ],
+            "error": 917.9155734597817
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                35
+            ],
+            "error": 348.7248447204969
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                35
+            ],
+            "error": 749.29767115613
+        }
+    },
+    "COVID-3493.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 358.6183574879227
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 861.5915505620978
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 290.68695652173915
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 684.109640335524
+        }
+    },
+    "COVID-1515.png": {
+        "coord1_mse": {
+            "coordinate": [
+                13,
+                28
+            ],
+            "error": 892.0671497584541
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                13,
+                28
+            ],
+            "error": 1358.888884346325
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 588.455900621118
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                34
+            ],
+            "error": 973.351940461414
+        }
+    },
+    "Viral Pneumonia-530.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                32
+            ],
+            "error": 415.7381642512077
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                32
+            ],
+            "error": 927.6734339195017
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 349.2658385093168
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                31
+            ],
+            "error": 749.8786568505601
+        }
+    },
+    "Normal-8144.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                34
+            ],
+            "error": 434.2792270531401
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                34
+            ],
+            "error": 948.1339567803698
+        },
+        "coord2_mse": {
+            "coordinate": [
+                61,
+                35
+            ],
+            "error": 319.1751552795031
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                61,
+                35
+            ],
+            "error": 716.8486590627062
+        }
+    },
+    "Viral Pneumonia-98.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                32
+            ],
+            "error": 392.356038647343
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                32
+            ],
+            "error": 901.2086328925172
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                32
+            ],
+            "error": 352.0571428571429
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                32
+            ],
+            "error": 752.8691785429922
+        }
+    },
+    "Normal-846.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                35
+            ],
+            "error": 522.1700483091787
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                35
+            ],
+            "error": 1039.659559663643
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                38
+            ],
+            "error": 467.9919254658385
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                38
+            ],
+            "error": 868.0247692318463
+        }
+    },
+    "Normal-1882.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                29
+            ],
+            "error": 572.2381642512078
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                29
+            ],
+            "error": 1088.3625315123634
+        },
+        "coord2_mse": {
+            "coordinate": [
+                58,
+                34
+            ],
+            "error": 429.37515527950313
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                58,
+                34
+            ],
+            "error": 831.4409179250201
+        }
+    },
+    "Normal-3333.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                32
+            ],
+            "error": 504.1144927536232
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                32
+            ],
+            "error": 1021.5267984737355
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                32
+            ],
+            "error": 369.17453416149067
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                32
+            ],
+            "error": 770.9546030733586
+        }
+    },
+    "Viral Pneumonia-1265.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                34
+            ],
+            "error": 418.2130434782609
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                34
+            ],
+            "error": 930.4305455003076
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                33
+            ],
+            "error": 310.3354037267081
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                33
+            ],
+            "error": 706.8521769082981
+        }
+    },
+    "Viral Pneumonia-217.png": {
+        "coord1_mse": {
+            "coordinate": [
+                3,
+                32
+            ],
+            "error": 421.8884057971014
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                3,
+                32
+            ],
+            "error": 934.5100320488807
+        },
+        "coord2_mse": {
+            "coordinate": [
+                57,
+                33
+            ],
+            "error": 365.54285714285714
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                57,
+                33
+            ],
+            "error": 767.1531789675385
+        }
+    },
+    "Normal-1236.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 637.9903381642512
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                32
+            ],
+            "error": 1149.1910198048017
+        },
+        "coord2_mse": {
+            "coordinate": [
+                55,
+                34
+            ],
+            "error": 458.87391304347824
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                55,
+                34
+            ],
+            "error": 859.5271956139608
+        }
+    },
+    "Normal-2045.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 420.1816425120773
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 932.6178209749157
+        },
+        "coord2_mse": {
+            "coordinate": [
+                46,
+                32
+            ],
+            "error": 368.5496894409938
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                46,
+                32
+            ],
+            "error": 770.3018888721487
+        }
+    },
+    "Viral Pneumonia-771.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 461.7106280193237
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 977.6200693520975
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                36
+            ],
+            "error": 361.0944099378882
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                36
+            ],
+            "error": 762.4709830544373
+        }
+    },
+    "Normal-445.png": {
+        "coord1_mse": {
+            "coordinate": [
+                15,
+                33
+            ],
+            "error": 459.28743961352654
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                15,
+                33
+            ],
+            "error": 975.0512807027126
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                33
+            ],
+            "error": 396.40745341614905
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                33
+            ],
+            "error": 798.884221899519
+        }
+    },
+    "COVID-2616.png": {
+        "coord1_mse": {
+            "coordinate": [
+                10,
+                37
+            ],
+            "error": 473.39710144927534
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                10,
+                37
+            ],
+            "error": 989.9151478788473
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                38
+            ],
+            "error": 314.4714285714286
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                38
+            ],
+            "error": 711.5469063947928
+        }
+    },
+    "COVID-2281.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                41
+            ],
+            "error": 472.83236714975845
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                41
+            ],
+            "error": 989.3245170316967
+        },
+        "coord2_mse": {
+            "coordinate": [
+                63,
+                33
+            ],
+            "error": 303.74844720496895
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                63,
+                33
+            ],
+            "error": 699.3103745834177
+        }
+    },
+    "Normal-8561.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 439.43719806763283
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 953.7478702466391
+        },
+        "coord2_mse": {
+            "coordinate": [
+                47,
+                35
+            ],
+            "error": 355.6590062111801
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                47,
+                35
+            ],
+            "error": 756.710644830638
+        }
+    },
+    "Normal-2076.png": {
+        "coord1_mse": {
+            "coordinate": [
+                6,
+                27
+            ],
+            "error": 378.81400966183577
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                6,
+                27
+            ],
+            "error": 885.5196214652727
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                27
+            ],
+            "error": 309.4664596273292
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                27
+            ],
+            "error": 705.8618845071605
+        }
+    },
+    "Viral Pneumonia-400.png": {
+        "coord1_mse": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 391.8734299516908
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                9,
+                32
+            ],
+            "error": 900.6542066742375
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                30
+            ],
+            "error": 327.1192546583851
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                30
+            ],
+            "error": 725.7148200223005
+        }
+    },
+    "Viral Pneumonia-1249.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                29
+            ],
+            "error": 614.5980676328502
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                29
+            ],
+            "error": 1127.926416039628
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                29
+            ],
+            "error": 407.56832298136646
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                29
+            ],
+            "error": 810.0524674365236
+        }
+    },
+    "COVID-449.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 419.880193236715
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 932.2832187699187
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                30
+            ],
+            "error": 312.18695652173915
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                30
+            ],
+            "error": 708.957685620235
+        }
+    },
+    "Normal-2281.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                34
+            ],
+            "error": 366.5869565217391
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                34
+            ],
+            "error": 871.1113591269489
+        },
+        "coord2_mse": {
+            "coordinate": [
+                59,
+                37
+            ],
+            "error": 288.0968944099379
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                59,
+                37
+            ],
+            "error": 681.0550638531366
+        }
+    },
+    "COVID-3593.png": {
+        "coord1_mse": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 554.2898550724638
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                2,
+                31
+            ],
+            "error": 1071.1582516136446
+        },
+        "coord2_mse": {
+            "coordinate": [
+                44,
+                33
+            ],
+            "error": 453.20310559006214
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                44,
+                33
+            ],
+            "error": 854.1996253803908
+        }
+    },
+    "Normal-6283.png": {
+        "coord1_mse": {
+            "coordinate": [
+                17,
+                39
+            ],
+            "error": 355.5671497584541
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                17,
+                39
+            ],
+            "error": 857.918411039185
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                40
+            ],
+            "error": 274.9173913043478
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                40
+            ],
+            "error": 665.2946715553943
+        }
+    },
+    "Normal-5596.png": {
+        "coord1_mse": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 345.3647342995169
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                18,
+                31
+            ],
+            "error": 845.5205497207031
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 238.6701863354037
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                32
+            ],
+            "error": 619.8862798933366
+        }
+    },
+    "COVID-738.png": {
+        "coord1_mse": {
+            "coordinate": [
+                14,
+                29
+            ],
+            "error": 546.2574879227053
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                14,
+                29
+            ],
+            "error": 1063.3687036959475
+        },
+        "coord2_mse": {
+            "coordinate": [
+                56,
+                31
+            ],
+            "error": 388.4136645962733
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                56,
+                31
+            ],
+            "error": 790.7882143785401
+        }
+    },
+    "Normal-9200.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                36
+            ],
+            "error": 480.50772946859905
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                36
+            ],
+            "error": 997.3219139274942
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                34
+            ],
+            "error": 327.78819875776395
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                34
+            ],
+            "error": 726.4564680694914
+        }
+    },
+    "Viral Pneumonia-819.png": {
+        "coord1_mse": {
+            "coordinate": [
+                4,
+                30
+            ],
+            "error": 443.692270531401
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                4,
+                30
+            ],
+            "error": 958.3543186108153
+        },
+        "coord2_mse": {
+            "coordinate": [
+                53,
+                33
+            ],
+            "error": 357.84596273291925
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                53,
+                33
+            ],
+            "error": 759.0335960944021
+        }
+    },
+    "COVID-1843.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 787.2623188405797
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 1276.5707970966594
+        },
+        "coord2_mse": {
+            "coordinate": [
+                39,
+                32
+            ],
+            "error": 644.6024844720497
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                39,
+                32
+            ],
+            "error": 1018.7296010227641
+        }
+    },
+    "Normal-2255.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 449.3207729468599
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                34
+            ],
+            "error": 964.4138115974905
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                34
+            ],
+            "error": 327.9695652173913
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                34
+            ],
+            "error": 726.6574158432569
+        }
+    },
+    "Normal-1588.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                31
+            ],
+            "error": 487.9009661835749
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                31
+            ],
+            "error": 1004.9651735259287
+        },
+        "coord2_mse": {
+            "coordinate": [
+                52,
+                31
+            ],
+            "error": 355.1223602484472
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                52,
+                31
+            ],
+            "error": 756.1395373871148
+        }
+    },
+    "Normal-3856.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 411.456038647343
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                32
+            ],
+            "error": 922.8835246118548
+        },
+        "coord2_mse": {
+            "coordinate": [
+                45,
+                32
+            ],
+            "error": 293.6229813664596
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                45,
+                32
+            ],
+            "error": 687.5558159160607
+        }
+    },
+    "Normal-1604.png": {
+        "coord1_mse": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 461.53478260869565
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                12,
+                32
+            ],
+            "error": 977.433885232142
+        },
+        "coord2_mse": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 338.33416149068324
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                51,
+                31
+            ],
+            "error": 738.050133798511
+        }
+    },
+    "COVID-2705.png": {
+        "coord1_mse": {
+            "coordinate": [
+                11,
+                41
+            ],
+            "error": 447.4178743961353
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                11,
+                41
+            ],
+            "error": 962.3694716687558
+        },
+        "coord2_mse": {
+            "coordinate": [
+                49,
+                41
+            ],
+            "error": 327.24782608695654
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                49,
+                41
+            ],
+            "error": 725.8574240165902
+        }
+    },
+    "Normal-2401.png": {
+        "coord1_mse": {
+            "coordinate": [
+                14,
+                36
+            ],
+            "error": 767.1357487922705
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                14,
+                36
+            ],
+            "error": 1260.1472136222815
+        },
+        "coord2_mse": {
+            "coordinate": [
+                62,
+                34
+            ],
+            "error": 422.7608695652174
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                62,
+                34
+            ],
+            "error": 825.0121211230778
+        }
+    },
+    "Normal-1891.png": {
+        "coord1_mse": {
+            "coordinate": [
+                5,
+                29
+            ],
+            "error": 428.74541062801933
+        },
+        "coord1_euclidean": {
+            "coordinate": [
+                5,
+                29
+            ],
+            "error": 942.0737763041703
+        },
+        "coord2_mse": {
+            "coordinate": [
+                46,
+                27
+            ],
+            "error": 354.6590062111801
+        },
+        "coord2_euclidean": {
+            "coordinate": [
+                46,
+                27
+            ],
+            "error": 755.6460811782193
+        }
+    }
+}
