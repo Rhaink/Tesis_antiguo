@@ -12,7 +12,7 @@ def comparar_coordenadas():
     df_verdaderos.columns = [*range(df_verdaderos.shape[1]-1), 'nombre_imagen']
     
     # Leer el archivo JSON con las predicciones
-    with open('Tesis/resultados/prediccion/prueba_sahs/lote/json/results.json', 'r') as f:
+    with open('Tesis/resultados/prediccion/prueba_kernel_poly_2/lote/json/results.json', 'r') as f:
         predicciones = json.load(f)
     
     resultados = []
@@ -70,7 +70,7 @@ def comparar_coordenadas():
         print(f"Total de imágenes no encontradas: {len(no_encontrados)}")
     
     df_resultados = pd.DataFrame(resultados)
-    df_resultados.to_csv('Tesis/resultados/prediccion/prueba_sahs/lote/comparacion/resultados_comparacion.csv', index=False)
+    df_resultados.to_csv('Tesis/resultados/prediccion/prueba_kernel_poly_2/lote/comparacion/resultados_comparacion.csv', index=False)
     
     print(f"\nTotal de imágenes procesadas exitosamente: {len(resultados)}")
     print("\nEstadísticas de las distancias (en píxeles):")

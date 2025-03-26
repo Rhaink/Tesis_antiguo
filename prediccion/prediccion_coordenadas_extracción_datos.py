@@ -9,10 +9,10 @@ import os  # Importa el módulo 'os'
 
 # --- Rutas y Configuraciones ---
 base_dir = Path("/home/donrobot/projects/Tesis")
-models_dir = base_dir / "resultados/entrenamiento/prueba_2/models"
-images_dir = base_dir / "dataset" / "puntos_interes_indices_prueba_2"  
-json_path = base_dir / "resultados/region_busqueda/json_1/all_search_coordinates.json"
-output_dir = base_dir / "resultados/prediccion/prueba_2"
+models_dir = base_dir / "resultados/entrenamiento/prueba_1/models"
+images_dir = base_dir / "dataset" / "puntos_interes_indices_prueba_1"  
+json_path = base_dir / "resultados/region_busqueda/json_prueba_1/all_search_coordinates.json"
+output_dir = base_dir / "resultados/prediccion/prueba_1"
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Tamaños de los crops y centroides (height,width)
