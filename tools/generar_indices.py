@@ -164,7 +164,7 @@ class GeneradorIndices:
                 return False
         return True
 
-    def guardar_indices(self, nombre_archivo: str = "indices.csv") -> bool:
+    def guardar_indices(self, nombre_archivo: str = "indices_2.csv") -> bool:
         """
         Guarda los índices en un archivo CSV.
         
@@ -261,8 +261,8 @@ def main():
                 print("\nEntrada cancelada")
         
         elif opcion == "5":
-            nombre = input("Nombre del archivo (Enter para 'indices.csv'): ")
-            nombre = nombre.strip() if nombre.strip() else "indices.csv"
+            nombre = input("Nombre del archivo (Enter para 'indices_2.csv'): ")
+            nombre = nombre.strip() if nombre.strip() else "indices_2.csv"
             generador.guardar_indices(nombre)
         
         elif opcion == "6":
