@@ -17,7 +17,6 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 # Si 'etiquetador' está directamente dentro de 'Tesis', esta línea es necesaria:
 # sys.path.append(PROJECT_ROOT) 
 # Si 'etiquetador' está dentro de 'pulmon', el import relativo podría funcionar mejor.
-# Por ahora, intentamos con el import directo como lo tenías.
 try:
     from etiquetador.main import ImageAnnotator
 except ImportError:
