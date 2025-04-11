@@ -3,10 +3,10 @@ import os
 
 # --- Configuración ---
 base_dir = "/home/donrobot/projects/Tesis" # Ajusta si es necesario
-archivo_indices_orig1 = os.path.join(base_dir, "indices/indices.csv")
-archivo_indices_orig2 = os.path.join(base_dir, "indices/indices_1.csv")
-archivo_maestro = os.path.join(base_dir, "indices/indices_maestro.csv") # Asume que este es tu archivo expandido
-archivo_salida_nuevos = os.path.join(base_dir, "indices/indices_nuevas_400.csv") # Archivo que contendrá solo los nuevos
+archivo_indices_orig1 = os.path.join(base_dir, "indices/indices_nuevas_400.csv")
+archivo_indices_orig2 = os.path.join(base_dir, "indices/indices_expandido_800.csv")
+archivo_maestro = os.path.join(base_dir, "indices/indices_expandido_1300.csv") # Asume que este es tu archivo expandido
+archivo_salida_nuevos = os.path.join(base_dir, "indices/indices_nuevas_500.csv") # Archivo que contendrá solo los nuevos
 # --- Fin Configuración ---
 
 print("Cargando archivos de índices...")

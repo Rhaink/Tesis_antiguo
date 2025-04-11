@@ -294,9 +294,9 @@ def main():
     """Función principal para ejecutar el proceso de expansión."""
 
     # --- Configuración ---
-    archivos_indices_existentes = ["indices/indices.csv", "indices/indices_1.csv"] # Nombres relativos a base_dir
-    nombre_archivo_salida = "indices_expandido_800.csv" # Nombre del nuevo archivo
-    target_total_indices = 800 # Tamaño final deseado
+    archivos_indices_existentes = ["indices/indices.csv", "indices/indices_1.csv", "indices/indices_maestro.csv", "indices/indices_nuevas_400.csv"] # Nombres relativos a base_dir
+    nombre_archivo_salida = "indices_expandido_1300.csv" # Nombre del nuevo archivo
+    target_total_indices = 1300 # Tamaño final deseado
     semilla_aleatoria = 42 # Para reproducibilidad (None para aleatorio real)
 
     # --- Inicializar Expansor ---
@@ -310,9 +310,9 @@ def main():
     # Ejemplo: Intentar mantener un balance o alcanzar uno específico.
     # Aquí un ejemplo para 800 índices, tratando de balancear un poco más:
     target_por_categoria = {
-        1: 200, # COVID
-        2: 400, # Normal
-        3: 200  # Viral Pneumonia
+        1: 325, # COVID
+        2: 650, # Normal
+        3: 325  # Viral Pneumonia
     }
     # Comprobación importante:
     if sum(target_por_categoria.values()) != target_total_indices:

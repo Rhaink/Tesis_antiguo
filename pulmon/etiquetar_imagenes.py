@@ -33,10 +33,10 @@ def main():
     
     # --- CONFIGURACIÓN PARA NUEVAS IMÁGENES ---
     # 1. Archivo con los índices de las 400 imágenes NUEVAS a etiquetar
-    archivo_indices = os.path.join(base_dir, "indices/indices_nuevas_400.csv") 
+    archivo_indices = os.path.join(base_dir, "indices/indices_nuevas_500.csv") 
     
     # 2. Nombre base para los NUEVOS archivos de coordenadas (se guardarán en Tesis/)
-    archivo_coordenadas_base = os.path.join(base_dir, "coordenadas/coordenadas_nuevas_400") 
+    archivo_coordenadas_base = os.path.join(base_dir, "coordenadas/coordenadas_nuevas_500") 
     # --- FIN CONFIGURACIÓN ---
 
     print(f"Intentando leer índices de: {archivo_indices}")
@@ -56,7 +56,7 @@ def main():
         
     except FileNotFoundError:
         print(f"Error CRÍTICO: No se encontró el archivo de índices '{archivo_indices}'.")
-        print("Asegúrate de haber ejecutado el script para crear 'indices_nuevas_400.csv' y que esté en el directorio correcto.")
+        print("Asegúrate de haber ejecutado el script para crear 'indices_nuevas_500.csv' y que esté en el directorio correcto.")
         return
     except Exception as e:
         print(f"Error al leer el archivo de índices '{archivo_indices}': {e}")
