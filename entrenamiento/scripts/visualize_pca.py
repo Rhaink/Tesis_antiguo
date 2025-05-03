@@ -188,14 +188,14 @@ def main():
     parser.add_argument(
         "--coord_file",
         type=str,
-        default=str(PROJECT_ROOT / "resultados/analisis_regiones/prueba_1/template_analysis_results.json"),
+        default=str(PROJECT_ROOT / "resultados/analisis_regiones/dataset_aligned_maestro_1/analisis/template_analysis_results.json"),
         help="Ruta al archivo de análisis de templates"
     )
     
     parser.add_argument(
         "--output_dir",
         type=str,
-        default=str(PROJECT_ROOT / "resultados/entrenamiento/prueba_kernel/visualization_results/pca_analysis"),
+        default=str(PROJECT_ROOT / "resultados/entrenamiento/dataset_aligned_maestro_1/visualization_results/pca_analysis"),
         help="Directorio para visualizaciones"
     )
     

@@ -93,46 +93,51 @@ class CoordinateManager:
         }
 
     def read_coordinates(self, filename: str) -> None:
-        """
-        Lee las coordenadas desde un archivo CSV.
-        Las coordenadas deben estar en formato 0-based (0-63).
-        
-        Args:
-            filename (str): Ruta al archivo CSV con las coordenadas
-            
-        Raises:
-            FileNotFoundError: Si no se encuentra el archivo
-            ValueError: Si el formato del archivo es inválido o las coordenadas están fuera de rango
-        """
         try:
             coordinates = {}
             with open(filename, 'r') as file:
                 csv_reader = csv.reader(file)
                 for row in csv_reader:
-                    index = int(row[0])
+                    try:
+                        index = int(row[0]) # Asumimos que el índice sí es entero
+                    except ValueError:
+                        print(f"Advertencia: Omitiendo fila con índice no entero: {row[0]}")
+                        continue # Saltar esta fila si el índice no es válido
+
                     coordinates[index] = {}
-                    
-                    # Procesar solo las coordenadas 1 y 2
-                    for i in range(2):
-                        x_pos = 1 + (i * 2)  # Posición para x
-                        y_pos = 2 + (i * 2)  # Posición para y
-                        
+                    for i in range(15):
+                        x_pos = 1 + (i * 2)
+                        y_pos = 2 + (i * 2)
+
                         if x_pos < len(row) and y_pos < len(row):
                             coord_name = f"Coord{i+1}"
-                            x = int(row[x_pos]) if row[x_pos] else 0
-                            y = int(row[y_pos]) if row[y_pos] else 0
-                            
-                            # Validar rango 0-63
-                            self._validate_coordinates(x, y, f"en índice {index}")
-                            
-                            coordinates[index][coord_name] = (x, y)
+                            try:
+                                # LEER COMO FLOAT
+                                x_str = row[x_pos]
+                                y_str = row[y_pos]
+                                x = float(x_str) if x_str else 0.0
+                                y = float(y_str) if y_str else 0.0
+
+                                # Guardar como float
+                                coordinates[index][coord_name] = (x, y)
+
+                                # QUITAR LA VALIDACIÓN AQUÍ (o modificar _validate_coordinates)
+                                # self._validate_coordinates(int(x), int(y), f"en índice {index}") # Comentado/Eliminado
+
+                            except ValueError:
+                                print(f"Advertencia: Valor no numérico para índice {index}, coord {i+1}. Fila: {row}")
+                                coordinates[index][coord_name] = (0.0, 0.0) # Valor por defecto o manejar error
                         else:
+                            # Mantener advertencia si faltan columnas
                             print(f"Advertencia: Datos faltantes para índice {index}, coordenada {i+1}")
-                            coordinates[index][f"Coord{i+1}"] = (0, 0)
-            
+                            coordinates[index][f"Coord{i+1}"] = (0.0, 0.0)
+
             self.coordinates = coordinates
+        except FileNotFoundError:
+            raise FileNotFoundError(f"No se encontró el archivo de coordenadas: {filename}")
         except Exception as e:
-            raise ValueError(f"Error al leer el archivo de coordenadas: {str(e)}")
+            # Captura genérica para otros posibles errores de lectura/procesamiento
+            raise ValueError(f"Error al leer o procesar el archivo de coordenadas '{filename}': {str(e)}")
 
     def read_search_coordinates(self, filename: str) -> None:
         """
@@ -151,8 +156,8 @@ class CoordinateManager:
                 coordinates = {}
                 self.coord_data = {}  # Reiniciar coord_data
                 
-                # MODIFICACIÓN: Procesar solo coord1 y coord2
-                for i in range(1, 3):
+                # Procesar coord1 hasta coord15
+                for i in range(1, 16):
                     coord_name = f"coord{i}"
                     if coord_name in data:
                         coordinates[coord_name] = data[coord_name]

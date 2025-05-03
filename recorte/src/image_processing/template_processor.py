@@ -35,7 +35,7 @@ class TemplateProcessor:
         self.visualization_dir.mkdir(parents=True, exist_ok=True)
         
         # Ruta al archivo de datos pre-calculados
-        self.template_data_path = Path(__file__).parent.parent.parent.parent / "resultados" / "analisis_regiones" / "prueba_1" /  "template_analysis_results.json" 
+        self.template_data_path = Path(__file__).parent.parent.parent.parent / "resultados" / "analisis_regiones" / "dataset_aligned_maestro_1" / "analisis" / "template_analysis_results.json" 
         self.template_data = self._load_template_data_file()
         
     def _load_template_data_file(self) -> Dict:
@@ -112,7 +112,7 @@ class TemplateProcessor:
         Raises:
             ValueError: Si el nombre de coordenada no es válido
         """
-        self.validate_coord_name(coord_name)
+        #self.validate_coord_name(coord_name)
         return self.template_data.get(coord_name)
 
     def validate_intersection_point(self, x: int, y: int, a: int, b: int, c: int, d: int) -> bool:

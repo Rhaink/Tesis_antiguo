@@ -4,9 +4,9 @@ import shutil
 
 # Definir rutas
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-indices_file = os.path.join(base_dir, "indices/indices.csv")
+indices_file = os.path.join(base_dir, "indices/indices_aligned_prueba_1.csv")
 source_dir = os.path.join(base_dir, "COVID-19_Radiography_Dataset")
-dest_dir = os.path.join(base_dir, "dataset/puntos_interes_indices_prueba_2")
+dest_dir = os.path.join(base_dir, "dataset/dataset_aligned_prueba__1")
 
 # Crear la carpeta destino si no existe
 os.makedirs(dest_dir, exist_ok=True)

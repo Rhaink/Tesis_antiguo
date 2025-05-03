@@ -9,17 +9,17 @@ import os
 
 # --- Rutas y Configuraciones ---
 base_dir = Path("/home/donrobot/projects/Tesis")
-models_dir = base_dir / "resultados/entrenamiento/prueba_1/models"
-images_dir = base_dir / "dataset" / "puntos_interes_indices_prueba_1"  
-json_path = base_dir / "resultados/region_busqueda/json_prueba_1/all_search_coordinates.json"
-output_dir = base_dir / "resultados/prediccion/prueba_bresenham_2"
+models_dir = base_dir / "resultados/entrenamiento/dataset_1/models"
+images_dir = base_dir / "dataset" / "dataset_1"  
+json_path = base_dir / "resultados/region_busqueda/dataset_1/json/all_search_coordinates.json"
+output_dir = base_dir / "resultados/prediccion/dataset_1_bresenham_2"
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Tamaños de los crops y centroides (height,width)
-coord1_crop_size = (45, 46)
-coord2_crop_size = (35, 46)
-coord1_centroid_local = (0, 24)
-coord2_centroid_local = (35, 24)
+coord1_crop_size = (34, 39)
+coord2_crop_size = (27, 39)
+coord1_centroid_local = (1, 19)
+coord2_centroid_local = (27, 21)
 resized_image_size = (64, 64)
 
 # --- Funciones Adicionales ---

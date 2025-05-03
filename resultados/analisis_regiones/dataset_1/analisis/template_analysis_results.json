@@ -1,0 +1,422 @@
+{
+  "coord1": {
+    "region_bounds": {
+      "sup": 1,
+      "inf": 30,
+      "left": 19,
+      "right": 43,
+      "width": 25,
+      "height": 30
+    },
+    "distances": {
+      "a": 1,
+      "b": 20,
+      "c": 33,
+      "d": 19
+    },
+    "template_bounds": {
+      "min_x": 19,
+      "max_x": 43,
+      "min_y": 1,
+      "max_y": 30,
+      "width": 39,
+      "height": 34
+    },
+    "intersection_point": {
+      "x": 19,
+      "y": 1
+    }
+  },
+  "coord2": {
+    "region_bounds": {
+      "sup": 27,
+      "inf": 63,
+      "left": 21,
+      "right": 45,
+      "width": 25,
+      "height": 37
+    },
+    "distances": {
+      "a": 27,
+      "b": 18,
+      "c": 0,
+      "d": 21
+    },
+    "template_bounds": {
+      "min_x": 21,
+      "max_x": 45,
+      "min_y": 27,
+      "max_y": 63,
+      "width": 39,
+      "height": 27
+    },
+    "intersection_point": {
+      "x": 21,
+      "y": 27
+    }
+  },
+  "coord3": {
+    "region_bounds": {
+      "sup": 5,
+      "inf": 34,
+      "left": 1,
+      "right": 27,
+      "width": 27,
+      "height": 30
+    },
+    "distances": {
+      "a": 5,
+      "b": 36,
+      "c": 29,
+      "d": 1
+    },
+    "template_bounds": {
+      "min_x": 1,
+      "max_x": 27,
+      "min_y": 5,
+      "max_y": 34,
+      "width": 37,
+      "height": 34
+    },
+    "intersection_point": {
+      "x": 1,
+      "y": 5
+    }
+  },
+  "coord4": {
+    "region_bounds": {
+      "sup": 9,
+      "inf": 36,
+      "left": 33,
+      "right": 61,
+      "width": 29,
+      "height": 28
+    },
+    "distances": {
+      "a": 9,
+      "b": 2,
+      "c": 27,
+      "d": 33
+    },
+    "template_bounds": {
+      "min_x": 33,
+      "max_x": 61,
+      "min_y": 9,
+      "max_y": 36,
+      "width": 35,
+      "height": 36
+    },
+    "intersection_point": {
+      "x": 33,
+      "y": 9
+    }
+  },
+  "coord5": {
+    "region_bounds": {
+      "sup": 12,
+      "inf": 40,
+      "left": 0,
+      "right": 24,
+      "width": 25,
+      "height": 29
+    },
+    "distances": {
+      "a": 12,
+      "b": 39,
+      "c": 23,
+      "d": 0
+    },
+    "template_bounds": {
+      "min_x": 0,
+      "max_x": 24,
+      "min_y": 12,
+      "max_y": 40,
+      "width": 39,
+      "height": 35
+    },
+    "intersection_point": {
+      "x": 0,
+      "y": 12
+    }
+  },
+  "coord6": {
+    "region_bounds": {
+      "sup": 17,
+      "inf": 42,
+      "left": 36,
+      "right": 63,
+      "width": 28,
+      "height": 26
+    },
+    "distances": {
+      "a": 17,
+      "b": 0,
+      "c": 21,
+      "d": 36
+    },
+    "template_bounds": {
+      "min_x": 36,
+      "max_x": 63,
+      "min_y": 17,
+      "max_y": 42,
+      "width": 36,
+      "height": 38
+    },
+    "intersection_point": {
+      "x": 36,
+      "y": 17
+    }
+  },
+  "coord7": {
+    "region_bounds": {
+      "sup": 18,
+      "inf": 51,
+      "left": 0,
+      "right": 25,
+      "width": 26,
+      "height": 34
+    },
+    "distances": {
+      "a": 18,
+      "b": 38,
+      "c": 12,
+      "d": 0
+    },
+    "template_bounds": {
+      "min_x": 0,
+      "max_x": 25,
+      "min_y": 18,
+      "max_y": 51,
+      "width": 38,
+      "height": 30
+    },
+    "intersection_point": {
+      "x": 0,
+      "y": 18
+    }
+  },
+  "coord8": {
+    "region_bounds": {
+      "sup": 23,
+      "inf": 52,
+      "left": 37,
+      "right": 63,
+      "width": 27,
+      "height": 30
+    },
+    "distances": {
+      "a": 23,
+      "b": 0,
+      "c": 11,
+      "d": 37
+    },
+    "template_bounds": {
+      "min_x": 37,
+      "max_x": 63,
+      "min_y": 23,
+      "max_y": 52,
+      "width": 37,
+      "height": 34
+    },
+    "intersection_point": {
+      "x": 37,
+      "y": 23
+    }
+  },
+  "coord9": {
+    "region_bounds": {
+      "sup": 8,
+      "inf": 35,
+      "left": 20,
+      "right": 42,
+      "width": 23,
+      "height": 28
+    },
+    "distances": {
+      "a": 8,
+      "b": 21,
+      "c": 28,
+      "d": 20
+    },
+    "template_bounds": {
+      "min_x": 20,
+      "max_x": 42,
+      "min_y": 8,
+      "max_y": 35,
+      "width": 41,
+      "height": 36
+    },
+    "intersection_point": {
+      "x": 20,
+      "y": 8
+    }
+  },
+  "coord10": {
+    "region_bounds": {
+      "sup": 14,
+      "inf": 41,
+      "left": 20,
+      "right": 41,
+      "width": 22,
+      "height": 28
+    },
+    "distances": {
+      "a": 14,
+      "b": 22,
+      "c": 22,
+      "d": 20
+    },
+    "template_bounds": {
+      "min_x": 20,
+      "max_x": 41,
+      "min_y": 14,
+      "max_y": 41,
+      "width": 42,
+      "height": 36
+    },
+    "intersection_point": {
+      "x": 20,
+      "y": 14
+    }
+  },
+  "coord11": {
+    "region_bounds": {
+      "sup": 20,
+      "inf": 51,
+      "left": 20,
+      "right": 43,
+      "width": 24,
+      "height": 32
+    },
+    "distances": {
+      "a": 20,
+      "b": 20,
+      "c": 12,
+      "d": 20
+    },
+    "template_bounds": {
+      "min_x": 20,
+      "max_x": 43,
+      "min_y": 20,
+      "max_y": 51,
+      "width": 40,
+      "height": 32
+    },
+    "intersection_point": {
+      "x": 20,
+      "y": 20
+    }
+  },
+  "coord12": {
+    "region_bounds": {
+      "sup": 0,
+      "inf": 29,
+      "left": 7,
+      "right": 36,
+      "width": 30,
+      "height": 30
+    },
+    "distances": {
+      "a": 0,
+      "b": 27,
+      "c": 34,
+      "d": 7
+    },
+    "template_bounds": {
+      "min_x": 7,
+      "max_x": 36,
+      "min_y": 0,
+      "max_y": 29,
+      "width": 34,
+      "height": 34
+    },
+    "intersection_point": {
+      "x": 7,
+      "y": 0
+    }
+  },
+  "coord13": {
+    "region_bounds": {
+      "sup": 0,
+      "inf": 30,
+      "left": 26,
+      "right": 56,
+      "width": 31,
+      "height": 31
+    },
+    "distances": {
+      "a": 0,
+      "b": 7,
+      "c": 33,
+      "d": 26
+    },
+    "template_bounds": {
+      "min_x": 26,
+      "max_x": 56,
+      "min_y": 0,
+      "max_y": 30,
+      "width": 33,
+      "height": 33
+    },
+    "intersection_point": {
+      "x": 26,
+      "y": 0
+    }
+  },
+  "coord14": {
+    "region_bounds": {
+      "sup": 24,
+      "inf": 63,
+      "left": 0,
+      "right": 26,
+      "width": 27,
+      "height": 40
+    },
+    "distances": {
+      "a": 24,
+      "b": 37,
+      "c": 0,
+      "d": 0
+    },
+    "template_bounds": {
+      "min_x": 0,
+      "max_x": 26,
+      "min_y": 24,
+      "max_y": 63,
+      "width": 37,
+      "height": 24
+    },
+    "intersection_point": {
+      "x": 0,
+      "y": 24
+    }
+  },
+  "coord15": {
+    "region_bounds": {
+      "sup": 29,
+      "inf": 63,
+      "left": 37,
+      "right": 63,
+      "width": 27,
+      "height": 35
+    },
+    "distances": {
+      "a": 29,
+      "b": 0,
+      "c": 0,
+      "d": 37
+    },
+    "template_bounds": {
+      "min_x": 37,
+      "max_x": 63,
+      "min_y": 29,
+      "max_y": 63,
+      "width": 37,
+      "height": 29
+    },
+    "intersection_point": {
+      "x": 37,
+      "y": 29
+    }
+  }
+}

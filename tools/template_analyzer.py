@@ -190,7 +190,7 @@ class TemplateAnalyzer:
             x = d (distancia desde el borde izquierdo)
             y = a (distancia desde el borde superior)
         """
-        return d, a  # Retorna el punto (d,a) como debe ser
+        return d, a  
         
     def visualize_template(self, 
                           search_region: np.ndarray,
@@ -316,8 +316,8 @@ class TemplateAnalyzer:
 def main():
     # Configurar rutas
     tesis_root = Path("/home/donrobot/projects/Tesis")
-    search_coordinates_file = tesis_root / "resultados/region_busqueda/json_1/all_search_coordinates.json"
-    output_dir = tesis_root / "resultados/analisis_regiones/prueba_2"
+    search_coordinates_file = tesis_root / "resultados/region_busqueda/dataset_aligned_maestro_1/json/all_search_coordinates.json"
+    output_dir = tesis_root / "resultados/analisis_regiones/dataset_aligned_maestro_1/analisis"
     
     # Crear y ejecutar analizador
     analyzer = TemplateAnalyzer(

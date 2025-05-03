@@ -82,7 +82,7 @@ def generate_search_zone(csv_file, coord_num):
     plt.tight_layout()
     
     # Crear la carpeta si no existe
-    output_dir = 'Tesis/resultados/region_busqueda/imagenes_1'
+    output_dir = 'Tesis/resultados/region_busqueda/dataset_aligned_maestro_1/imagenes'
     os.makedirs(output_dir, exist_ok=True)
     
     plt.savefig(os.path.join(output_dir, f'coord{coord_num}_search_zone.png'), dpi=1200, bbox_inches='tight')
@@ -91,7 +91,7 @@ def generate_search_zone(csv_file, coord_num):
     return search_coordinates
 
 # Ejecutar análisis
-csv_file = 'Tesis/coordenadas/coordenadas_1.csv'
+csv_file = 'Tesis/coordenadas/coordenadas_aligned_entrenamiento_1.csv'
 all_search_zones = {}
 
 for coord_num in range(1, 16):
@@ -100,7 +100,7 @@ for coord_num in range(1, 16):
         all_search_zones[f'coord{coord_num}'] = search_coordinates
 
 # Crear la carpeta para el archivo JSON
-output_dir_json = 'Tesis/resultados/region_busqueda/json_1'
+output_dir_json = 'Tesis/resultados/region_busqueda/dataset_aligned_maestro_1/json'
 os.makedirs(output_dir_json, exist_ok=True)
 
 # Guardar resultados

@@ -24,10 +24,10 @@ from src.pca_analyzer import PCAAnalyzer
 
 # Definir rutas absolutas para archivos y directorios
 DATASET_PATH = PROJECT_ROOT / "COVID-19_Radiography_Dataset"
-COORD_FILE = PROJECT_ROOT / "resultados/analisis_regiones/prueba_1/template_analysis_results.json"
-MODELS_DIR = PROJECT_ROOT / "resultados/entrenamiento/prueba_kernel/models"
-OUTPUT_DIR = PROJECT_ROOT / "resultados/entrenamiento/prueba_kernel/visualization_results"
-LOG_FILE = PROJECT_ROOT / "resultados/entrenamiento/prueba_kernel/training.log"
+COORD_FILE = PROJECT_ROOT / "resultados/analisis_regiones/dataset_aligned_maestro_1/analisis/template_analysis_results.json"
+MODELS_DIR = PROJECT_ROOT / "resultados/entrenamiento/dataset_aligned_maestro_1/models"
+OUTPUT_DIR = PROJECT_ROOT / "resultados/entrenamiento/dataset_aligned_maestro_1/visualization_results"
+LOG_FILE = PROJECT_ROOT / "resultados/entrenamiento/dataset_aligned_maestro_1/training.log"
 
 from src.pca_analyzer import PCAAnalyzer
 from src.coordinate_manager import CoordinateManager
@@ -53,7 +53,7 @@ def train_models(base_path: str,
                  coord_file: str,
                  models_dir: str,
                  output_dir: str,
-                 use_kernel: bool = True,
+                 use_kernel: bool = False,
                  kernel_type: str = 'rbf',
                  kernel_params: Optional[Dict] = None) -> Dict:
     """
