@@ -8,72 +8,78 @@ Este módulo proporciona clases y funciones para:
 - Gestión de rutas de imágenes
 """
 
+from pathlib import Path
+from typing import Tuple
+
 import cv2
 import numpy as np
 import pandas as pd
-from pathlib import Path
-from typing import Dict, List, Tuple, Optional, Union
+
 from .contrast_enhancer import ContrastEnhancer
 from .template_processor import TemplateProcessor
+
 
 class ImageProcessor:
     """
     Clase para el procesamiento de imágenes pulmonares.
-    
+
     Esta clase maneja:
     - Carga y redimensionamiento de imágenes
     - Extracción de regiones de interés usando sistema 0-based
     - Guardado de imágenes procesadas
     - Gestión de rutas de archivos
     - Mejoramiento de contraste mediante SAHS
-    
+
     Attributes:
         base_path (Path): Ruta base para las imágenes del dataset
         output_base_path (Path): Ruta base para guardar las imágenes procesadas
         contrast_enhancer (ContrastEnhancer): Instancia para mejoramiento de contraste
     """
-    
-    def __init__(self, base_path: str, visualization_dir: str = "visualization_results"):
+
+    def __init__(
+        self, base_path: str, visualization_dir: str = "visualization_results"
+    ):
         """
         Inicializa el procesador de imágenes.
-        
+
         Args:
             base_path (str): Ruta base al dataset de imágenes
             visualization_dir (str): Directorio para guardar visualizaciones
         """
         self.base_path = Path(base_path)
-        self.output_base_path = Path(base_path).parent / "resultados/recorte/dataset_aligned_maestro_1/processed_images"
+        self.output_base_path = (
+            Path(base_path).parent
+            / "resultados/recorte/dataset_entrenamiento_1/processed_images"
+        )
         self.contrast_enhancer = ContrastEnhancer()
         self.template_processor = TemplateProcessor(visualization_dir)
 
     def _validate_coordinates(self, x: int, y: int, context: str = "") -> None:
         """
         Valida que las coordenadas estén en el rango 0-63.
-        
+
         Args:
             x (int): Coordenada x
             y (int): Coordenada y
             context (str): Contexto para el mensaje de error
-            
+
         Raises:
             ValueError: Si las coordenadas están fuera de rango
         """
         if not (0 <= x <= 63 and 0 <= y <= 63):
-            raise ValueError(
-                f"Coordenadas fuera de rango (0-63) {context}: ({x}, {y})"
-            )
+            raise ValueError(f"Coordenadas fuera de rango (0-63) {context}: ({x}, {y})")
 
     def get_image_path(self, index: int, indices_file: str) -> str:
         """
         Obtiene la ruta de una imagen basada en su índice.
-        
+
         Args:
             index (int): Índice de la imagen
             indices_file (str): Ruta al archivo de índices
-            
+
         Returns:
             str: Ruta completa a la imagen
-            
+
         Raises:
             FileNotFoundError: Si no se encuentra el archivo de índices
             ValueError: Si el índice no existe en el archivo
@@ -103,10 +109,14 @@ class ImageProcessor:
                 # Intentar con formato de número diferente
                 if len(str(image_number)) <= 4:
                     # Probar con formato de 4 dígitos
-                    image_name_alt = image_name.replace(str(image_number), f"{image_number:04d}")
+                    image_name_alt = image_name.replace(
+                        str(image_number), f"{image_number:04d}"
+                    )
                     image_path = category_path / image_name_alt
                     if not image_path.exists():
-                        raise FileNotFoundError(f"No se encontró la imagen: {image_path}")
+                        raise FileNotFoundError(
+                            f"No se encontró la imagen: {image_path}"
+                        )
 
             return str(image_path)
 
@@ -114,17 +124,19 @@ class ImageProcessor:
             print(f"Error al obtener la ruta de la imagen {index}: {str(e)}")
             raise
 
-    def load_and_resize_image(self, image_path: str, size: Tuple[int, int] = (64, 64)) -> np.ndarray:
+    def load_and_resize_image(
+        self, image_path: str, size: Tuple[int, int] = (64, 64)
+    ) -> np.ndarray:
         """
         Carga, mejora el contraste y redimensiona una imagen.
-        
+
         Args:
             image_path (str): Ruta a la imagen
             size (Tuple[int, int]): Dimensiones objetivo (ancho, alto)
-            
+
         Returns:
             np.ndarray: Imagen procesada y redimensionada
-            
+
         Raises:
             FileNotFoundError: Si no se encuentra la imagen
             ValueError: Si hay un error al procesar la imagen
@@ -141,15 +153,15 @@ class ImageProcessor:
                 image_gray = image.copy()
 
             # Aplicar mejora de contraste SAHS
-            #enhanced_image = self.contrast_enhancer.enhance_contrast_sahs(image)
-            #if enhanced_image is None:
+            # enhanced_image = self.contrast_enhancer.enhance_contrast_sahs(image)
+            # if enhanced_image is None:
             #    print(f"Advertencia: No se pudo mejorar el contraste de {image_path}")
             #    enhanced_image = image
-            
+
             # Redimensionar imagen
-            #return cv2.resize(enhanced_image, size)
+            # return cv2.resize(enhanced_image, size)
             return cv2.resize(image_gray, size)
-            
+
         except Exception as e:
             print(f"Error al cargar/procesar la imagen {image_path}: {str(e)}")
             raise
@@ -157,62 +169,74 @@ class ImageProcessor:
     def validate_coord_number(self, coord_num: int) -> None:
         """
         Valida que el número de coordenada sea 1 o 2.
-        
+
         Args:
             coord_num (int): Número de coordenada a validar
-            
+
         Raises:
             ValueError: Si el número de coordenada no es 1 o 2
         """
         if coord_num not in [1, 2]:
-            raise ValueError(f"Solo se permiten los puntos 1 y 2. Recibido: {coord_num}")
+            raise ValueError(
+                f"Solo se permiten los puntos 1 y 2. Recibido: {coord_num}"
+            )
 
-    def extract_region(self, 
-                      image: np.ndarray,
-                      search_region: np.ndarray,
-                      labeled_point: Tuple[int, int],
-                      coord_num: int,
-                      template_size: int = None) -> np.ndarray:
+    def extract_region(
+        self,
+        image: np.ndarray,
+        search_region: np.ndarray,
+        labeled_point: Tuple[int, int],
+        coord_num: int,
+        template_size: int = None,
+    ) -> np.ndarray:
         """
         Extrae una región de interés de la imagen usando un template.
         Todas las coordenadas se manejan en sistema 0-based (0-63).
-        
+
         Args:
             image (np.ndarray): Imagen fuente (64x64)
             search_region (np.ndarray): Región de búsqueda binaria (0-based)
             labeled_point (Tuple[int, int]): Punto etiquetado (x,y) en formato 0-based
             coord_num (int): Número de coordenada (1 o 2)
             template_size (int): Tamaño del template
-            
+
         Returns:
             np.ndarray: Región extraída
-            
+
         Raises:
             ValueError: Si las dimensiones o coordenadas son inválidas
         """
         try:
             # Validar número de coordenada
-            #self.validate_coord_number(coord_num)
-            
+            # self.validate_coord_number(coord_num)
+
             # Validar coordenadas del punto etiquetado
-            self._validate_coordinates(labeled_point[0], labeled_point[1], "punto etiquetado")
-            
+            self._validate_coordinates(
+                labeled_point[0], labeled_point[1], "punto etiquetado"
+            )
+
             # Asegurar que la imagen tenga el tamaño correcto
             if image.shape[:2] != (64, 64):
                 image = cv2.resize(image, (64, 64))
-                
+
             # Asegurar que la región de búsqueda sea 64x64
             if search_region.shape != (64, 64):
-                search_region = cv2.resize(search_region.astype(np.float32), (64, 64), interpolation=cv2.INTER_NEAREST)
-                
+                search_region = cv2.resize(
+                    search_region.astype(np.float32),
+                    (64, 64),
+                    interpolation=cv2.INTER_NEAREST,
+                )
+
             # Preparar nombre de coordenada
             coord_name = f"coord{coord_num}"
-            
+
             # Cargar datos pre-calculados del template
             template_data = self.template_processor.load_template_data(coord_name)
             if template_data is None:
-                raise ValueError(f"No se encontraron datos pre-calculados para {coord_name}")
-            
+                raise ValueError(
+                    f"No se encontraron datos pre-calculados para {coord_name}"
+                )
+
             # Extraer datos (todos en formato 0-based)
             template_bounds = template_data["template_bounds"]
             width = template_bounds["width"]
@@ -221,25 +245,23 @@ class ImageProcessor:
             min_y = template_bounds["min_y"]
             intersection_point = (
                 template_data["intersection_point"]["x"],
-                template_data["intersection_point"]["y"]
+                template_data["intersection_point"]["y"],
             )
-            
+
             # Validar punto de intersección
             self._validate_coordinates(
-                intersection_point[0], 
-                intersection_point[1], 
-                "punto de intersección"
+                intersection_point[0], intersection_point[1], "punto de intersección"
             )
-            
+
             # Crear template de recorte
             cutting_template = np.zeros((64, 64), dtype=np.uint8)
             cutting_template[0:height, 0:width] = 1
-            
+
             # Obtener región recortada
             cropped = self.template_processor.crop_aligned_image(
                 image, cutting_template, labeled_point, intersection_point
             )
-            
+
             return cropped
 
         except Exception as e:
@@ -250,46 +272,47 @@ class ImageProcessor:
     def validate_coord_name(self, coord_name: str) -> None:
         """
         Valida que el nombre de coordenada sea Coord1 o Coord2.
-        
+
         Args:
             coord_name (str): Nombre de coordenada a validar
-            
+
         Raises:
             ValueError: Si el nombre de coordenada no es válido
         """
         if coord_name not in ["Coord1", "Coord2"]:
-            raise ValueError(f"Solo se permiten Coord1 y Coord2. Recibido: {coord_name}")
+            raise ValueError(
+                f"Solo se permiten Coord1 y Coord2. Recibido: {coord_name}"
+            )
 
-    def save_cropped_image(self,
-                          cropped_image: np.ndarray,
-                          coord_name: str,
-                          index: int) -> bool:
+    def save_cropped_image(
+        self, cropped_image: np.ndarray, coord_name: str, index: int
+    ) -> bool:
         """
         Guarda una imagen recortada.
-        
+
         Args:
             cropped_image (np.ndarray): Imagen recortada
             coord_name (str): Nombre de la coordenada
             index (int): Índice de la imagen
-            
+
         Returns:
             bool: True si se guardó correctamente, False en caso contrario
         """
         try:
             # Validar nombre de coordenada
-            #self.validate_coord_name(coord_name)
-            
+            # self.validate_coord_name(coord_name)
+
             # Creamos el directorio si no existe
-            output_dir = self.output_base_path / f'cropped_images_{coord_name}'
+            output_dir = self.output_base_path / f"cropped_images_{coord_name}"
             output_dir.mkdir(parents=True, exist_ok=True)
 
             # Guardamos la imagen
-            output_path = output_dir / f'cropped_image_index_{index}.png'
+            output_path = output_dir / f"cropped_image_index_{index}.png"
             success = cv2.imwrite(str(output_path), cropped_image)
-            
+
             if not success:
                 print(f"Error: No se pudo guardar la imagen en {output_path}")
-            
+
             return success
 
         except Exception as e:
