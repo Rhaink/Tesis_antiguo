@@ -7,10 +7,10 @@ from sklearn.metrics import mean_squared_error
 import math
 
 #  definimos las rutas
-base_dir = Path("/home/donrobot/projects/Tesis")
-models_dir = base_dir / "resultados/entrenamiento/models"
+base_dir = Path("/home/donrobot/Projects/Tesis_antiguo")
+models_dir = base_dir / "resultados/entrenamiento/dataset_entrenamiento_1/models"
 test_image_path = base_dir / "COVID-19_Radiography_Dataset" / "Normal" / "images" / "Normal-2.png"
-json_path = base_dir / "resultados/region_busqueda/json/all_search_coordinates.json"
+json_path = base_dir / "resultados/analisis_regiones/dataset_entrenamiento_1/analisis/template_analysis_results.json"
 output_dir = base_dir / "resultados/prediccion"  
 output_dir.mkdir(parents=True, exist_ok=True)  # Crear directorio padre
 

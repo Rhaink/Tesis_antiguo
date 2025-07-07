@@ -14,7 +14,7 @@ from typing import Dict, Optional
 SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
 # Ruta base del proyecto
 BASE_DIR = Path("/home/donrobot/Projects")
-PROJECT_ROOT = BASE_DIR / "Tesis"
+PROJECT_ROOT = BASE_DIR / "Tesis_antiguo"
 # Agregar el directorio de entrenamiento al sys.path
 sys.path.append(str(PROJECT_ROOT / "entrenamiento"))
 

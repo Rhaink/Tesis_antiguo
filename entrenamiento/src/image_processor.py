@@ -95,10 +95,10 @@ class ImageProcessor:
         Returns:
             Lista de imágenes procesadas
         """
-        # Solo procesar coord1 y coord2
-        if coord_name.lower() not in ["coord1", "coord2"]:
+        # Validar que el nombre del punto sea válido
+        if not coord_name.lower().startswith("coord"):
             raise ValueError(
-                f"Solo se permiten coord1 y coord2. Recibido: {coord_name}"
+                f"Nombre de coordenada inválido: {coord_name}"
             )
 
         # Obtener dimensiones del template
@@ -109,11 +109,13 @@ class ImageProcessor:
         template_bounds = template_data["template_bounds"]
         template_size = (int(template_bounds["width"]), int(template_bounds["height"]))
 
+        # Extraer número de coordenada
+        coord_number = coord_name.replace("coord", "")
         training_dir = (
             Path(
-                "/home/donrobot/Projects/Tesis/resultados/recorte/dataset_entrenamiento_1/processed_images"
+                "/home/donrobot/Projects/Tesis_antiguo/resultados/recorte/dataset_entrenamiento_1/processed_images"
             )
-            / f"cropped_images_Coord{coord_name[-1]}"
+            / f"cropped_images_Coord{coord_number}"
         )
         if not training_dir.exists():
             raise FileNotFoundError(
